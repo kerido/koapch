@@ -1,0 +1,4 @@
+LIBRARY	InstantWave
+
+EXPORTS
+   GetKOApproachPlugin      PRIVATE

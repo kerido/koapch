@@ -1,0 +1,15 @@
+/*
+Brush.h : interface of the Brush class. This class encapsulates Windows HBRUSH.
+It is used by Theme to display item and window backgounds, borders, etc.
+*/
+
+#ifndef BRUSH_H
+#define BRUSH_H
+
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+#endif	//BRUSH_H

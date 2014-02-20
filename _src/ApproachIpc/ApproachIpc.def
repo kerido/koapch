@@ -1,0 +1,10 @@
+LIBRARY ApproachIpc
+
+EXPORTS
+   Hook_Mouse         PRIVATE
+   Hook_GetMsg        PRIVATE
+   Hook_Title         PRIVATE
+   Hook_Menu_Post     PRIVATE
+   Hook_Menu_Get      PRIVATE
+   SetGlobalPrefs     PRIVATE
+   ExecuteContextMenu PRIVATE

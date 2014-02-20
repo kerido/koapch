@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<title>InstantTxt Plug-In</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div class="Content">
+			<p>
+				The <span class="EntityName">InstantTxt</span> plug-in allows you to preview files in text formats.
+				When you highlight a text file, a capital &quot;T&quot; pictogram will appear next to its name, then the
+				preview pane will expand displaying file contents.
+			</p>
+
+			<p><img src="../images/plugin_instanttxt.png" width="357" height="252" alt="InstantTxt plug-in" /></p>
+
+			<ol>
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Capital &quot;T&quot;</span> pictogram</p>
+					<p>Appears next to the item's name indicating that the text file can be previewed.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Preview</span> pane</p>
+					<p>Displays the contents of the text file. At maximum, the first 8 kilobytes of the file are displayed.</p>
+				</li>
+			</ol>
+
+			<p class="Note">
+				Note: The <span class="EntityName">InstantTxt</span> plug-in does not support
+				previewing files stored inside ZIP archives.
+			</p>
+
+			<h2><a name="Formats"></a>Supported Formats</h2>
+
+			<p>
+				By default, InstantTxt only allows for previewing files with TXT extension.
+				However, you can specify that other text-based formats be handled as well,
+				by performing the following steps:
+			</p>
+
+			<ol>
+				<li>
+					<p>Click <span class="EntityName">Start</span> &gt; <span class="EntityName">Run</span>.</p>
+				</li>
+
+				<li>
+					<p>
+						Type <span class="EntityName">regedit</span> and click
+						<span class="EntityName">OK</span>.
+					</p>
+				</li>
+
+				<li>
+					<p>
+						Locate the key
+						<span class="EntityName">HKEY_CURRENT_USER\Software\KO Software\InstantTxt</span>.
+						If the key doesn't exist, create it.</p>
+				</li>
+
+				<li>
+					<p>Create a string value named <span class="EntityName">HandledExtensions</span>.</p>
+				</li>
+
+				<li>
+					<p>Specify the list of extentions that you want InstantTxt to handle. The extensions
+						must be delimited with the asterisk (<span class="EntityName">*</span>) character.
+						For example, to instruct InstantTxt to handle TXT and LOG extensions, enter <code>txt*log</code>.
+					</p>
+					<p class="Note">Note: Extension strings are case-insensitive. You can specify at most 100 entries.</p>
+				</li>
+			</ol>
+
+			<p class="Warning">
+				<strong>ATTENTION!</strong> This procedure involves modifying the Windows registry
+				and should be performed by experienced users only. Modifications to the Windows
+				registry, if not done correctly, can cause serious problems to a Windows system.
+			</p>
+		</div>
+		<script type="text/javascript" src="functions.js"></script>
+	</body>
+</html>

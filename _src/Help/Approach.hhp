@@ -1,0 +1,27 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=Approach.chm
+Contents file=Approach.hhc
+Default Window=main
+Default topic=content\overview.html
+Display compile progress=Yes
+Index file=Approach.hhk
+Language=0x409 English (United States)
+
+[WINDOWS]
+main="KO Approach Documentation","Approach.hhc","Approach.hhk","content\overview.html",,,,,,0x2120,,0x603006,[0,0,600,0],,,,,,,0
+tiny="KO Approach Quick Start",,,"content\quick_start.html","content\quick_start.html",,,,,,,0x0,[0,0,600,600],,,,,,,0
+tiny>main="KO Approach Quick Start",,,"content\quick_start.html","content\quick_start.html",,,,,,,0x0,[0,0,600,600],,,,,,,0
+
+
+[FILES]
+content\functions.js
+content\styles.css
+images\header_logo.gif
+images\warning.gif
+images\note.gif
+images\link_external.gif
+
+[INFOTYPES]
+

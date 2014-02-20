@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="UDebug|Win32">
+      <Configuration>UDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UDebug|x64">
+      <Configuration>UDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="URelease|Win32">
+      <Configuration>URelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="URelease|x64">
+      <Configuration>URelease</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE2C0528-A170-42E5-B318-ADC586A9B50B}</ProjectGuid>
+    <RootNamespace>Scope</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='URelease|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='URelease|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">..\..\_bin90\x86\$(Configuration)\Plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">..\..\_obj90\x86\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">..\..\_bin90\x86\$(Configuration)\Plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">..\..\_obj90\x86\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">..\..\_bin90\x64\$(Configuration)\Plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">..\..\_obj90\x64\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">..\..\_bin90\x64\$(Configuration)\Plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">..\..\_obj90\x64\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">false</EmbedManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='URelease|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='URelease|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\_src\ApproachSDK;..\..\_src\Common;..\..\_src\CxImage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SCOPE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\_src\Scope;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Scope.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\_src\Scope\Scope.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Scope.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(OutDir)Scope.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\_src\ApproachSDK;..\..\_src\Common;..\..\_src\CxImage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\_src\Scope;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Scope.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\_src\Scope\Scope.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(OutDir)Scope.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetPath)" "..\..\Setup\Common32"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\_src\ApproachSDK;..\..\_src\Common;..\..\_src\CxImage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SCOPE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\_src\Scope;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Scope.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\_src\Scope\Scope.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Scope.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(OutDir)Scope.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\_src\ApproachSDK;..\..\_src\Common;..\..\_src\CxImage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\_src\Scope;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Scope.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\_src\Scope\Scope.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(OutDir)Scope.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetPath)" "..\..\Setup\Common64"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\_src\Scope\Scope.def" />
+    <None Include="..\..\_src\Scope\CxImage\license.txt" />
+    <None Include="..\..\_res\Scope\lupa_icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\_src\Scope\ScopeMain.cpp" />
+    <ClCompile Include="..\..\_src\Scope\ScopePlugin.cpp" />
+    <ClCompile Include="..\..\_src\Scope\ScopeWindow.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\tif_xfile.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximabmp.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximadsp.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximaenc.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximaexif.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximage.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximagif.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximahist.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximaico.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximainfo.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximaint.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximaj2k.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximajas.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximajbg.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximajpg.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximalpha.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximalyr.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximamng.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximapal.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximapcx.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximapng.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximasel.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximatga.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximath.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximatif.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximatran.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximawbmp.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximawmf.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\ximawnd.cpp" />
+    <ClCompile Include="..\..\_src\Scope\CxImage\xmemfile.cpp" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcapimin.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcapistd.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jccoefct.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jccolor.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcdctmgr.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jchuff.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcinit.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcmainct.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcmarker.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcmaster.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcomapi.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcparam.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcphuff.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcprepct.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jcsample.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jctrans.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdapimin.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdapistd.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdatadst.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdatasrc.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdcoefct.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdcolor.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jddctmgr.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdhuff.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdinput.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdmainct.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdmarker.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdmaster.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdmerge.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdphuff.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdpostct.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdsample.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jdtrans.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jerror.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jfdctflt.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jfdctfst.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jfdctint.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jidctflt.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jidctfst.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jidctint.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jidctred.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jmemmgr.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jmemnobs.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jquant1.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jquant2.c" />
+    <ClCompile Include="..\..\_src\Scope\jpeg\jutils.c" />
+    <ClCompile Include="..\..\_src\Scope\png\png.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngerror.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pnggccrd.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngget.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngmem.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngpread.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngread.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngrio.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngrtran.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngrutil.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngset.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngtrans.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngvcrd.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngwio.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngwrite.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngwtran.c" />
+    <ClCompile Include="..\..\_src\Scope\png\pngwutil.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\fax3sm_winnt.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_aux.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_close.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_codec.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_compress.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_dir.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_dirinfo.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_dirread.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_dirwrite.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_dumpmode.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_error.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_fax3.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_flush.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_getimage.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_jpeg.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_luv.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_lzw.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_next.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_ojpeg.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_open.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_packbits.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_pixarlog.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_predict.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_print.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_read.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_strip.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_swab.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_thunder.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_tile.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_version.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_warning.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_write.c" />
+    <ClCompile Include="..\..\_src\Scope\tiff\tif_zip.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\adler32.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\compress.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\crc32.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\deflate.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\gzio.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\infback.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\inffast.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\inflate.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\inftrees.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\trees.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\uncompr.c" />
+    <ClCompile Include="..\..\_src\Scope\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\_src\Scope\CxImage\xfile.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximabmp.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximacfg.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximadef.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximage.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximagif.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximaico.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximaiter.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximaj2k.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximajas.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximajbg.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximajpg.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximamng.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximapcx.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximapng.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximatga.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximath.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximatif.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximawbmp.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\ximawmf.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\xiofile.h" />
+    <ClInclude Include="..\..\_src\Scope\CxImage\xmemfile.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jchuff.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jconfig.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jdct.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jdhuff.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jerror.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jinclude.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jmemsys.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jmorecfg.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jpegint.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jpeglib.h" />
+    <ClInclude Include="..\..\_src\Scope\jpeg\jversion.h" />
+    <ClInclude Include="..\..\_src\Scope\png\png.h" />
+    <ClInclude Include="..\..\_src\Scope\png\pngconf.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\t4.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\tif_dir.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\tif_fax3.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\tif_predict.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\tiff.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\tiffcomp.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\tiffconf.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\tiffio.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\tiffiop.h" />
+    <ClInclude Include="..\..\_src\Scope\tiff\uvcode.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\crc32.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\deflate.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\inffast.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\inffixed.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\inflate.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\inftrees.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\trees.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\zconf.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\zconf.in.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\zlib.h" />
+    <ClInclude Include="..\..\_src\Scope\zlib\zutil.h" />
+    <ClInclude Include="..\..\_src\Scope\resource.h" />
+    <ClInclude Include="..\..\_src\Scope\ScopePlugin.h" />
+    <ClInclude Include="..\..\_src\Scope\ScopeWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Scope.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

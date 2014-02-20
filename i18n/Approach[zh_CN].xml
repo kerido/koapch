@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Approach_Localization version="1">
+	<Summary>
+		<Locale>zh_CN</Locale>
+		<Titles>
+			<Title locale="bg_BG">Китайски опростен</Title>
+			<Title locale="cs_CZ">Čínština zjednodušená</Title>
+			<Title locale="da_DK">Kinesisk forenklet</Title>
+			<Title locale="de_DE">Chinesisch vereinfacht</Title>
+ 			<Title locale="en_US">Chinese simplified</Title>
+			<Title locale="es_ES">Chino simplificado</Title>
+			<Title locale="fi_FI">Kiina yksinkertaistettu</Title>
+			<Title locale="fr_FR">Chinois simplifie</Title>
+			<Title locale="he_IL">סינית פשוטה</Title>
+			<Title locale="hu_HU">Kínai egyszerűsített</Title>
+			<Title locale="is_IS">Kínverska einfölduð</Title>
+			<Title locale="it_IT">Cinese semplificato</Title>
+			<Title locale="nb_NO">Kinesisk forenklet</Title>
+			<Title locale="nl_NL">Chinees vereenvoudigd</Title>
+			<Title locale="nn_NO">Kinesisk forenklet</Title>
+			<Title locale="pl_PL">Chiński uproszczony</Title>
+			<Title locale="pt_PT">Chinês simplificado</Title>
+			<Title locale="ro_RO">Chineză simplificată</Title>
+			<Title locale="ru_RU">Китайский упрощенный</Title>
+			<Title locale="sk_SK">Čínština zjednodušená</Title>
+			<Title locale="sl_SI">Kitajščina poenostavljena</Title>
+			<Title locale="sv_SE">Kinesiska förenklad</Title>
+			<Title locale="tr_TR">Çince basitleştirilmiş</Title>
+			<Title locale="zh_CN">简体中文</Title>
+		</Titles>
+		<Created_Bys>
+			<Created_By locale="en_US">Translated by Willy Wong</Created_By>
+			<Created_By locale="ru_RU">Перевел Вилли Вонг</Created_By>
+			<Created_By locale="zh_CN">Willy Wong 翻译</Created_By>
+		</Created_Bys>
+		<Comments>
+			<Comment locale="en_US">The Simplified Chinese localization of KO Approach</Comment>
+			<Comment locale="ru_RU">Упрощенная китайская локализация</Comment>
+			<Comment locale="zh_CN">KO Approach 简体中文化</Comment>
+		</Comments>
+	</Summary>
+
+	<Strings>
+		<!-- Tab titles -->
+		<!-- TODO: <String id="IDD_O_FEAT">Features</String> -->
+		<!-- TODO: <String id="IDD_O_MNSC">Menus &amp; Scrolling</String> -->
+		<String id="IDD_O_CNTS">内容</String>
+		<!-- TODO: <String id="IDD_O_MNTC">Maintenance</String> -->
+		<String id="IDD_O_REG">注册</String>
+		<String id="IDD_O_ABT">关于</String>
+		<!-- Exception item -->
+		<String id="IDS_EXCEPT_UNAVAILABLE">(不能使用)</String>
+		<String id="IDS_EXCEPT_EMPTY">(无意义)</String>
+		<String id="IDS_EXCEPT_GENERIC">(一般性错误)</String>
+		<!-- Popup menu strings -->
+		<String id="IDP_MAIN_ENBL_FLDMNUS">分层式选单</String>
+		<String id="IDP_MAIN_ENBL_APCHITMS">Approach 选项</String>
+		<String id="IDP_MAIN_ENBL_TTLBARMNUS">展开式选单</String>
+		<String id="IDP_MAIN_OPTIONS">选项...</String>
+		<String id="IDP_MAIN_EXIT">退出</String>
+		<String id="IDP_CXMN_TOAPPROACHITEMS">添加 Approach 捷径至桌面</String>
+		<!-- Approach Items elements -->
+		<String id="IDS_APCHITEMS_ITEMRUN">执行</String>
+		<!-- Global command strings -->
+		<String id="IDS_GLBL_CMD_OK">确定</String>
+		<String id="IDS_GLBL_CMD_CANCEL">取消</String>
+		<String id="IDS_GLBL_CMD_HELP">说明...</String>
+		<String id="IDS_GLBL_CMD_YES">是</String>
+		<String id="IDS_GLBL_CMD_NO">否</String>
+		<String id="IDS_GLBL_CMD_RETRY">重试</String>
+		<!-- Global strings -->
+		<String id="IDS_GLBL_WARNING">注意</String>
+		<String id="IDS_GLBL_ERROR">激活失败</String>
+		<String id="IDS_GLBL_ALWAYS">总是</String>
+		<String id="IDS_GLBL_NEVER">永不</String>
+		<String id="IDS_GLBL_MILLISEC">ms</String>
+		<String id="IDS_GLBL_USESYSSETTING">跟据系统设定</String>
+		<!-- Features tab -->
+		<String id="IDL_O_FEAT_CAT_FLDMENUS">分层式选单</String>
+		<!-- TODO: <String id="IDL_O_FEAT_FLDMENUSDESC">Folder Menus enables quick directory navigation through a set of menus invoked by holding down the mouse key on a folder.</String> -->
+		<!-- TODO: <String id="IDL_O_FEAT_INITDELAY">Initial menu delay:</String> -->
+		<String id="IDL_O_FEAT_CAT_APCHITEMS">自定义选单</String>
+		<!-- TODO: <String id="IDL_O_FEAT_APCHITEMSDESC">Approach Items provides quick access to frequently used folders and files from the Notification Area.</String> -->
+		<String id="IDC_O_FEAT_APCHITEMSOPT">选项...</String>
+		<String id="IDL_O_FEAT_CAT_TTLBARMENUS">展开式选单</String>
+		<!-- TODO: <String id="IDL_O_FEAT_TTLBARMENUSDESC">Titlebar Menus allows for browsing the entire folder hierarchy by CTRL-clicking its title bar in Windows Explorer.</String> -->
+		<String id="IDC_O_FEAT_DESKPOS_0TOP">顶部显示桌面</String>
+		<String id="IDC_O_FEAT_DESKPOS_1BOTM">底部显示桌面</String>
+		<String id="IDC_O_FEAT_CURFLDISFILE">禁止显示当前文件夹选项</String>
+		<String id="IDC_O_FEAT_CURFLDAUTOSEL">自动选择当前文件夹</String>
+		<!-- Menus and Scrolling tab -->
+		<!-- TODO: <String id="IDL_O_MNSC_CAT_MENUS">Menus</String> -->
+		<!-- TODO: <String id="IDL_O_MNSC_MAXMNUWIDTH">Maximum menu width:</String> -->
+		<String id="IDC_O_MNSC_MNUWIDTH_0PXL">像素</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_1PRC">荧幕阔度百份比</String>
+		<!-- TODO: <String id="IDL_O_MNSC_CHILDDELAY">Child menu delay:</String> -->
+		<String id="IDL_O_MNSC_CAT_SCROLLING">卷动项</String>
+		<String id="IDL_O_MNSC_WHEELSCROLLS">滑鼠滚轮卷动</String>
+		<String id="IDL_O_MNSC_WHEELITEMS">项目</String>
+		<!-- TODO: <String id="IDL_O_MNSC_PAGESCROLLS">Page Up / Page Down scrolls:</String> -->
+		<String id="IDL_O_MNSC_PAGEITEMS">项目</String>
+		<!-- TODO: <String id="IDL_O_MNSC_SCROLLARROWS">Display scrolling arrows:</String> -->
+		<!-- TODO: <String id="IDC_O_MNSC_SCROLLPOS_0TOP">At top</String> -->
+		<!-- TODO: <String id="IDC_O_MNSC_SCROLLPOS_1BOTM">At bottom</String> -->
+		<!-- TODO: <String id="IDC_O_MNSC_SCROLLPOS_2ENDS">At top and bottom</String> -->
+		<!-- TODO: <String id="IDC_O_MNSC_DISPNUMTOSCROLL">Display number of remaining items to scroll</String> -->
+		<!-- TODO: <String id="IDL_O_MNSC_SCROLLDELAY">Scrolling delay:</String> -->
+		<!-- Contents tab -->
+		<!-- TODO: <String id="IDL_O_CNTS_CAT_ITEMS">Items</String> -->
+		<String id="IDL_O_CNTS_HDNITMS">显示隐藏档案:</String>
+		<!-- TODO: <String id="IDC_O_CNTS_HDNITMS_DIMICN">Display dimmed icon</String> -->
+		<String id="IDL_O_CNTS_BROWSEFLD">打开文件夹:</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_0NEWWND">使用新视窗</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_1SAMEWND">使用现有视窗</String>
+		<!-- TODO: <String id="IDL_O_CNTS_SSFISWHAT">Treat shortcuts to folders as:</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_SSFIS_0FOLDER">Folders</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_SSFIS_1FILE">Files</String> -->
+		<String id="IDL_O_CNTS_ZIPISWHAT">Treat ZIP archives as:</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ZIPIS_0FOLDER">Folders</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ZIPIS_1FILE">Files</String> -->
+		<!-- TODO: <String id="IDL_O_CNTS_MOUSEITEMCLK">Item mouse invocation:</String> -->
+		<!-- TODO: <String id="IDS_O_CNTS_MOUSEITEMCLK_0REG">Regular</String> -->
+		<!-- TODO: <String id="IDS_O_CNTS_MOUSEITEMCLK_1SGL">Single-click</String> -->
+		<!-- TODO: <String id="IDS_O_CNTS_MOUSEITEMCLK_2DBL">Double-click</String> -->
+		<String id="IDL_O_CNTS_CAT_ORDER">选单次序</String>
+		<String id="IDC_O_CNTS_SORTITEMS">按字母顺序排列项目</String>
+		<String id="IDC_O_CNTS_FLDORD_0TOP">文件夹排列在档案前面</String>
+		<!-- TODO: <String id="IDC_O_CNTS_FLDORD_1BOTM">Files precede folders</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_FLDORD_2MIX">Do not group</String> -->
+		<!-- TODO: <String id="IDL_O_CNTS_CAT_ICONS">Icons</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ICN_0GENERIC">Display generic icons</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ICN_1REGULAR">Display regular icons</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ICNOVERLAYS">Display icon overlays</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ICNOPTIMIZ">Optimize icon extraction (requires more resources)</String> -->
+		<!-- Maintenance tab -->
+		<!-- TODO: <String id="IDL_O_MNTC_CAT_MNTC">Maintenance</String> -->
+		<!-- TODO: <String id="IDL_O_MNTC_UILANG">User interface language:</String> -->
+		<!-- TODO: <String id="IDS_O_MNTC_UILANG_MORE">More languages...</String> -->
+		<String id="IDL_O_MNTC_UPDATE">更新</String>
+		<String id="IDC_O_MNTC_UPDATE">检查更新 </String>
+		<!-- TODO: <String id="IDC_O_MNTC_UPDATEAUTO">Automatically check for updates</String> -->
+		<String id="IDL_O_MNTC_RESTDEF">原设定</String>
+		<String id="IDC_O_MNTC_RESTDEF">回复设定 </String>
+		<!-- TODO: <String id="IDL_O_MNTC_AUTORUN">Automatic launch at startup:</String> -->
+		<!-- TODO: <String id="IDC_O_MNTC_AUTORUN">Enable auto-launch</String> -->
+		<String id="IDL_O_MNTC_CAT_PLUGINS">插件</String>
+		<String id="IDC_O_MNTC_PLGNENBL">允许使用</String>
+		<String id="IDC_O_MNTC_PLGNDSBL">禁止使用</String>
+		<String id="IDS_O_MNTC_PLGNLST_NAME">名字</String>
+		<String id="IDS_O_MNTC_PLGNLST_STATUS">状态</String>
+		<String id="IDS_O_MNTC_PLGNLST_LOADED">已加载</String>
+		<String id="IDS_O_MNTC_PLGNLST_NOTLOADED">未加载</String>	
+		<String id="IDS_O_MNTC_PLGNLST_STOPPING">停止</String>
+		<String id="IDS_O_MNTC_PLGNLST_DISABLED">禁止的</String>
+		<String id="IDS_O_MNTC_MSG_UPDYES">有可用更新, 要下载吗?</String>
+		<String id="IDS_O_MNTC_MSG_UPDNO">目前没有可用更新.</String>
+		<String id="IDS_O_MNTC_MSG_RESTDEF">已回复默认值.</String>
+		<!-- Registration tab (registered mode) -->
+		<String id="IDL_O_RGOK_CAT_USER">用户名称</String>
+		<String id="IDL_O_RGOK_REGUSER">此软件已授权给:</String>
+		<String id="IDL_O_RGOK_CAT_KEYBKP">储存的注册码</String>
+		<String id="IDL_O_RGOK_BACKUP">储存您的注册码到一个稳健的地方, 按下"储存键"去创建一个注册码的副本到指定位置.</String>
+		<String id="IDC_O_RGOK_BACKUP">储存键...</String>
+		<!-- Registration tab (unregistered mode) -->
+		<String id="IDL_O_RGNO_INETREQD">购买注册码及激活时, 请确定您己连上互联网.</String>
+		<String id="IDL_O_RGNO_CAT_LIC">认可</String>
+		<String id="IDL_O_RGNO_ACTDESC1">此 KO Approach 未被激活, 现以简约模式运行. 想为软件解除限制, 请购买注册码及激活 KO Approach.</String>
+		<String id="IDL_O_RGNO_ACTDESC2">如果曾经购买本软件及拥有注册码的副本, 您可以恢复本软件的所有功能.</String>
+		<String id="IDC_O_RGNO_PURCHASE">购买... </String>
+		<String id="IDC_O_RGNO_KEYRESTORE">恢复功能 </String>
+		<String id="IDL_O_RGNO_CAT_ACTIVN">激活</String>
+		<String id="IDL_O_RGNO_SERNUM">复制电邮中的注册码并照如下格式输入 (X-XXXXX-XXXXX-XXXXX-XXXXX):</String>
+		<!-- TODO: <String id="IDC_O_RGNO_SERNUMHIDE">Hide Serial Number</String> -->
+		<String id="IDC_O_RGNO_ACTIVATE">激活... </String>
+		<!-- About tab -->
+		<String id="IDC_O_ABT_THXCAPTION">特别感谢:</String>
+		<String id="IDS_O_ABT_VERSION">翻译本</String>	
+		<String id="IDS_O_ABT_THX1">Turlough O'Connor - 提出最初的概念;</String>
+		<String id="IDS_O_ABT_THX2">Dmitry Osipov - 作出产品说明, 可贵的建议, 发布前测试, 及全面的支持;</String>
+		<String id="IDS_O_ABT_THX3">Andrew Fellows, Denis Gavrilov, Alexander Gusev, Ilya Kirilkin, Ilya Popov, Sergey Samsonov, Jan Schroder, Alexander Simanov, Roman Soshkin, 及 Denis Vlasov - 作出可贵的建议及发布前测试;</String>
+		<String id="IDS_O_ABT_THX4">在代码项目上令我取得灵感的所有人.</String>
+		<String id="IDC_O_ABT_FEEDBACK">寄出回向</String>
+		<String id="IDC_O_ABT_HOMEPAGE">KO Approach 网页</String>
+		<!-- Backup/Restore dialog box -->
+		<String id="IDS_KEYDLG_FILTER">KO Approach 注册码的档案</String>
+		<String id="IDS_KEYDLG_TITLE">选择一处位置储存注册码</String>
+		<!-- Activation dialog box -->
+		<String id="IDS_ACTN_ST_CONN">激活中...</String>
+		<String id="IDS_ACTN_ST_SUCC">成功激活</String>
+		<!-- TODO: <String id="IDS_ACTN_ST_FAIL">Activation Error</String> -->
+		<String id="IDS_ACTN_ST_RSTR">恢复全功能完成</String>
+		<String id="IDS_ACTN_DS_CONN">恢复全功能中. 请耐心等候...</String>
+		<String id="IDS_ACTN_DS_CONNERR">激活不能成功. 请检查您的网路设定及重试. 如果有使用防火墙, 请准许 KO Approach 通过.</String>
+		<String id="IDS_ACTN_DS_HWIDERR">发生错误不能成功激活.&#0013;&#0010;请迟些再激活. 如果问题持续, 请联络 KO Software : support@koapproach.com.</String>
+		<String id="IDS_ACTN_DS_SRNMERR">此注册码不能被识别.&#0013;&#0010;请输入正确注册码及重试.</String>
+		<String id="IDS_ACTN_DS_GNRCERR">不能识别的错误. 请迟些再激活. 如果问题持续, 请联络 KO Software: support@koapproach.com.</String>
+		<String id="IDS_ACTN_DS_LMTEXCD">您的注册码已经过期. 你需要购买新的注册码吗?</String>
+		<String id="IDS_ACTN_DS_SUCC">恭喜!&#0013;&#0010;您的 KO Approach 已经被成功激活.</String>
+		<String id="IDS_ACTN_DS_RSTR">KO Approach 的注册码己安装成功. 请按下"确定"重启及激活 KO Approach</String>
+		<String id="IDS_ACTN_DS_KEYACCS">虽然已成功获得了注册码, 但 KO Approach 无法给指定目录写入注册文件.&#0013;&#0010;请检查您有否足够的存取权执行这动作.</String>
+		<!-- Warning dialog boxes -->
+		<String id="IDS_WARNTXT_FEATURELOCKED">此注册码不能使用.&#0013;&#0010;你不能同时激活两个 KO Approach.</String>
+		<String id="IDS_WARNTXT_INVALIDKEY">您输入的 KO Approach 注册码已经作废. KO Approach 将以简约模式运行.&#0013;&#0010;移除作废的注册码在软件起动时此讯息将不会再出现.</String>
+		<!-- Approach Items Options dialog box -->
+		<String id="IDD_APCHITMS">Approach 选项</String>
+		<String id="IDL_APCHITMS_CUR">当前选项</String>
+		<String id="IDL_APCHITMS_ALL">可用选项</String>
+		<String id="IDC_APCHITMS_ADD">增加</String>
+		<String id="IDC_APCHITMS_RMV">删除</String>
+		<String id="IDC_APCHITMS_UP">上</String>
+		<String id="IDC_APCHITMS_DOWN">下</String>
+		<String id="IDC_APCHITMS_BRW">浏览Approach选项</String>
+		<!-- Help popups -->
+		<String id="IDH_OPTS_OK">确定使用弹出视窗.</String>
+		<String id="IDH_OPTS_CANCEL">取消使用弹出视窗.</String>
+		<String id="IDH_OPTS_HELP">打开 KO Approach 的帮助文件.</String>
+		<String id="IDH_O_FEAT_FLDMENUSTGL">准许或禁止"分层式选单"仿效档案结构来展开项目.</String>
+		<String id="IDH_O_FEAT_INITDELAY">调控 KO Approach 显示主选单的延迟时间.</String>
+		<String id="IDH_O_FEAT_APCHITEMSTGL">准许或禁止"自定义选单"用捷径导向偏好的文件夹.</String>
+		<String id="IDH_O_FEAT_APCHITEMSOPT">打开Approach选项窗口管理显示内容</String>
+		<String id="IDH_O_FEAT_TTLBARMENUSTGL">准许或禁止"展开式选单"仿效Windows explorer结构使用树状展开项目.</String>
+		<!-- TODO: <String id="IDH_O_FEAT_DESKPOS_0TOP">Titlebar Menus will display the Desktop at the top and the current folder at the bottom of the list.</String> -->
+		<!-- TODO: <String id="IDH_O_FEAT_DESKPOS_1BOTM">Titlebar Menus will display the current folder at the top and the Desktop at the bottom of the list.</String> -->
+		<!-- TODO: <String id="IDH_O_FEAT_CURFLDISFILE">Titlebar Menus will not display submenu arrows for the current folder, treating it as a file.</String> -->
+		<!-- TODO: <String id="IDH_O_FEAT_CURFLDAUTOSEL">Titlebar Menus will highlight the item pointing at the current folder.</String> -->
+		<String id="IDH_O_MNSC_MAXMNUWIDTH">指定选单的最大阔度. 最大将不能超越荧幕阔度的三分之一.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_0PXL">用精确的像素去指定选单的最大阔度.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_1PRC">用荧幕的百份比去指定选单的最大阔度.</String>
+		<String id="IDH_O_MNSC_CHILDDELAY">调控 KO Approach 显示子选单的延迟时间.</String>
+		<String id="IDH_O_MNSC_WHEELSCROLLS">变更滑轮卷动时跳跃的项目.</String>
+		<String id="IDH_O_MNSC_PAGESCROLLS">变更按动 Page Up / Page Down时跳跃的项目.</String>
+		<!-- TODO: <String id="IDH_O_MNSC_SCROLLPOS_0TOP">Sets both scrolling arrows, if displayed, to appear at the top of the menu.</String> -->
+		<!-- TODO: <String id="IDH_O_MNSC_SCROLLPOS_1BOTM">Sets both scrolling arrows, if displayed, to appear at the bottom of the menu.</String> -->
+		<!-- TODO: <String id="IDH_O_MNSC_SCROLLPOS_2ENDS">Sets UP and DOWN scrolling arrows, if displayed, to appear at the top and bottom of the menu, respectively.</String> -->
+		<!-- TODO: <String id="IDH_O_MNSC_DISPNUMTOSCROLL">Shows/hides a counter of menu items currently outside the boundaries of the screen.</String> -->
+		<String id="IDH_O_MNSC_SCROLLDELAY">调控 KO Approach 卷动选单项目时的延迟时间.</String>
+		<String id="IDH_O_CNTS_HDNITMS">指定会否展示隐藏文件.</String>
+		<!-- TODO: <String id="IDH_O_CNTS_HDNITMS_DIMICN">Specifies that hidden items will be displayed with a semi-transparent icon.</String> -->
+		<String id="IDH_O_CNTS_BROWSEFLD">指定 KO Approach 会否用新视窗开启档案.</String>
+		<!-- TODO: <String id="IDH_O_CNTS_SSFIS_0FOLDER">Specifies that folder shortcuts should display contents of their targets.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_SSFIS_1FILE">Specifies that folder shortcuts should not display contents of their targets.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ZIPIS_0FOLDER">Specifies that ZIP archives should display items inside.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ZIPIS_1FILE">Specifies that ZIP archives should not display items inside.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_MOUSEITEMCLK">Specifies whether menu items should be activated with a single- or double mouse click.</String> -->
+		<String id="IDH_O_CNTS_SORTITEMS">选定后选单的项目将用字母顺序列出.</String>
+		<String id="IDH_O_CNTS_FLDORD_0TOP">选定后选单中的文件夹会排列在档案前面.</String>
+		<!-- TODO: <String id="IDH_O_CNTS_FLDORD_1BOTM">Specifies whether files on a menu should be listed first, followed by folders.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_FLDORD_2MIX">Makes no distinction between files and folders displaying all items as a continuous list.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ICN_0GENERIC">Specifies whether original icons should be replaced with generic type ones (folder, application, or file) to allow for faster menu display.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ICN_1REGULAR">Specifies whether items should only display icons similar to those in Windows Explorer.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ICNOVERLAYS">Specifies whether items should display icon overlays, such as shortcut arrows.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ICNOPTIMIZ">Instructs KO Approach to retrieve item icons in batches to help optimize the icon rendering process.</String> -->
+		<String id="IDH_O_MNTC_UILANG">指定 KO Approach 的语言.</String>
+		<String id="IDH_O_MNTC_LOCALEINFO">关于选择语言档的讯息。</String>
+		<String id="IDH_O_MNTC_UPDATE">检查在 KO Approach 网站的更新, 如果有可用的将会提议您下载及安装它.</String>
+		<!-- TODO: <String id="IDH_O_MNTC_UPDATEAUTO">Specifies whether KO Approach should periodically check for updates and display a notification when an update becomes available.</String> -->
+		<String id="IDH_O_MNTC_RESTDEF">回复到 KO Approach 在第一次运行的初设定.</String>
+		<String id="IDH_O_MNTC_AUTORUN">准许或禁止 KO Approach 在启动作业系统时自动启动.</String>
+		<String id="IDH_O_MNTC_PLGNLST">显示已安装插件</String>
+		<String id="IDH_O_MNTC_PLGNENBL">按“确定”并重新打开KO Approach以激活所选插件</String>
+		<String id="IDH_O_MNTC_PLGNDSBL">按“确定”并重新打开KO Approach以禁止所选插件</String>
+		<String id="IDH_O_RGOK_REGUSER">显示记录的用户名字.</String>
+		<String id="IDH_O_RGOK_BACKUP">储存您的注册码在指定的位置.</String>
+		<String id="IDH_O_RGNO_KEYRESTORE">在指定位置用您库存的注册码激活软件.</String>
+		<String id="IDH_O_RGNO_PURCHASE">用浏览器打开 KO Approach 的购买页面.</String>
+		<String id="IDH_O_RGNO_ACTIVATE">用在 KO Approach 的网站购买授权服务获得的注册码作为激活。</String>
+		<String id="IDH_O_RGNO_SERNUMHIDE">贴上您的注册码时以 * 星形作为覆盖.</String>
+		<String id="IDH_O_RGNO_SERNUM">购买授权服务后指定给您激活功能的注册号码.</String>
+		<String id="IDH_O_ABT_FEEDBACK">发送电子邮件给作者, 您能发送您的评论和给建议我们.</String>
+		<String id="IDH_O_ABT_HOMEPAGE">用浏览器打开 KO Approach 的官方正式网站.</String>
+	</Strings>
+	<Metrics>
+		<!-- Global -->
+		<Metric id="IDM_GLBL_LANGRTL" factor="1">0</Metric>
+		<Metric id="IDM_GLBL_MILLISECFMT" factor="1">0</Metric>
+		<!-- Main dialog box -->
+		<Metric id="IDM_OPTS_CONTROLMARGIN" factor="1">7</Metric>
+		<Metric id="IDM_OPTS_CATEGORIESWIDTH" factor="1">80</Metric>
+		<Metric id="IDM_OPTS_BUTTONSIZE" factor="2">52,14</Metric>
+		<!-- Features tab -->
+		<Metric id="IDD_O_FEAT" factor="2">320,290</Metric>
+		<Metric id="IDL_O_FEAT_CAT_FLDMENUS" factor="4">20,5,293,12</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSVIS" factor="4">27,25,38,35</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSDESC" factor="4">74,25,222,17</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAY" factor="4">74,52,77,9</Metric>
+		<Metric id="IDC_O_FEAT_INITDELAY" factor="4">153,52,73,20</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAYVAL" factor="4">239,52,57,10</Metric>
+		<Metric id="IDL_O_FEAT_CAT_APCHITEMS" factor="4">20,80,293,12</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSVIS" factor="4">27,100,38,35</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSDESC" factor="4">74,100,222,17</Metric>
+		<Metric id="IDC_O_FEAT_APCHITEMSOPT" factor="4">74,124,55,13</Metric>
+		<Metric id="IDL_O_FEAT_CAT_TTLBARMENUS" factor="4">20,156,293,12</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSVIS" factor="4">27,176,38,35</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSDESC" factor="4">74,176,222,17</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_0TOP" factor="4">74,201,222,9</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_1BOTM" factor="4">74,211,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDISFILE" factor="4">74,223,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDAUTOSEL" factor="4">84,234,212,9</Metric>
+		<!-- Menus and Scrolling tab -->
+		<Metric id="IDD_O_MNSC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNSC_CAT_MENUS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNSC_MAXMNUWIDTH" factor="4">27,25,124,9</Metric>
+		<Metric id="IDC_O_MNSC_MAXMNUWIDTH" factor="4">158,23,33,12</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_0PXL" factor="4">195,20,101,9</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_1PRC" factor="4">195,29,101,9</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAY" factor="4">27,47,124,10</Metric>
+		<Metric id="IDC_O_MNSC_CHILDDELAY" factor="4">153,46,91,20</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAYVAL" factor="4">247,48,49,10</Metric>
+		<Metric id="IDL_O_MNSC_CAT_SCROLLING" factor="4">6,75,307,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELSCROLLS" factor="4">27,95,124,9</Metric>
+		<Metric id="IDC_O_MNSC_WHEELSCROLLS" factor="4">158,93,33,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELITEMS" factor="4">195,95,101,9</Metric>
+		<Metric id="IDL_O_MNSC_PAGESCROLLS" factor="4">27,115,124,9</Metric>
+		<Metric id="IDC_O_MNSC_PAGESCROLLS" factor="4">158,113,33,12</Metric>
+		<Metric id="IDL_O_MNSC_PAGEITEMS" factor="4">195,115,101,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLARROWS" factor="4">27,132,124,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_0TOP" factor="4">158,132,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_1BOTM" factor="4">158,143,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_2ENDS" factor="4">158,154,138,9</Metric>
+		<Metric id="IDC_O_MNSC_DISPNUMTOSCROLL" factor="4">158,170,155,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAY" factor="4">27,188,124,10</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLDELAY" factor="4">153,187,91,20</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAYVAL" factor="4">247,188,49,10</Metric>
+		<!-- Contents tab -->
+		<Metric id="IDD_O_CNTS" factor="2">320,290</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ITEMS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_CNTS_HDNITMS" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS" factor="4">158,22,138,33</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS_DIMICN" factor="4">158,38,138,9</Metric>
+		<Metric id="IDL_O_CNTS_BROWSEFLD" factor="4">27,57,124,8</Metric>
+		<Metric id="IDC_O_CNTS_BROWSEFLD" factor="4">158,54,138,33</Metric>
+		<Metric id="IDL_O_CNTS_SSFISWHAT" factor="4">27,75,124,8</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_0FOLDER" factor="4">158,74,52,9</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_1FILE" factor="4">218,74,52,9</Metric>
+		<Metric id="IDL_O_CNTS_ZIPISWHAT" factor="4">27,93,124,8</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_0FOLDER" factor="4">158,92,52,9</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_1FILE" factor="4">218,92,52,9</Metric>
+		<Metric id="IDL_O_CNTS_MOUSEITEMCLK" factor="4">27,111,124,8</Metric>
+		<Metric id="IDC_O_CNTS_MOUSEITEMCLK" factor="4">158,108,138,33</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ORDER" factor="4">6,139,307,12</Metric>
+		<Metric id="IDC_O_CNTS_SORTITEMS" factor="4">27,159,124,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_0TOP" factor="4">158,159,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_1BOTM" factor="4">158,171,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_2MIX" factor="4">158,183,138,9</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ICONS" factor="4">6,206,307,12</Metric>
+		<Metric id="IDC_O_CNTS_ICN_0GENERIC" factor="4">27,225,124,9</Metric>
+		<Metric id="IDC_O_CNTS_ICN_1REGULAR" factor="4">158,225,138,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOVERLAYS" factor="4">168,237,128,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOPTIMIZ" factor="4">168,249,128,19</Metric>
+		<!-- Maintenance and Plug-ins tab -->
+		<Metric id="IDD_O_MNTC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNTC_CAT_MNTC" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNTC_UILANG" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UILANG" factor="4">158,22,138,30</Metric>
+		<Metric id="IDC_O_MNTC_LOCALEINFO" factor="4">158,39,138,20</Metric>
+		<Metric id="IDL_O_MNTC_UPDATE" factor="4">27,71,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UPDATE" factor="4">158,67,138,14</Metric>
+		<Metric id="IDC_O_MNTC_UPDATEAUTO" factor="4">158,84,138,10</Metric>
+		<Metric id="IDL_O_MNTC_RESTDEF" factor="4">27,106,124,8</Metric>
+		<Metric id="IDC_O_MNTC_RESTDEF" factor="4">158,102,138,14</Metric>
+		<Metric id="IDL_O_MNTC_AUTORUN" factor="4">27,127,124,8</Metric>
+		<Metric id="IDC_O_MNTC_AUTORUN" factor="4">158,126,138,9</Metric>
+		<Metric id="IDL_O_MNTC_CAT_PLUGINS" factor="4">6,146,307,12</Metric>
+		<Metric id="IDC_O_MNTC_PLGNLST" factor="4">27,164,269,91</Metric>
+		<Metric id="IDC_O_MNTC_PLGNDSBL" factor="4">229,260,67,14</Metric>
+		<Metric id="IDC_O_MNTC_PLGNENBL" factor="4">158,260,67,14</Metric>
+		<!-- Registration tab (unregistered mode) -->
+		<Metric id="IDD_O_RGNO" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGNO_INETICN" factor="4">27,9,0,0</Metric>
+		<Metric id="IDL_O_RGNO_INETREQD" factor="4">62,11,234,17</Metric>
+		<Metric id="IDL_O_RGNO_CAT_LIC" factor="4">6,38,307,12</Metric>
+		<Metric id="IDL_O_RGNO_UNREGICN" factor="4">27,58,0,0</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC1" factor="4">62,56,234,26</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC2" factor="4">62,88,234,23</Metric>
+		<Metric id="IDC_O_RGNO_PURCHASE" factor="4">155,116,68,14</Metric>
+		<Metric id="IDC_O_RGNO_KEYRESTORE" factor="4">228,116,68,14</Metric>
+		<Metric id="IDL_O_RGNO_CAT_ACTIVN" factor="4">6,140,307,12</Metric>
+		<Metric id="IDL_O_RGNO_SERNUM" factor="4">27,158,269,17</Metric>
+		<Metric id="IDC_O_RGNO_SERNUM" factor="4">27,179,196,12</Metric>
+		<Metric id="IDC_O_RGNO_SERNUMHIDE" factor="4">27,193,78,9</Metric>
+		<Metric id="IDC_O_RGNO_ACTIVATE" factor="4">228,178,68,14</Metric>
+		<!-- Registration tab (registered mode) -->
+		<Metric id="IDD_O_RGOK" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGOK_CAT_USER" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_RGOK_REGUSER" factor="4">27,25,286,8</Metric>
+		<Metric id="IDC_O_RGOK_REGUSER" factor="4">27,38,286,8</Metric>
+		<Metric id="IDL_O_RGOK_CAT_KEYBKP" factor="4">6,59,307,12</Metric>
+		<Metric id="IDL_O_RGOK_BACKUP" factor="4">27,79,269,17</Metric>
+		<Metric id="IDC_O_RGOK_BACKUP" factor="4">228,100,68,14</Metric>
+		<!-- About tab -->
+		<Metric id="IDD_O_ABT" factor="2">320,290</Metric>
+		<Metric id="IDC_O_ABT_APPICON" factor="4">27,18,0,0</Metric>
+		<Metric id="IDC_O_ABT_APPNAME" factor="4">70,9,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPVER" factor="4">70,25,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPCOPY" factor="4">70,41,180,9</Metric>
+		<Metric id="IDC_O_ABT_HORRULE" factor="4">7,57,306,1</Metric>
+		<Metric id="IDC_O_ABT_THXCAPTION" factor="4">8,65,305,8</Metric>
+		<Metric id="IDC_O_ABT_THXLIST" factor="4">27,83,286,111</Metric>
+		<Metric id="IDC_O_ABT_FEEDBACK" factor="4">6,275,52,8</Metric>
+		<Metric id="IDC_O_ABT_HOMEPAGE" factor="4">234,275,79,8</Metric>
+		<Metric id="IDM_O_ABT_NUMTHANKSLINES" factor="1">4</Metric>
+		<!-- Activation dialog box -->
+		<Metric id="IDD_ACTN" factor="2">273,68</Metric>
+		<Metric id="IDL_ACTN_ICON" factor="4">7,8,0,0</Metric>
+		<Metric id="IDL_ACTN_STATUS" factor="4">36,8,230,36</Metric>
+		<Metric id="IDM_ACTN_BTNSIZE" factor="2">52,14</Metric>
+		<Metric id="IDM_ACTN_BTNVERTPOS" factor="1">45</Metric>
+		<Metric id="IDM_ACTN_BTNSPACING" factor="1">12</Metric>
+		<!-- Approach Items Options dialog box -->
+		<Metric id="IDD_APCHITMS" factor="2">307,175</Metric>
+		<Metric id="IDL_APCHITMS_CUR" factor="4">7,7,114,8</Metric>
+		<Metric id="IDL_APCHITMS_ALL" factor="4">186,7,114,8</Metric>
+		<Metric id="IDC_APCHITMS_CUR" factor="4">7,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ALL" factor="4">186,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ADD" factor="4">128,34,50,14</Metric>
+		<Metric id="IDC_APCHITMS_RMV" factor="4">128,50,50,14</Metric>
+		<Metric id="IDC_APCHITMS_UP" factor="4">128,74,50,14</Metric>
+		<Metric id="IDC_APCHITMS_DOWN" factor="4">128,90,50,14</Metric>
+		<Metric id="IDC_APCHITMS_BRW" factor="4">7,154,114,14</Metric>
+		<Metric id="IDM_APCHITMS_OK" factor="4">196,154,50,14</Metric>
+		<Metric id="IDM_APCHITMS_CANCEL" factor="4">250,154,50,14</Metric>
+	</Metrics>
+</Approach_Localization>

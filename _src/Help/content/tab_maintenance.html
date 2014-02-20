@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<title>Maintenance Tab</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div class="Content">
+			<p>
+				<img class="TabImage" src="../images/tab_maintenance.png" alt="Maintenance tab" />
+			</p>
+
+			<ol>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">User interface language</span> drop-down list</p>
+					<p>Specifies what language is used to display the applications's menus, windows and dialogs.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Localization info</span> field</p>
+					<p>Shows brief information about the currently selected localization file, such as the title of the localization file
+					and its creator.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Check for updates</span> button</p>
+					<p>Checks if a more recent version of KO&nbsp;Approach is available and opens the KO&nbsp;Approach download page.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Automatically check for updates</span> checkbox</p>
+					<p>Specifies whether KO Approach should periodically check for updates and display a notification when an update becomes available.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Restore defaults</span> button</p>
+					<p>Reverts all KO&nbsp;Approach settings for the current user to their default values and closes the main application window.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle">
+						<a name="Autorun"></a><span class="EntityName">Enable auto-launch</span> checkbox
+					</p>
+					<p>Instructs KO&nbsp;Approach to run automatically after you log on to the system.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Installed plug-ins</span> list</p>
+					<p>
+						Lists all plug-in modules found in the <span class="EntityName">Plugins</span>
+						subfolder of the KO&nbsp;Approach application directory. Each plug-in module can have
+						one of four statuses:
+					</p>
+					<ul>
+						<li><span class="UiControlValue">Loaded</span> &ndash; when the plug-in module is loaded and running.</li>
+						<li>
+							<span class="UiControlValue">Stopping</span> &ndash; when you have chosen to deactivate a running
+							plug-in by pressing the <span class="EntityName">Disable</span> button, but have not yet restarted KO&nbsp;Approach.
+						</li>
+						<li>
+							<span class="UiControlValue">Not loaded</span> &ndash; when the plug-in module is not loaded and hence, not running.
+							This happens if the plug-in has been skipped by KO&nbsp;Approach running in the <a href="tab_registration.html">Unregistered mode</a>.
+							Also, this status is reported when you have enabled the plug-in by pressing
+							the <span class="EntityName">Enable</span> button, but have not yet restarted KO&nbsp;Approach.
+						</li>
+						<li>
+							<span class="UiControlValue">Disabled</span> &ndash; when the plug-in is not loaded because it has been
+							previously deactivated with the <span class="EntityName">Disable</span> button.
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Disable</span> button</p>
+					<p>
+						Instructs KO&nbsp;Approach to skip the selected plug-in from loading after the application is restarted.
+						Sets the status of the plug-in is set to <span class="EntityName">Stopping</span>.
+					</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Enable</span> button</p>
+					<p>
+						Instructs KO&nbsp;Approach to load the selected plug-in after the application is restarted.
+						The status of the plug-in is set to <span class="EntityName">Not loaded</span>.
+					</p>
+					<p class="Note">
+						Note: When KO&nbsp;Approach is running in the Unregistered mode, the only way to
+						ensure that a particular plug-in will be loaded is having not more than
+						two active plug-ins by deactivating the rest of them.
+					</p>
+				</li>
+			</ol>
+		</div>
+		<script type="text/javascript" src="functions.js"></script>
+	</body>
+</html>

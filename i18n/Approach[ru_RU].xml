@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Approach_Localization version="1">
+	<Summary>
+		<Locale>ru_RU</Locale>
+		<Titles>
+			<Title locale="bg_BG">Русски</Title>
+			<Title locale="cs_CZ">Ruský</Title>
+			<Title locale="da_DK">Russisk</Title>
+			<Title locale="de_DE">Russisch</Title>
+			<Title locale="en_US">Russian</Title>
+			<Title locale="es_ES">Ruso</Title>
+			<Title locale="fi_FI">Venäjä</Title>
+			<Title locale="fr_FR">Russe</Title>
+			<Title locale="he_IL">רוסית</Title>
+			<Title locale="hu_HU">Orosz</Title>
+			<Title locale="is_IS">Rússnesku</Title>
+			<Title locale="it_IT">Russo</Title>
+			<Title locale="nb_NO">Russisk</Title>
+			<Title locale="nl_NL">Russische</Title>
+			<Title locale="nn_NO">Russisk</Title>
+			<Title locale="pl_PL">Rosyjski</Title>
+			<Title locale="pt_PT">Russo</Title>
+			<Title locale="ro_RO">Rusă</Title>
+			<Title locale="ru_RU">Русский</Title>
+			<Title locale="sk_SK">Ruský</Title>
+			<Title locale="sl_SI">Ruski</Title>
+			<Title locale="sv_SE">Rysk</Title>
+			<Title locale="tr_TR">Rus</Title>
+			<Title locale="zh_CN">俄语</Title>
+		</Titles>
+		<Created_Bys>
+			<Created_By locale="en_US">Created by KO Software</Created_By>
+			<Created_By locale="ru_RU">Создана KO Software</Created_By>
+		</Created_Bys>
+		<Comments>
+			<Comment locale="en_US">Russian language KO Approach localization</Comment>
+			<Comment locale="ru_RU">Русская локализация KO Approach</Comment>
+		</Comments>
+	</Summary>
+
+	<Strings>
+		<!-- Tab titles -->
+		<String id="IDD_O_FEAT">Функции</String>
+		<String id="IDD_O_MNSC">Меню и прокрутка</String>
+		<String id="IDD_O_CNTS">Содержимое</String>
+		<String id="IDD_O_MNTC">Служебное</String>
+		<String id="IDD_O_REG">Регистрация</String>
+		<String id="IDD_O_ABT">О программе</String>
+		<!-- Exception item -->
+		<String id="IDS_EXCEPT_UNAVAILABLE">(Недоступно)</String>
+		<String id="IDS_EXCEPT_EMPTY">(Пусто)</String>
+		<String id="IDS_EXCEPT_GENERIC">(Неизвестная ошибка)</String>
+		<!-- Popup menu strings -->
+		<String id="IDP_MAIN_ENBL_FLDMNUS">Включить Folder Menus</String>
+		<String id="IDP_MAIN_ENBL_APCHITMS">Включить Approach Items</String>
+		<String id="IDP_MAIN_ENBL_TTLBARMNUS">Включить Titlebar Menus</String>
+		<String id="IDP_MAIN_OPTIONS">Опции...</String>
+		<String id="IDP_MAIN_EXIT">Выход</String>
+		<String id="IDP_CXMN_TOAPPROACHITEMS">Добавить ярлык в Approach Items</String>
+		<!-- Approach Items elements -->
+		<String id="IDS_APCHITEMS_ITEMRUN">Выполнить...</String>
+		<String id="IDS_APCHITEMS_ITEMPROC">Активные процессы</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_SYS">Система</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_QUIT">Завершить</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_REVEAL">Показать</String>
+		<!-- Global command strings -->
+		<String id="IDS_GLBL_CMD_OK">OK</String>
+		<String id="IDS_GLBL_CMD_CANCEL">Отмена</String>
+		<String id="IDS_GLBL_CMD_HELP">Помощь...</String>
+		<String id="IDS_GLBL_CMD_YES">Да</String>
+		<String id="IDS_GLBL_CMD_NO">Нет</String>
+		<String id="IDS_GLBL_CMD_RETRY">Повторить</String>
+		<!-- Global strings -->
+		<String id="IDS_GLBL_WARNING">предупреждение</String>
+		<String id="IDS_GLBL_ERROR">Ошибка</String>
+		<String id="IDS_GLBL_ALWAYS">Всегда</String>
+		<String id="IDS_GLBL_NEVER">Никогда</String>
+		<String id="IDS_GLBL_MILLISEC">мс</String>
+		<String id="IDS_GLBL_USESYSSETTING">Как в системе</String>
+		<!-- Features tab -->
+		<String id="IDL_O_FEAT_CAT_FLDMENUS">Folder Menus</String>
+		<String id="IDL_O_FEAT_FLDMENUSDESC">Folder Menus позволяет быстро просматривать содержимое папок в удобном меню путем долгого щелчка мышью по папке.</String>
+		<String id="IDL_O_FEAT_INITDELAY">Задержка основного меню:</String>
+		<String id="IDL_O_FEAT_CAT_APCHITEMS">Approach Items</String>
+		<String id="IDL_O_FEAT_APCHITEMSDESC">Approach Items предоставляет быстрый доступ к любимым папкам и файлам из области уведомлений на панели задач.</String>
+		<String id="IDC_O_FEAT_APCHITEMSOPT">Опции...</String>
+		<String id="IDL_O_FEAT_CAT_TTLBARMENUS">Titlebar Menus</String>
+		<String id="IDL_O_FEAT_TTLBARMENUSDESC">Titlebar Menus позволяет просматривать иерархию любой папки путем нажатия CTRL и щелчка по титульной строке окна в Проводнике Windows.</String>
+		<String id="IDC_O_FEAT_DESKPOS_0TOP">Отображать рабочий стол сверху</String>
+		<String id="IDC_O_FEAT_DESKPOS_1BOTM">Отображать рабочий стол снизу</String>
+		<String id="IDC_O_FEAT_CURFLDISFILE">Не показывать подменю для текущей папки</String>
+		<String id="IDC_O_FEAT_CURFLDAUTOSEL">Автоматически выделять текущую папку</String>
+		<!-- Menus and Scrolling tab -->
+		<String id="IDL_O_MNSC_CAT_MENUS">Меню</String>
+		<String id="IDL_O_MNSC_MAXMNUWIDTH">Максимальная ширина меню:</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_0PXL">пикселов</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_1PRC">% ширины экрана</String>
+		<String id="IDL_O_MNSC_CHILDDELAY">Задержка подменю:</String>
+		<String id="IDL_O_MNSC_CAT_SCROLLING">Прокрутка</String>
+		<String id="IDL_O_MNSC_WHEELSCROLLS">Колесо мыши сдвигает:</String>
+		<String id="IDL_O_MNSC_WHEELITEMS">элемента (-ов)</String>
+		<String id="IDL_O_MNSC_PAGESCROLLS">Page Up / Page Down сдвигает:</String>
+		<String id="IDL_O_MNSC_PAGEITEMS">элемента (-ов)</String>
+		<String id="IDL_O_MNSC_SCROLLARROWS">Отображать стрелки прокрутки:</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_0TOP">Сверху</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_1BOTM">Снизу</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_2ENDS">Сверху и снизу</String>
+		<String id="IDC_O_MNSC_DISPNUMTOSCROLL">Показывать количество оставшихся элементов</String>
+		<String id="IDL_O_MNSC_SCROLLDELAY">Задержка при прокрутке:</String>
+		<!-- Contents tab -->
+		<String id="IDL_O_CNTS_CAT_ITEMS">Элементы</String>
+		<String id="IDL_O_CNTS_HDNITMS">Показывать скрытые элементы:</String>
+		<String id="IDC_O_CNTS_HDNITMS_DIMICN">Отображать бледный значок</String>
+		<String id="IDL_O_CNTS_BROWSEFLD">Открывать папки:</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_0NEWWND">В отдельном окне</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_1SAMEWND">В том же окне</String>
+		<String id="IDL_O_CNTS_SSFISWHAT">Считать ярлыки к папкам:</String>
+		<String id="IDC_O_CNTS_SSFIS_0FOLDER">Папками</String>
+		<String id="IDC_O_CNTS_SSFIS_1FILE">Файлами</String>
+		<String id="IDL_O_CNTS_ZIPISWHAT">Считать ZIP-архивы:</String>
+		<String id="IDC_O_CNTS_ZIPIS_0FOLDER">Папками</String>
+		<String id="IDC_O_CNTS_ZIPIS_1FILE">Файлами</String>
+		<String id="IDL_O_CNTS_MOUSEITEMCLK">Выбор элемента мышью:</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_0REG">Стандартно</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_1SGL">Одним щелчком</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_2DBL">Двумя щелчками</String>
+		<String id="IDL_O_CNTS_CAT_ORDER">Порядок элементов</String>
+		<String id="IDC_O_CNTS_SORTITEMS">Сортировать элементы</String>
+		<String id="IDC_O_CNTS_FLDORD_0TOP">Помещать папки перед файлами</String>
+		<String id="IDC_O_CNTS_FLDORD_1BOTM">Помещать файлы перед папками</String>
+		<String id="IDC_O_CNTS_FLDORD_2MIX">Не группировать</String>
+		<String id="IDL_O_CNTS_CAT_ICONS">Значки</String>
+		<String id="IDC_O_CNTS_ICN_0GENERIC">Показывать простые значки</String>
+		<String id="IDC_O_CNTS_ICN_1REGULAR">Показывать традиционные значки</String>
+		<String id="IDC_O_CNTS_ICNOVERLAYS">Показывать значки-наложения</String>
+		<String id="IDC_O_CNTS_ICNOPTIMIZ">Ускорить получение значков (требует больше ресурсов)</String>
+		<!-- Maintenance tab -->
+		<String id="IDL_O_MNTC_CAT_MNTC">Служебное</String>
+		<String id="IDL_O_MNTC_UILANG">Язык интерфейса:</String>
+		<String id="IDS_O_MNTC_UILANG_MORE">Другие языки...</String>
+		<String id="IDL_O_MNTC_UPDATE">Обновления программы:</String>
+		<String id="IDC_O_MNTC_UPDATE">Проверить обновления</String>
+		<String id="IDC_O_MNTC_UPDATEAUTO">Следить за обновлениями</String>
+		<String id="IDL_O_MNTC_RESTDEF">Настройки по-умолчанию:</String>
+		<String id="IDC_O_MNTC_RESTDEF">Восстановить умолчания</String>
+		<String id="IDL_O_MNTC_AUTORUN">Автозапуск при загрузке:</String>
+		<String id="IDC_O_MNTC_AUTORUN">Включить автозапуск</String>
+		<String id="IDL_O_MNTC_CAT_PLUGINS">Расширения</String>
+		<String id="IDC_O_MNTC_PLGNENBL">Включить</String>
+		<String id="IDC_O_MNTC_PLGNDSBL">Выключить</String>
+		<String id="IDS_O_MNTC_PLGNLST_NAME">Имя</String>
+		<String id="IDS_O_MNTC_PLGNLST_STATUS">Состояние</String>
+		<String id="IDS_O_MNTC_PLGNLST_LOADED">Загружено</String>
+		<String id="IDS_O_MNTC_PLGNLST_NOTLOADED">Не загружено</String>
+		<String id="IDS_O_MNTC_PLGNLST_STOPPING">Остановка</String>
+		<String id="IDS_O_MNTC_PLGNLST_DISABLED">Выключено</String>
+		<String id="IDS_O_MNTC_MSG_UPDYES">Имеется доступное обновление. Вы желаете сгрузить его?</String>
+		<String id="IDS_O_MNTC_MSG_UPDNO">На данный момент доступных обновлений нет.</String>
+		<String id="IDS_O_MNTC_MSG_RESTDEF">Были восстановлены параметры по умолчанию.</String>
+		<!-- Registration tab (registered mode) -->
+		<String id="IDL_O_RGOK_CAT_USER">Зарегистрированный пользователь</String>
+		<String id="IDL_O_RGOK_REGUSER">Правом использования этой копии обладает:</String>
+		<String id="IDL_O_RGOK_CAT_KEYBKP">Резервная копия ключа</String>
+		<String id="IDL_O_RGOK_BACKUP">Храните Ваш регистрационный ключ в безопасном месте. Нажмите 'Копия', чтобы сохранить копию ключа в желаемое место.</String>
+		<String id="IDC_O_RGOK_BACKUP">Копия...</String>
+		<!-- Registration tab (unregistered mode) -->
+		<String id="IDL_O_RGNO_INETREQD">Вы должны быть подключены к Интернет, чтобы приобрести лицензию и пройти активацию.</String>
+		<String id="IDL_O_RGNO_CAT_LIC">Лицензии</String>
+		<String id="IDL_O_RGNO_ACTDESC1">Эта копия программы не зарегистрирована и работает с ограничениями. Чтобы разблокировать, Вы должны приобрести лицензию и активировать KO Approach.</String>
+		<String id="IDL_O_RGNO_ACTDESC2">Если у Вас уже есть лицензия и Вы сделали резервную копию активационного ключа, Вы можете восстановить его для доступа к полной функциональности программы.</String>
+		<String id="IDC_O_RGNO_PURCHASE">Приобрести...</String>
+		<String id="IDC_O_RGNO_KEYRESTORE">Восстановить...</String>
+		<String id="IDL_O_RGNO_CAT_ACTIVN">Активация</String>
+		<String id="IDL_O_RGNO_SERNUM">Введите серийный номер, полученный в уведомлении о регистрации (в формате X-XXXXX-XXXXX-XXXXX-XXXXX):</String>
+		<String id="IDC_O_RGNO_SERNUMHIDE">Скрыть серийный номер</String>
+		<String id="IDC_O_RGNO_ACTIVATE">Активировать...</String>
+		<!-- About tab -->
+		<String id="IDC_O_ABT_THXCAPTION">Особая благодарность:</String>
+		<String id="IDS_O_ABT_VERSION">Версия</String>
+		<String id="IDS_O_ABT_THX1">Турлоу О'Коннору - за первоначальный замысел;</String>
+		<String id="IDS_O_ABT_THX2">Дмитрию Осипову - за документацию, ценные предложения, бета-тестирование и поддержку во всем;</String>
+		<String id="IDS_O_ABT_THX3">Денису Власову, Денису Гаврилову, Александру Гусеву, Илье Кирилкину, Илье Попову, Сергею Самсонову, Александру Симанову, Роману Сошкину, Эндрю Феллоузу и Яну Шредеру - за ценные предложения и бета-тестирование;</String>
+		<String id="IDS_O_ABT_THX4">Всем людям на CodeProject за воодушевление.</String>
+		<String id="IDC_O_ABT_FEEDBACK">Послать отзыв</String>
+		<String id="IDC_O_ABT_HOMEPAGE">Домашняя страница</String>
+		<!-- Backup/Restore dialog box -->
+		<String id="IDS_KEYDLG_FILTER">Файлы ключей KO Approach</String>
+		<String id="IDS_KEYDLG_TITLE">Выберите местонахождение активационного ключа</String>
+		<!-- Activation dialog box -->
+		<String id="IDS_ACTN_ST_CONN">Соединение...</String>
+		<String id="IDS_ACTN_ST_SUCC">Активация прошла успешно</String>
+		<String id="IDS_ACTN_ST_FAIL">Ошибка активации</String>
+		<String id="IDS_ACTN_ST_RSTR">Восстановление завершено</String>
+		<String id="IDS_ACTN_DS_CONN">Соединение с сервером активации. Пожалуйста, подождите...</String>
+		<String id="IDS_ACTN_DS_CONNERR">Не удалось установить соединение. Пожалуйста, проверьте настройки сети и повторите попытку. Если Вы используете брандмауэр (Firewall), пожалуйста, дайте KO Approach доступ к сети.</String>
+		<String id="IDS_ACTN_DS_HWIDERR">Не удалось получить идентификатор для Вашего компьютера.&#0013;&#0010;Пожалуйста, повторите попытку. Если проблема сохраняется, свяжитесь со Службой Поддержки KO Approach по адресу support@koapproach.com.</String>
+		<String id="IDS_ACTN_DS_SRNMERR">Введен неверный серийный номер.&#0013;&#0010;Пожалуйста, введите серийный номер правильно и повторите попытку.</String>
+		<String id="IDS_ACTN_DS_GNRCERR">Произошла неизвестная ошибка.&#0013;&#0010;Пожалуйста, повторите попытку. Если проблема сохраняется, свяжитесь со Службой Поддержки KO Approach по адресу support@koapproach.com.</String>
+		<String id="IDS_ACTN_DS_LMTEXCD">Вы превысили лимит запросов активационных ключей. Желаете приобрести дополнительные лицензии?</String>
+		<String id="IDS_ACTN_DS_SUCC">Поздравляем!&#0013;&#0010;Вы успешно активировали свою копию KO Approach.</String>
+		<String id="IDS_ACTN_DS_RSTR">Активационный ключ был успешно восстановлен. Нажмите 'OK', чтобы перезапустить Approach и проверить ключ.</String>
+		<String id="IDS_ACTN_DS_KEYACCS">Хотя активационный ключ был успешно получен, Approach не удалось записать его в каталог программы.&#0013;&#0010;Пожалуйста, убедитесь, что Вы обладаете необходимыми правами доступа на эту операцию.</String>
+		<!-- Warning dialog boxes -->
+		<String id="IDS_WARNTXT_FEATURELOCKED">Данная копия KO Approach НЕЗАРЕГИСТРИРОВАНА.&#0013;&#0010;Вы не можете включить более двух функций одновременно.</String>
+		<String id="IDS_WARNTXT_INVALIDKEY">Неправильный активационный ключ для данной копии KO Approach. Программа будет работать с ограничением функциональности.&#0013;&#0010;Пожалуйста, удалите неправильный ключ, чтобы это сообщение не появлялось при каждой загрузке Approach.</String>
+		<!-- Approach Items Options dialog box -->
+		<String id="IDD_APCHITMS">Approach Items</String>
+		<String id="IDL_APCHITMS_CUR">Текущие элементы:</String>
+		<String id="IDL_APCHITMS_ALL">Доступные элементы:</String>
+		<String id="IDC_APCHITMS_ADD">Добавить</String>
+		<String id="IDC_APCHITMS_RMV">Удалить</String>
+		<String id="IDC_APCHITMS_UP">Вверх</String>
+		<String id="IDC_APCHITMS_DOWN">Вниз</String>
+		<String id="IDC_APCHITMS_BRW">Обзор Approach Items...</String>
+		<!-- Help popups -->
+		<String id="IDH_OPTS_OK">Сохраняет изменения и закрывает окно программы.</String>
+		<String id="IDH_OPTS_CANCEL">Игнорирует изменения и закрывает окно программы.</String>
+		<String id="IDH_OPTS_HELP">Открывает справку по KO Approach.</String>
+		<String id="IDH_O_FEAT_FLDMENUSTGL">Включает/выключает функцию Folder Menus, которая позволяет показывать меню, повторяющие содержимое выделенной папки.</String>
+		<String id="IDH_O_FEAT_INITDELAY">Устанавливает период времени, в течение которого кнопка мыши должна быть нажата, прежде чем появится начальное меню.</String>
+		<String id="IDH_O_FEAT_APCHITEMSTGL">Включает/выключает функцию Approach Items, дающую быстрый доступ к вашим избранным файлам.</String>
+		<String id="IDH_O_FEAT_APCHITEMSOPT">Открывает окно, позволяющее изменять содержимое меню Approach Items.</String>
+		<String id="IDH_O_FEAT_TTLBARMENUSTGL">Включает/выключает  функцию Titlebar Menus, которая позволяет осуществлять обзор иерархических меню при щелчке по титульной строке окна Explorer.</String>
+		<String id="IDH_O_FEAT_DESKPOS_0TOP">Titlebar Menus отобразит рабочий стол в начале, а текущую папку - в конце списка.</String>
+		<String id="IDH_O_FEAT_DESKPOS_1BOTM">Titlebar Menus отобразит текущую папку в начале, а рабочий стол - в конце списка.</String>
+		<String id="IDH_O_FEAT_CURFLDISFILE">Titlebar Menus не будет отображать стрелку подменю для текущей папки, считая ее файлом.</String>
+		<String id="IDH_O_FEAT_CURFLDAUTOSEL">Titlebar Menus выделит элемент, соответствующий текущей папке.</String>
+		<String id="IDH_O_MNSC_MAXMNUWIDTH">Устанавливает максимальную ширину меню. Максимальная ширина не может превышать 1/3 всей ширины экрана.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_0PXL">Задает максимальную ширину меню установленным числом пикселов.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_1PRC">Задает максимальную ширину меню установленной долей ширины всего экрана.</String>
+		<String id="IDH_O_MNSC_CHILDDELAY">Устанавливает период ожидания перед тем, как KO Approach отобразит подменю.</String>
+		<String id="IDH_O_MNSC_WHEELSCROLLS">Задает количество элементов, которые будут пропущены при прокрутке колесом мыши.</String>
+		<String id="IDH_O_MNSC_PAGESCROLLS">Задает количество элементов, которые будут пропущены при прокрутке клавишами Page Up/Page Down.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_0TOP">Указыват, что обе стрелки прокрутки, если видны, отображаются в меню сверху.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_1BOTM">Указыват, что обе стрелки прокрутки, если видны, отображаются в меню снизу.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_2ENDS">Указывает, что верхняя и нижняя стрелки прокрутки, если видны, отображатся в меню сверху и снизу соответственно.</String>
+		<String id="IDH_O_MNSC_DISPNUMTOSCROLL">Показывает/скрывает рядом со стрелками прокрутки счетчик элементов, находящихся в данный момент за пределами меню.</String>
+		<String id="IDH_O_MNSC_SCROLLDELAY">Устанавливает период ожидания перед тем, как KO Approach перейдет к последующему/предыдущему элементу меню при прокрутке.</String>
+		<String id="IDH_O_CNTS_HDNITMS">Задает режим отображения скрытых файлов.</String>
+		<String id="IDH_O_CNTS_HDNITMS_DIMICN">Устанавливат, что скрытые элементы показываются с полупрозрачными значками.</String>
+		<String id="IDH_O_CNTS_BROWSEFLD">Устанавливает, следует ли использовать существующее окно Windows Explorer при открытии папки.</String>
+		<String id="IDH_O_CNTS_SSFIS_0FOLDER">Указывает, что ярлыки к папкам должны отображать содержимое папок, на которые они ссылаются.</String>
+		<String id="IDH_O_CNTS_SSFIS_1FILE">Указывает, что ярлыки к папкам не должны отображать содержимое папок, на которые они ссылаются.</String>
+		<String id="IDH_O_CNTS_ZIPIS_0FOLDER">Указывает, что архивы ZIP должны отображать свое содержимое.</String>
+		<String id="IDH_O_CNTS_ZIPIS_1FILE">Указывает, что архивы ZIP не должны отображать свое содержимое.</String>
+		<String id="IDH_O_CNTS_MOUSEITEMCLK">Указывает, слидует ли выбирать элементы мышью одним или двумя щелчками.</String>
+		<String id="IDH_O_CNTS_SORTITEMS">Устанавливает, следует ли упорядочивать элементы меню по алфавиту.</String>
+		<String id="IDH_O_CNTS_FLDORD_0TOP">Устанавливает, следует ли отображать папки первыми, а затем файлы.</String>
+		<String id="IDH_O_CNTS_FLDORD_1BOTM">Устанавливает, следует ли отображать файлы первыми, а затем папки.</String>
+		<String id="IDH_O_CNTS_FLDORD_2MIX">Не различает файлы и папки и отображает все элементы последовательно в произвольном порядке.</String>
+		<String id="IDH_O_CNTS_ICN_0GENERIC">Указывает, что традиционные значки следует заменить упрощенными (папка, программа или файл), чтобы ускорить отображение меню.</String>
+		<String id="IDH_O_CNTS_ICN_1REGULAR">Указывает, что значки элементов должны отображаться так же, как в Windows Explorer.</String>
+		<String id="IDH_O_CNTS_ICNOVERLAYS">Указывает, что значки элементов должны отображаться с наложениями, например, со стрелочками для ярлыков.</String>
+		<String id="IDH_O_CNTS_ICNOPTIMIZ">Указывает, что KO Approach следует получать параллельно несколько значков, чтобы ускорить их отображение.</String>
+		<String id="IDH_O_MNTC_UILANG">Устанавливает локализацию KO Approach.</String>
+		<String id="IDH_O_MNTC_LOCALEINFO">Показывает краткую информацию о выбранной локализации.</String>
+		<String id="IDH_O_MNTC_UPDATE">Проверяет, доступно ли обновление на Веб-сайте KO Approach и предлагает вам сгрузить и установить его.</String>
+		<String id="IDH_O_MNTC_UPDATEAUTO">Указыват, следует ли KO Approach периодически проверять обновления и уведомлять Вас о наличии доступного обновления.</String>
+		<String id="IDH_O_MNTC_RESTDEF">Возвращает настройки KO Approach для текущего пользователя к значениям, заданным при первом запуске программы.</String>
+		<String id="IDH_O_MNTC_AUTORUN">Создает/удаляет ярлык KO Approach в папке Автозагрузка вашего меню Пуск.</String>
+		<String id="IDH_O_MNTC_PLGNLST">Отображает список установленных расширений к программе.</String>
+		<String id="IDH_O_MNTC_PLGNENBL">Включает выбранное расширение после нажатия кнопки 'OK' и перезапуска программы.</String>
+		<String id="IDH_O_MNTC_PLGNDSBL">Выключает выбранное расширение после нажатия кнопки 'OK' и перезапуска программы.</String>
+		<String id="IDH_O_RGOK_REGUSER">Отображает имя зарегистрированного пользователя.</String>
+		<String id="IDH_O_RGOK_BACKUP">Создает резервную копию Вашего регистрационного ключа в выбранной Вами папке.</String>
+		<String id="IDH_O_RGNO_KEYRESTORE">Восстанавливает регистрационный ключ из резервной копии.</String>
+		<String id="IDH_O_RGNO_PURCHASE">Открывает страницу заказа KO Approach в Вашем обозревателе.</String>
+		<String id="IDH_O_RGNO_ACTIVATE">Получает регистрационный ключ у онлайн-службы регистрации KO Approach.</String>
+		<String id="IDH_O_RGNO_SERNUMHIDE">Отображает серийный номер звездочками (*) в целях конфиденциальности.</String>
+		<String id="IDH_O_RGNO_SERNUM">Позволяет ввести серийный номер для онлайн службы регистрации.</String>
+		<String id="IDH_O_ABT_FEEDBACK">Создает новое почтовое сообщение, в котором Вы можете послать нам Ваши комментарии и предложения.</String>
+		<String id="IDH_O_ABT_HOMEPAGE">Открывает Веб-сайт KO Approach в Вашем обозревателе.</String>
+	</Strings>
+	<Metrics>
+		<!-- Global -->
+		<Metric id="IDM_GLBL_LANGRTL" factor="1">0</Metric>
+		<Metric id="IDM_GLBL_MILLISECFMT" factor="1">0</Metric>
+		<!-- Main dialog box -->
+		<Metric id="IDM_OPTS_CONTROLMARGIN" factor="1">7</Metric>
+		<Metric id="IDM_OPTS_CATEGORIESWIDTH" factor="1">80</Metric>
+		<Metric id="IDM_OPTS_BUTTONSIZE" factor="2">52,14</Metric>
+		<!-- Features tab -->
+		<Metric id="IDD_O_FEAT" factor="2">320,290</Metric>
+		<Metric id="IDL_O_FEAT_CAT_FLDMENUS" factor="4">20,5,293,12</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSVIS" factor="4">27,25,38,35</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSDESC" factor="4">74,25,222,17</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAY" factor="4">74,52,95,9</Metric>
+		<Metric id="IDC_O_FEAT_INITDELAY" factor="4">170,52,73,20</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAYVAL" factor="4">245,52,57,10</Metric>
+		<Metric id="IDL_O_FEAT_CAT_APCHITEMS" factor="4">20,80,293,12</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSVIS" factor="4">27,100,38,35</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSDESC" factor="4">74,100,222,17</Metric>
+		<Metric id="IDC_O_FEAT_APCHITEMSOPT" factor="4">74,124,55,13</Metric>
+		<Metric id="IDL_O_FEAT_CAT_TTLBARMENUS" factor="4">20,156,293,12</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSVIS" factor="4">27,176,38,35</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSDESC" factor="4">74,176,222,24</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_0TOP" factor="4">74,208,222,9</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_1BOTM" factor="4">74,218,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDISFILE" factor="4">74,231,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDAUTOSEL" factor="4">84,242,212,9</Metric>
+		<!-- Menus and Scrolling tab -->
+		<Metric id="IDD_O_MNSC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNSC_CAT_MENUS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNSC_MAXMNUWIDTH" factor="4">27,25,124,9</Metric>
+		<Metric id="IDC_O_MNSC_MAXMNUWIDTH" factor="4">158,23,33,12</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_0PXL" factor="4">195,20,101,9</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_1PRC" factor="4">195,29,101,9</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAY" factor="4">27,47,124,10</Metric>
+		<Metric id="IDC_O_MNSC_CHILDDELAY" factor="4">153,46,91,20</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAYVAL" factor="4">247,48,49,10</Metric>
+		<Metric id="IDL_O_MNSC_CAT_SCROLLING" factor="4">6,75,307,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELSCROLLS" factor="4">27,95,124,9</Metric>
+		<Metric id="IDC_O_MNSC_WHEELSCROLLS" factor="4">158,93,33,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELITEMS" factor="4">195,95,101,9</Metric>
+		<Metric id="IDL_O_MNSC_PAGESCROLLS" factor="4">27,115,124,9</Metric>
+		<Metric id="IDC_O_MNSC_PAGESCROLLS" factor="4">158,113,33,12</Metric>
+		<Metric id="IDL_O_MNSC_PAGEITEMS" factor="4">195,115,101,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLARROWS" factor="4">27,132,124,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_0TOP" factor="4">158,132,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_1BOTM" factor="4">158,143,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_2ENDS" factor="4">158,154,138,9</Metric>
+		<Metric id="IDC_O_MNSC_DISPNUMTOSCROLL" factor="4">158,170,155,19</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAY" factor="4">27,198,124,10</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLDELAY" factor="4">153,197,91,20</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAYVAL" factor="4">247,198,49,10</Metric>
+		<!-- Contents tab -->
+		<Metric id="IDD_O_CNTS" factor="2">320,290</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ITEMS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_CNTS_HDNITMS" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS" factor="4">158,22,138,33</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS_DIMICN" factor="4">158,38,138,9</Metric>
+		<Metric id="IDL_O_CNTS_BROWSEFLD" factor="4">27,57,124,8</Metric>
+		<Metric id="IDC_O_CNTS_BROWSEFLD" factor="4">158,54,138,33</Metric>
+		<Metric id="IDL_O_CNTS_SSFISWHAT" factor="4">27,75,124,8</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_0FOLDER" factor="4">158,74,52,9</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_1FILE" factor="4">218,74,52,9</Metric>
+		<Metric id="IDL_O_CNTS_ZIPISWHAT" factor="4">27,93,124,8</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_0FOLDER" factor="4">158,92,52,9</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_1FILE" factor="4">218,92,52,9</Metric>
+		<Metric id="IDL_O_CNTS_MOUSEITEMCLK" factor="4">27,111,124,8</Metric>
+		<Metric id="IDC_O_CNTS_MOUSEITEMCLK" factor="4">158,108,138,33</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ORDER" factor="4">6,139,307,12</Metric>
+		<Metric id="IDC_O_CNTS_SORTITEMS" factor="4">27,159,124,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_0TOP" factor="4">158,159,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_1BOTM" factor="4">158,171,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_2MIX" factor="4">158,183,138,9</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ICONS" factor="4">6,206,307,12</Metric>
+		<Metric id="IDC_O_CNTS_ICN_0GENERIC" factor="4">27,225,124,9</Metric>
+		<Metric id="IDC_O_CNTS_ICN_1REGULAR" factor="4">158,225,138,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOVERLAYS" factor="4">168,237,128,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOPTIMIZ" factor="4">168,249,128,19</Metric>
+		<!-- Maintenance and Plug-ins tab -->
+		<Metric id="IDD_O_MNTC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNTC_CAT_MNTC" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNTC_UILANG" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UILANG" factor="4">158,22,138,30</Metric>
+		<Metric id="IDC_O_MNTC_LOCALEINFO" factor="4">158,39,138,20</Metric>
+		<Metric id="IDL_O_MNTC_UPDATE" factor="4">27,71,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UPDATE" factor="4">158,67,138,14</Metric>
+		<Metric id="IDC_O_MNTC_UPDATEAUTO" factor="4">158,84,138,10</Metric>
+		<Metric id="IDL_O_MNTC_RESTDEF" factor="4">27,106,124,8</Metric>
+		<Metric id="IDC_O_MNTC_RESTDEF" factor="4">158,102,138,14</Metric>
+		<Metric id="IDL_O_MNTC_AUTORUN" factor="4">27,127,124,8</Metric>
+		<Metric id="IDC_O_MNTC_AUTORUN" factor="4">158,126,138,9</Metric>
+		<Metric id="IDL_O_MNTC_CAT_PLUGINS" factor="4">6,146,307,12</Metric>
+		<Metric id="IDC_O_MNTC_PLGNLST" factor="4">27,164,269,91</Metric>
+		<Metric id="IDC_O_MNTC_PLGNDSBL" factor="4">229,260,67,14</Metric>
+		<Metric id="IDC_O_MNTC_PLGNENBL" factor="4">158,260,67,14</Metric>
+		<!-- Registration tab (unregistered mode) -->
+		<Metric id="IDD_O_RGNO" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGNO_INETICN" factor="4">27,9,0,0</Metric>
+		<Metric id="IDL_O_RGNO_INETREQD" factor="4">62,11,234,17</Metric>
+		<Metric id="IDL_O_RGNO_CAT_LIC" factor="4">6,38,307,12</Metric>
+		<Metric id="IDL_O_RGNO_UNREGICN" factor="4">27,58,0,0</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC1" factor="4">62,56,234,26</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC2" factor="4">62,88,234,23</Metric>
+		<Metric id="IDC_O_RGNO_PURCHASE" factor="4">155,116,68,14</Metric>
+		<Metric id="IDC_O_RGNO_KEYRESTORE" factor="4">228,116,68,14</Metric>
+		<Metric id="IDL_O_RGNO_CAT_ACTIVN" factor="4">6,140,307,12</Metric>
+		<Metric id="IDL_O_RGNO_SERNUM" factor="4">27,158,269,17</Metric>
+		<Metric id="IDC_O_RGNO_SERNUM" factor="4">27,179,196,12</Metric>
+		<Metric id="IDC_O_RGNO_SERNUMHIDE" factor="4">27,193,78,9</Metric>
+		<Metric id="IDC_O_RGNO_ACTIVATE" factor="4">228,178,68,14</Metric>
+		<!-- Registration tab (registered mode) -->
+		<Metric id="IDD_O_RGOK" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGOK_CAT_USER" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_RGOK_REGUSER" factor="4">27,25,286,8</Metric>
+		<Metric id="IDC_O_RGOK_REGUSER" factor="4">27,38,286,8</Metric>
+		<Metric id="IDL_O_RGOK_CAT_KEYBKP" factor="4">6,59,307,12</Metric>
+		<Metric id="IDL_O_RGOK_BACKUP" factor="4">27,79,269,17</Metric>
+		<Metric id="IDC_O_RGOK_BACKUP" factor="4">228,100,68,14</Metric>
+		<!-- About tab -->
+		<Metric id="IDD_O_ABT" factor="2">320,290</Metric>
+		<Metric id="IDC_O_ABT_APPICON" factor="4">27,18,0,0</Metric>
+		<Metric id="IDC_O_ABT_APPNAME" factor="4">70,9,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPVER" factor="4">70,25,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPCOPY" factor="4">70,41,180,9</Metric>
+		<Metric id="IDC_O_ABT_HORRULE" factor="4">7,57,306,1</Metric>
+		<Metric id="IDC_O_ABT_THXCAPTION" factor="4">8,65,305,8</Metric>
+		<Metric id="IDC_O_ABT_THXLIST" factor="4">27,83,286,111</Metric>
+		<Metric id="IDC_O_ABT_FEEDBACK" factor="4">6,275,52,8</Metric>
+		<Metric id="IDC_O_ABT_HOMEPAGE" factor="4">234,275,79,8</Metric>
+		<Metric id="IDM_O_ABT_NUMTHANKSLINES" factor="1">4</Metric>
+		<!-- Activation dialog box -->
+		<Metric id="IDD_ACTN" factor="2">273,68</Metric>
+		<Metric id="IDL_ACTN_ICON" factor="4">7,8,0,0</Metric>
+		<Metric id="IDL_ACTN_STATUS" factor="4">36,8,230,36</Metric>
+		<Metric id="IDM_ACTN_BTNSIZE" factor="2">52,14</Metric>
+		<Metric id="IDM_ACTN_BTNVERTPOS" factor="1">45</Metric>
+		<Metric id="IDM_ACTN_BTNSPACING" factor="1">12</Metric>
+		<!-- Approach Items Options dialog box -->
+		<Metric id="IDD_APCHITMS" factor="2">307,175</Metric>
+		<Metric id="IDL_APCHITMS_CUR" factor="4">7,7,114,8</Metric>
+		<Metric id="IDL_APCHITMS_ALL" factor="4">186,7,114,8</Metric>
+		<Metric id="IDC_APCHITMS_CUR" factor="4">7,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ALL" factor="4">186,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ADD" factor="4">128,34,50,14</Metric>
+		<Metric id="IDC_APCHITMS_RMV" factor="4">128,50,50,14</Metric>
+		<Metric id="IDC_APCHITMS_UP" factor="4">128,74,50,14</Metric>
+		<Metric id="IDC_APCHITMS_DOWN" factor="4">128,90,50,14</Metric>
+		<Metric id="IDC_APCHITMS_BRW" factor="4">7,154,114,14</Metric>
+		<Metric id="IDM_APCHITMS_OK" factor="4">196,154,50,14</Metric>
+		<Metric id="IDM_APCHITMS_CANCEL" factor="4">250,154,50,14</Metric>
+	</Metrics>
+</Approach_Localization>

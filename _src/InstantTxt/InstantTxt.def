@@ -1,0 +1,4 @@
+LIBRARY	InstantTxt
+
+EXPORTS
+   GetKOApproachPlugin      PRIVATE

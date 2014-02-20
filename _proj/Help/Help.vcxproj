@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Common|Win32">
+      <Configuration>Common</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7E77AE02-6BED-4885-82C1-0CFA9EDE4A66}</ProjectGuid>
+    <RootNamespace>Help</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Common|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Common|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">build.cmd 1</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">build.cmd 1</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Common|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">Approach.chm</NMakeOutput>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Common|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\_src\Help\content\approach_items.html" />
+    <None Include="..\..\_src\Help\content\approach_items_options.html" />
+    <None Include="..\..\_src\Help\content\clipboardassistant_plugin.html" />
+    <None Include="..\..\_src\Help\content\faq.html" />
+    <None Include="..\..\_src\Help\content\files_installed.html" />
+    <None Include="..\..\_src\Help\content\folder_menus.html" />
+    <None Include="..\..\_src\Help\content\functions.js" />
+    <None Include="..\..\_src\Help\content\installation.html" />
+    <None Include="..\..\_src\Help\content\instanttxt_plugin.html" />
+    <None Include="..\..\_src\Help\content\instantwave_plugin.html" />
+    <None Include="..\..\_src\Help\content\issues.html" />
+    <None Include="..\..\_src\Help\content\keyboard_navigation.html" />
+    <None Include="..\..\_src\Help\content\manual_removal.html" />
+    <None Include="..\..\_src\Help\content\overview.html" />
+    <None Include="..\..\_src\Help\content\quick_start.html" />
+    <None Include="..\..\_src\Help\content\running_installer.html" />
+    <None Include="..\..\_src\Help\content\running_uninstaller.html" />
+    <None Include="..\..\_src\Help\content\scope_plugin.html" />
+    <None Include="..\..\_src\Help\content\styles.css" />
+    <None Include="..\..\_src\Help\content\system_requirements.html" />
+    <None Include="..\..\_src\Help\content\tab_about.html" />
+    <None Include="..\..\_src\Help\content\tab_contents.html" />
+    <None Include="..\..\_src\Help\content\tab_features.html" />
+    <None Include="..\..\_src\Help\content\tab_maintenance.html" />
+    <None Include="..\..\_src\Help\content\tab_menusscrolling.html" />
+    <None Include="..\..\_src\Help\content\tab_registration.html" />
+    <None Include="..\..\_src\Help\content\technical_support.html" />
+    <None Include="..\..\_src\Help\content\titlebar_menus.html" />
+    <None Include="..\..\_src\Help\content\tray_menu.html" />
+    <None Include="..\..\_src\Help\content\uninstall.html" />
+    <None Include="..\..\_src\Help\content\user_interface.html" />
+    <None Include="..\..\_src\Help\content\using_approach.html" />
+    <None Include="..\..\_src\Help\content\version_history.html" />
+    <None Include="..\..\_src\Help\Approach.hhc">
+      <FileType>HTML</FileType>
+    </None>
+    <None Include="..\..\_src\Help\Approach.hhk" />
+    <None Include="..\..\_src\Help\Approach.hhp">
+      <FileType>Text</FileType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

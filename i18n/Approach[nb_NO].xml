@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Approach_Localization version="1">
+	<Summary>
+		<Locale>nb_NO</Locale>
+		<Titles>
+			<Title locale="bg_BG">?????????</Title>
+			<Title locale="da_DK">Norsk</Title>
+			<Title locale="de_DE">Norwegisch</Title>
+			<Title locale="en_US">Norwegian</Title>
+			<Title locale="es_ES">Norvegese</Title>
+			<Title locale="nb_NO">Norsk</Title>
+			<Title locale="fr_FR">Norsk</Title>
+			<Title locale="it_IT">Norwegian</Title>
+			<Title locale="pl_PL">Norwegian</Title>
+			<Title locale="pt_PT">Norwegian</Title>
+			<Title locale="ru_RU">Норвежский</Title>
+			<Title locale="sv_SE">Norsk</Title>
+			<Title locale="pl_PL">Francuski</Title>
+		</Titles>
+		<Created_Bys>
+			<Created_By locale="en_US">Translated by Lutin</Created_By>
+			<Created_By locale="nb_NO">Oversatt av Lutin</Created_By>
+			<Created_By locale="ru_RU">Перевел Lutin</Created_By>
+		</Created_Bys>
+
+		<Comments>
+			<Comment locale="nb_NO">Norsk versjon av KO Approach</Comment>
+			<Comment locale="en_US">The norwegian localization of KO Approach</Comment>
+			<Comment locale="ru_RU">Норвежская локализация KO Approach</Comment>
+		</Comments>
+	</Summary>
+
+	<Strings>
+		<!-- Tab titles -->
+		<String id="IDS_TAB_GENERAL">Generelt</String>
+		<String id="IDS_TAB_BEHAVIOR">Handling</String>
+		<String id="IDS_TAB_SETTINGS">Innstillinger</String>
+		<String id="IDS_TAB_REGISTRATION">Registrering</String>
+		<!-- TODO: <String id="IDS_TAB_REGISTRATION">Registration</String> -->
+		<String id="IDS_TAB_ABOUT">Om...</String>
+		<!-- Combobox strings -->
+		<String id="IDS_USESYSTEMSETTING">som Win Utforsker</String>
+		<String id="IDS_INANEWWINDOW">i nytt vindu</String>
+		<!-- TODO: <String id="IDS_INTHEEXISTINGWINDOW">In the existing window</String> -->
+		<String id="IDS_ALWAYS">alltid</String>
+		<String id="IDS_NEVER">aldri</String>
+		<!-- Exception item -->
+		<String id="IDS_EXCEPT_UNAVAILABLE">(Utilgjengelig)</String>
+		<String id="IDS_EXCEPT_EMPTY">(Tomt)</String>
+		<!-- TODO: <String id="IDS_EXCEPT_GENERIC">(Generic error)</String> -->
+		<!-- Popup menu strings -->
+		<String id="IDS_POPUP_OPTIONS">Valg...</String>
+		<String id="IDS_POPUP_EXIT">Ende</String>
+		<!-- TODO: <String id="IDS_POPUP_FOLDERMENUS">Enable Folder Menus</String> -->
+		<!-- TODO: <String id="IDS_POPUP_APPROACHITEMS">Enable Approach Items</String> -->
+		<!-- TODO: <String id="IDS_POPUP_TITLEBARMENUS">Enable Titlebar Menus</String> -->
+		<String id="IDS_POPUP_HELP">Hjelp...</String>
+		<String id="IDS_MENU_CANCEL">Angre</String>
+		<!-- TODO: <String id="IDS_MENU_TOAPPROACHITEMS">Add shortcut to Approach Items</String> -->
+		<!-- Approach Items elements -->
+		<!-- TODO: <String id="IDS_APCHITEMS_ITEMRUN">Run...</String> -->
+		<!-- Global buttons -->
+		<String id="IDS_BTN_OK">OK</String>
+		<String id="IDS_BTN_CANCEL">Angre</String>
+		<String id="IDS_BTN_HELP">Hjelp...</String>
+		<String id="IDS_BTN_YES">Ja</String>
+		<String id="IDS_BTN_NO">Nei</String>
+		<!-- TODO: <String id="IDS_BTN_RETRY">Retry</String> -->
+		<!-- General tab -->
+		<String id="IDS_CAT_MAIN">Hovedvalg</String>
+		<String id="IDS_CAT_SCROLLING">Skrolling</String>
+		<String id="IDS_CAT_DELAY">Forsinkelse før visning</String>
+		<!-- TODO: <String id="IDS_STATIC_FOLDERMENUS">Folder Menus:</String> -->
+		<!-- TODO: <String id="IDS_STATIC_APPROACHITEMS">Approach Items:</String> -->
+		<!-- TODO: <String id="IDS_STATIC_TITLEBARMENUS">Titlebar Menus:</String> -->
+		<String id="IDS_ENABLE">aktiv</String>
+		<!-- TODO: <String id="IDS_APPROACHITEMS_SHOWOPTIONS">Options...</String> -->
+		<!-- TODO: <String id="IDS_TITLEBARMENUS_SHOWOPTIONS">Options...</String> -->
+		<String id="IDS_AUTORUN">Start Approach med Windows</String>
+		<String id="IDS_STATIC_INITIALMENU">Hovedmappe</String>
+		<String id="IDS_STATIC_CHILDMENU">Undermappe</String>
+		<String id="IDS_STATIC_SCROLLING">Skrolling</String>
+		<String id="IDS_STATIC_MOUSEWHEELSCROLLS">Musehjul skroller</String>
+		<String id="IDS_STATIC_PAGEUPPAGEDOWNSCROLLS">PageUp/Down-knapp skroller</String>
+		<String id="IDS_STATIC_NUMELEMENTS">filer</String>
+		<String id="IDS_MILLISECOND">ms</String>
+		<!-- Behavior tab -->
+		<String id="IDS_CAT_CONTENTS">Mappeinnhold</String>
+		<String id="IDS_CAT_ORDER">Visningssystem</String>
+		<String id="IDS_CAT_CLICKITEMS">Klikkeinnstillinger</String>
+		<String id="IDS_STATIC_HIDDENFILES">Skjulte filer og mapper vises</String>
+		<String id="IDS_STATIC_BROWSEFORFOLDERS">Mapper åpnes</String>
+		<String id="IDS_ZIPSAREFOLDERS">ZIP-fil behandles som mappe (Win XP og nyere)</String>
+		<String id="IDS_STATIC_MAXMENUWIDTH">Begr. menyvidde til</String>
+		<String id="IDS_PIXELS">pixler</String>
+		<String id="IDS_PERCENTSCREEN">% skjermbredde</String>
+		<String id="IDS_SORTALPHABETICALLY">Sortér alt alfabetisk</String>
+		<String id="IDS_FOLDERSPRECEDEFILES">Mapper øverst</String>
+		<String id="IDS_ACTIVATE_SINGLEFILES">Enkeltklikk åpner filer, dobbeltklikk åpner mapper</String>
+		<String id="IDS_ACTIVATE_SINGLEALL">Enkeltklikk åpner filer og mapper</String>
+		<String id="IDS_ACTIVATE_DOUBLE">Dobbeltklikk åpner filer og mapper</String>
+		<!-- Settings tab -->
+		<String id="IDS_CAT_INTERFACE">Språkvalg</String>
+		<String id="IDS_CAT_UPDATES">Oppdateringer</String>
+		<String id="IDS_CAT_DEFAULTS">Innstillinger</String>
+		<String id="IDS_CHOOSELANGUAGE">Språk:</String>
+		<String id="IDS_LANGUAGE_NOTIFICATION">Klikke 'OK' for å endre språk!</String>
+		<String id="IDS_UPDATES_DESCRIPTION">Hent siste Approach</String>
+		<String id="IDS_CHECKFORUPDATES">her...</String>
+		<String id="IDS_DEFAULTS_DESCRIPTION">Tilbakefør alt til standardverdier</String>
+		<String id="IDS_RESTOREDEFAULTS">Normaloppsett</String>
+		<String id="IDS_MSGBOX_UPDATEAVAILABLE">Oppdatering tilgjenglig. Laste ned?</String>
+		<!-- TODO: <String id="IDS_MSGBOX_NOUPDATES">No update is currently available.</String> -->
+		<!-- TODO: <String id="IDS_RESTOREDEFAULTSFINISHED">The defaults have been restored</String> -->
+		<!-- Registration tab (registered mode) -->
+		<String id="IDS_CAT_REGUSER">Registered User</String>
+		<String id="IDS_CAT_KEYBACKUP">Key Backup</String>
+		<String id="IDS_STATIC_REGISTEREDTO">Programmet er lisensiert til</String>
+		<String id="IDS_STATIC_KEYBACKUPDESCR">Consider storing your Activation Key in safe place. Click Backup to save a copy of your Key to a designated location.</String>
+		<String id="IDS_BACKUP">Backup...</String>
+		<!-- Registration tab (unregistered mode) -->
+		<String id="IDS_STATIC_INTERNETREQUIRED">Du må være på nett for å hente lisens og aktivisere denne.</String>
+		<String id="IDS_CAT_LICENSING">Lisenssituasjon</String>
+		<String id="IDS_CAT_ACTIVATION">Aktivering</String>
+		<String id="IDS_STATIC_LICENSINGDESCRIPTION_1">Denne kopien av KO Approach er UREGISTRERT og kjører derfor i begrenset modus. For fullverdig programversjon må du kjøpe en lisens og aktivisere denne hos KO Approach.</String>
+		<String id="IDS_STATIC_LICENSINGDESCRIPTION_2">Har du gyldig lisens med sikkerhetskopi av Activation Key kan programet reaktiviseres for full funksjonalitet</String>
+		<String id="IDS_PURCHASE">Kjøp lisens her</String>
+		<String id="IDS_RESTORE">Gjenopprett</String>
+		<String id="IDS_STATIC_SERIAL">Tast inn serienummeret du mottok pr e-post, husk bindestrek!</String>
+		<String id="IDS_HIDESERNUM">Skjul</String>
+		<String id="IDS_ACTIVATE">Aktivisér</String>
+		<!-- Plugins tab -->
+		<!-- TODO: <String id="IDS_CAT_PLUGINS">Plugins</String> -->
+		<!-- TODO: <String id="IDS_BTN_PLUGINENABLE">Enable</String> -->
+		<!-- TODO: <String id="IDS_BTN_PLUGINDISABLE">Disable</String> -->
+		<!-- TODO: <String id="IDS_COL_PLUGINNAME">Name</String> -->
+		<!-- TODO: <String id="IDS_COL_PLUGINSTATUS">Status</String> -->
+		<!-- TODO: <String id="IDS_PLUGINSTATUS_STOPPING">Stopping</String> -->
+		<!-- TODO: <String id="IDS_PLUGINSTATUS_LOADED">Loaded</String> -->
+		<!-- TODO: <String id="IDS_PLUGINSTATUS_DISABLED">Disabled</String> -->
+		<!-- TODO: <String id="IDS_PLUGINSTATUS_NOTLOADED">Not loaded</String> -->
+		<!-- TODO: <String id="IDS_PLUGIN_NOTIFICATION">The plugin settings will not take effect until you press 'OK' and restart the application</String> -->
+		<!-- About tab -->
+		<!-- TODO: <String id="IDS_STATIC_SPECIALTHANKS">Special thanks to:</String> -->
+		<!-- TODO: <String id="IDS_VERSION">Version</String> -->
+		<String id="IDS_LINK_SENDFEEDBACK">Send tilbakemelding!</String>
+		<String id="IDS_LINK_HOMEPAGE">KO Approach hjemmeside</String>
+		<!-- TODO: <String id="IDS_THANKS_1">Turlough O'Connor - for the original idea;</String> -->
+		<!-- TODO: <String id="IDS_THANKS_2">Dmitry Osipov - for product Documentation, valuable suggestions, pre-release testing, and overall support;</String> -->
+		<!-- TODO: <String id="IDS_THANKS_3">Andrew Fellows, Denis Gavrilov, Alexander Gusev, Ilya Kirilkin, Ilya Popov, Sergey Samsonov, Jan Schröder, Alexander Simanov, Roman Soshkin, and Denis Vlasov - for valuable suggestions and pre-release testing;</String> -->
+		<!-- TODO: <String id="IDS_THANKS_4">All the people on CodeProject for keeping me inspired.</String> -->
+		<!-- Backup/Restore dialog box -->
+		<!-- TODO: <String id="IDS_DLG_KEYFILEFILTERDESCR">KO Approach Key Files</String> -->
+		<!-- TODO: <String id="IDS_DLG_KEYFILELOCATION">Choose Activation Key Location</String> -->
+		<!-- Activation dialog box -->
+		<String id="IDS_ACTSTATUS_CONNECTING">Kobler opp</String>
+		<String id="IDS_ACTSTATUS_SUCCESS">Aktivisering vellykket</String>
+		<String id="IDS_ACTSTATUS_FAILURE">FEIL!</String>
+		<!-- TODO: <String id="IDS_ACTSTATUS_RESTORECOMPLETE">Restore completed</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_CONNECTING">Contacting Activation Service. Please wait...</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_NOTCONNECTED">Connection could not be established. Please check your network configuration and try again. If you are using a Firewall please allow an outgoing request for KO Approach.</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_UNABLETOIDENTIFY">Could not generate a Hardware ID for this computer.&#0013;&#0010;Please try activating KO Approach again. If the problem persists, please contact KO Software Customer Support at support@koapproach.com.</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_INCORRECTSERNUM">Serial Number could not be verified.&#0013;&#0010;Please enter a valid Serial Number and try again.</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_GENERICERROR">An Unknown Error has occurred. Please try activating KO Approach again. If the problem persists, please contact KO Software Customer Support at support@koapproach.com.</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_LIMITEXCEEDED">You have exceeded your limit of Activation Key requests. Would you like to purchase additional Licenses?</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_SUCCESS">Congratulations!&#0013;&#0010;You have successfully activated your copy of Approach.</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_RESTORECOMPLETE">The Activation Key was placed in the KO Approach Application directory. Press OK to restart Approach and validate the Key.</String> -->
+		<!-- TODO: <String id="IDS_ACTDESCRIPTION_COULDNOTWRITEKEY">Although the Activation Key was obtained successfully, Approach was unable to write the Key file to the Application directory.&#0013;&#0010;Please check if you have enough access rights to perform this action.</String> -->
+		<!-- Warning dialog boxes -->
+		<!-- TODO: <String id="IDS_WARNINGTEXT_FEATURELOCKED">This copy of KO Approach is UNREGISTERED and is limited to two program features only. Please obtain a License Key to enjoy full functionality of KO Approach.</String> -->
+		<!-- TODO: <String id="IDS_WARNINGTEXT_INVALIDKEY">The Activation Key for this copy of KO Approach appears to be invalid. KO Approach will run in reduced functionality mode.&#0013;&#0010;Please remove the invalid Activation Key to avoid having this message display each time you launch Approach.</String> -->
+		<!-- TODO: <String id="IDS_WARNING">Warning</String> -->
+		<!-- Approach Items Options dialog box -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_SELF">Approach Items</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_LBL_CURITEMS">Current Items:</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_LBL_ALLITEMS">Available Items:</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_ADD">Add</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_REMOVE">Remove</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_UP">Up</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_DOWN">Down</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_BROWSE">Browse Approach Items...</String> -->
+		<!-- Titlebar Menus Options dialog box -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_SELF">Titlebar Menus</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_GRP_ORDER">Folder Order</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_RBN_PARENTTOCHILD">Display desktop at top</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_RBN_CHILDTOPARENT">Display desktop at bottom</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_CHK_CURFOLDERASITEM">Do not display submenu for current folder</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_CHK_AUTOSELECTCURFOLDER">Automatically select current folder</String> -->
+		<!-- Help popups -->
+		<!-- TODO: <String id="IDH_OKBUTTON">Saves the changes and closes the program window.</String> -->
+		<!-- TODO: <String id="IDH_CANCELBUTTON">Discards the changes and closes the program window.</String> -->
+		<!-- TODO: <String id="IDH_HELPBUTTON">Opens KO Approach Documentation.</String> -->
+		<!-- TODO: <String id="IDH_FOLDERMENUS_ENABLE">Enables/Disables the Folder Menus feature allowing to display menus that mimic the structure of the selected folder.</String> -->
+		<!-- TODO: <String id="IDH_APPROACHITEMS_ENABLE">Enables/Disables the Approach Items feature providing quick access to your favorite files.</String> -->
+		<!-- TODO: <String id="IDH_TITLEBARMENUS_ENABLE">Enables/Disables the Titlebar Menus feature allowing you to browse parent-to-child menus built from an Explorer window's Title Bar.</String> -->
+		<!-- TODO: <String id="IDH_APPROACHITEMS_OPTIONS">Opens the Approach Items Options window allowing you to administer its contents.</String> -->
+		<!-- TODO: <String id="IDH_TITLEBARMENUS_OPTIONS">Opens the Titlebar Menus Options window allowing you to administer its display settings.</String> -->
+		<!-- TODO: <String id="IDH_AUTORUN">Creates/Removes the KO Approach shortcut in the Startup folder of your Start Menu.</String> -->
+		<!-- TODO: <String id="IDH_INITIALMENU">Adjusts the amount of time the mouse key needs to be held down before the initial menu expands.</String> -->
+		<!-- TODO: <String id="IDH_CHILDMENU">Adjusts the amount of time Approach will wait before displaying sub-menus.</String> -->
+		<!-- TODO: <String id="IDH_SCROLLING">Adjusts the amount of time Approach will wait before displaying the next upper/lower item on a menu when scrolling.</String> -->
+		<!-- TODO: <String id="IDH_WHEELSCROLLS">Specifies the number of items to be skipped when scrolling with the mouse wheel.</String> -->
+		<!-- TODO: <String id="IDH_PAGESCROLLS">Specifies the number of items to be skipped when scrolling with the Page Up/Page Down buttons.</String> -->
+		<!-- TODO: <String id="IDH_HIDDENFILES">Specifies whether to display hidden files.</String> -->
+		<!-- TODO: <String id="IDH_BROWSEFORFOLDERS">Designates whether Approach should reuse an Explorer window when you click on a folder.</String> -->
+		<!-- TODO: <String id="IDH_ZIPSAREFOLDERS">Specifies whether Approach should display ZIP archives as folders rather than regular files.</String> -->
+		<!-- TODO: <String id="IDH_MAXWIDTH">Specifies the maximum menu width. The maximum width may not exceed 1/3 of the entire screen width.</String> -->
+		<!-- TODO: <String id="IDH_MAXWIDTHPIXELS">Sets the maximum menu width to the specified number of pixels.</String> -->
+		<!-- TODO: <String id="IDH_MAXWIDTHPERCENT">Sets the maximum menu width to the specified percentage of the screen width.</String> -->
+		<!-- TODO: <String id="IDH_SORTALPHABEICALLY">Specifies whether items on a menu should be listed in alphabetical order.</String> -->
+		<!-- TODO: <String id="IDH_FOLDERSPRECEDEFILES">Specifies whether folders on a menu should be listed first, followed by files.</String> -->
+		<!-- TODO: <String id="IDH_SINGLEFILESDOUBLEFOLDERS">Specifies that files are opened with a single-click and folders, with a double-click.</String> -->
+		<!-- TODO: <String id="IDH_SINGLEFILESSINGLEFOLDERS">Specifies that files and folders are opened with single-click.</String> -->
+		<!-- TODO: <String id="IDH_DOUBLEFILESDOUBLEFOLDERS">Specifies that files and folders are opened with a double-click.</String> -->
+		<!-- TODO: <String id="IDH_LANGUAGE">Specifies KO Approach localization.</String> -->
+		<!-- TODO: <String id="IDH_CHECKFORUPDATES">Checks whether an update is available on the KO Approach Web site and offers you to download and install it.</String> -->
+		<!-- TODO: <String id="IDH_RESTOREDEFAULTS">Reverts Approach settings for the current user to the values specified upon the first program launch.</String> -->
+		<!-- TODO: <String id="IDH_LANGUAGE_DESCRIPTION">Displays brief information about the currently selected localization.</String> -->
+		<!-- TODO: <String id="IDH_FEEDBACK">Creates a new email message, so you can send us your comments and suggestions.</String> -->
+		<!-- TODO: <String id="IDH_HOMEPAGE">Opens the KO Approach Web site in your default browser.</String> -->
+		<!-- TODO: <String id="IDH_RESTORE">Restores your Activation Key from the location you specify.</String> -->
+		<!-- TODO: <String id="IDH_BACKUP">Backs up your Activation Key to the location you specify.</String> -->
+		<!-- TODO: <String id="IDH_ACTIVATE">Attempts to obtain an Activation Key from KO Approach online Activation Service.</String> -->
+		<!-- TODO: <String id="IDH_PURCHASE">Opens the KO Approach Order Page in your default browser.</String> -->
+		<!-- TODO: <String id="IDH_TROUBLESHOOT">Displays information in KO Approach Documentation about resolving possible problems during activation.</String> -->
+		<!-- TODO: <String id="IDH_HIDESERNUM">Displays your Serial Number with asterisks (*) for confidentiality purposes.</String> -->
+		<!-- TODO: <String id="IDH_REGISTEREDTO">Displays the Registered User's name.</String> -->
+		<!-- TODO: <String id="IDH_SERIALNUMBER">Allows you to specify your Serial Number to the online Activation Service.</String> -->
+		<!-- TODO: <String id="IDH_PLUGINLIST">Displays the list of installed plugins.</String> -->
+		<!-- TODO: <String id="IDH_BTN_PLUGINENABLE">Enables the selected plugin when you press OK and re-open KO Approach.</String> -->
+		<!-- TODO: <String id="IDH_BTN_PLUGINDISABLE">Disables the selected plugin when you press OK and re-open KO Approach.</String> -->
+	</Strings>
+	<Metrics>
+		<!-- Global -->
+		<Metric id="IDM_GLOBAL_LANGRTL" factor="1">0</Metric>
+		<!-- Main dialog box -->
+		<Metric id="IDM_OPTIONSDLG_CONTROLMARGIN" factor="1">7</Metric>
+		<Metric id="IDM_OPTIONSDLG_CATEGORIESWIDTH" factor="1">80</Metric>
+		<Metric id="IDM_OPTIONSDLG_BUTTONSIZE" factor="2">52,14</Metric>
+		<!-- General tab -->
+		<Metric id="IDM_CAT_MAIN" factor="4">6,8,229,8</Metric>
+		<Metric id="IDM_CAT_DELAY" factor="4">6,81,229,8</Metric>
+		<Metric id="IDM_CAT_SCROLLING" factor="4">6,158,229,8</Metric>
+		<Metric id="IDM_STATIC_FOLDERMENUS" factor="4">18,20,48,9</Metric>
+		<Metric id="IDM_FOLDERMENUS_TOGGLE" factor="4">114,20,40,9</Metric>
+		<Metric id="IDM_STATIC_APPROACHITEMS" factor="4">18,36,54,9</Metric>
+		<Metric id="IDM_APPROACHITEMS_TOGGLE" factor="4">114,36,40,9</Metric>
+		<Metric id="IDM_APPROACHITEMS_SHOWOPTIONS" factor="4">164,34,55,13</Metric>
+		<Metric id="IDM_STATIC_TITLEBARMENUS" factor="4">18,52,54,9</Metric>
+		<Metric id="IDM_TITLEBARMENUS_TOGGLE" factor="4">114,52,40,9</Metric>
+		<Metric id="IDM_TITLEBARMENUS_SHOWOPTIONS" factor="4">164,50,55,13</Metric>
+		<Metric id="IDM_AUTORUN" factor="4">18,67,201,10</Metric>
+		<Metric id="IDM_STATIC_INITIALDELAY" factor="4">18,96,50,9</Metric>
+		<Metric id="IDM_SLD_INIT" factor="4">108,94,73,20</Metric>
+		<Metric id="IDM_TIMEOUTVAL_INIT" factor="4">188,96,31,10</Metric>
+		<Metric id="IDM_STATIC_CHILDDELAY" factor="4">18,117,50,9</Metric>
+		<Metric id="IDM_SLD_CHILD" factor="4">108,115,73,20</Metric>
+		<Metric id="IDM_TIMEOUTVAL_CHILD" factor="4">188,117,31,10</Metric>
+		<Metric id="IDM_STATIC_SCROLLDELAY" factor="4">18,138,50,9</Metric>
+		<Metric id="IDM_SLD_SCROLL" factor="4">108,136,73,20</Metric>
+		<Metric id="IDM_TIMEOUTVAL_SCROLL" factor="4">188,138,31,10</Metric>
+		<Metric id="IDM_NUMSCROLLITEMS_WHEEL" factor="4">114,173,33,12</Metric>
+		<Metric id="IDM_NUMSCROLLITEMS_PAGE" factor="4">114,192,33,12</Metric>
+		<Metric id="IDM_STATIC_WHEELSCROLLS" factor="4">18,175,100,8</Metric>
+		<Metric id="IDM_STATIC_WHEELITEMS" factor="4">153,175,23,8</Metric>
+		<Metric id="IDM_STATIC_PAGESCROLLS" factor="4">18,194,92,8</Metric>
+		<Metric id="IDM_STATIC_PAGEITEMS" factor="4">153,194,23,8</Metric>
+		<Metric id="IDM_MILLISECONDSFORMAT" factor="1">0</Metric>
+		<!-- Behavior tab -->
+		<Metric id="IDM_CAT_CONTENTS" factor="4">6,8,229,8</Metric>
+		<Metric id="IDM_CAT_ORDER" factor="4">6,104,229,8</Metric>
+		<Metric id="IDM_CAT_CLICKITEMS" factor="4">6,140,229,8</Metric>
+		<Metric id="IDM_STATIC_BROWSEFORFOLDERS" factor="4">18,43,66,8</Metric>
+		<Metric id="IDM_BROWSEFORFOLDERS" factor="4">123,41,90,33</Metric>
+		<Metric id="IDM_STATIC_HIDDENFILES" factor="4">18,24,96,8</Metric>
+		<Metric id="IDM_HIDDENFILES" factor="4">123,21,90,70</Metric>
+		<Metric id="IDM_ZIPSAREFOLDERS" factor="4">18,61,218,10</Metric>
+		<Metric id="IDM_STATIC_MAXMENUWIDTH" factor="4">18,81,66,8</Metric>
+		<Metric id="IDM_MAXMENUWIDTH" factor="4">86,79,33,13</Metric>
+		<Metric id="IDM_WIDTHINPIXELS" factor="4">122,76,105,8</Metric>
+		<Metric id="IDM_WIDTHINPERCENT" factor="4">122,85,105,9</Metric>
+		<Metric id="IDM_SORTALPHABETICALLY" factor="4">18,116,93,10</Metric>
+		<Metric id="IDM_FOLDERSPRECEDEFILES" factor="4">123,116,82,10</Metric>
+		<Metric id="IDM_ACTIVATE_SINGLEFILES" factor="4">18,153,217,10</Metric>
+		<Metric id="IDM_ACTIVATE_SINGLEALL" factor="4">18,164,217,10</Metric>
+		<Metric id="IDM_ACTIVATE_DOUBLE" factor="4">18,175,217,10</Metric>
+		<!-- Settings tab -->
+		<Metric id="IDM_CAT_INTERFACE" factor="4">6,8,229,8</Metric>
+		<Metric id="IDM_CAT_UPDATES" factor="4">6,104,229,8</Metric>
+		<Metric id="IDM_CAT_DEFAULTS" factor="4">6,148,229,8</Metric>
+		<Metric id="IDM_STATIC_CHOOSELANGUAGE" factor="4">18,24,66,8</Metric>
+		<Metric id="IDM_LANGUAGE" factor="4">110,21,109,30</Metric>
+		<Metric id="IDM_LANGUAGE_DESCRIPTION" factor="4">18,42,201,20</Metric>
+		<Metric id="IDM_ICON_INFORMATION" factor="4">18,70,0,0</Metric>
+		<Metric id="IDM_LANGUAGE_NOTIFICATION" factor="4">47,70,172,19</Metric>
+		<Metric id="IDM_UPDATES_DESCRIPTION" factor="4">18,116,117,19</Metric>
+		<Metric id="IDM_CHECKFORUPDATES" factor="4">149,116,70,14</Metric>
+		<Metric id="IDM_DEFAULTS_DESCRIPTION" factor="4">18,160,117,19</Metric>
+		<Metric id="IDM_RESTOREDEFAULTS" factor="4">149,160,70,14</Metric>
+		<!-- Registration tab (unregistered mode) -->
+		<Metric id="IDM_ICON_INTERNETCONNECTION" factor="4">6,9,0,0</Metric>
+		<Metric id="IDM_STATIC_INTERNETREQUIRED" factor="4">36,11,198,18</Metric>
+		<Metric id="IDM_CAT_LICENSING" factor="4">6,35,229,8</Metric>
+		<Metric id="IDM_CAT_ACTIVATION" factor="4">6,127,229,8</Metric>
+		<Metric id="IDM_ICON_LICENSING" factor="4">6,48,0,0</Metric>
+		<Metric id="IDM_STATIC_LICENSINGDESCRIPTION_1" factor="4">36,46,198,26</Metric>
+		<Metric id="IDM_STATIC_LICENSINGDESCRIPTION_2" factor="4">36,78,198,26</Metric>
+		<Metric id="IDM_PURCHASE" factor="4">93,108,68,14</Metric>
+		<Metric id="IDM_KEYRESTORE" factor="4">166,108,68,14</Metric>
+		<Metric id="IDM_STATIC_SERIAL" factor="4">19,139,215,17</Metric>
+		<Metric id="IDM_SERIALNUMBER" factor="4">18,161,163,12</Metric>
+		<Metric id="IDM_HIDESERNUM" factor="4">185,162,32,10</Metric>
+		<Metric id="IDM_ACTIVATE" factor="4">166,179,68,14</Metric>
+		<!-- Registration tab (registered mode) -->
+		<Metric id="IDM_CAT_KEYBACKUP" factor="4">6,58,229,8</Metric>
+		<Metric id="IDM_CAT_REGUSER" factor="4">6,8,229,8</Metric>
+		<Metric id="IDM_STATIC_KEYBACKUPDESCR" factor="4">17,71,202,17</Metric>
+		<Metric id="IDM_STATIC_REGISTEREDTO" factor="4">17,22,217,8</Metric>
+		<Metric id="IDM_BACKUP" factor="4">166,93,68,14</Metric>
+		<Metric id="IDM_REGISTEREDUSERNAME" factor="4">17,33,217,8</Metric>
+		<!-- Plugins tab -->
+		<Metric id="IDM_CAT_PLUGINS" factor="4">6,8,229,8</Metric>
+		<Metric id="IDM_ICON_PLUGININFORMATION" factor="4">18,20,0,0</Metric>
+		<Metric id="IDM_PLUGIN_NOTIFICATION" factor="4">47,20,172,19</Metric>
+		<Metric id="IDM_PLUGINLIST" factor="4">18,47,201,108</Metric>
+		<Metric id="IDM_BTN_PLUGINENABLE" factor="4">114,160,50,14</Metric>
+		<Metric id="IDM_BTN_PLUGINDISABLE" factor="4">169,160,50,14</Metric>
+		<!-- About tab -->
+		<Metric id="IDM_NUMTHANKSLINES" factor="1">4</Metric>
+		<Metric id="IDM_PROGRAMTITLE" factor="4">48,9,177,9</Metric>
+		<Metric id="IDM_PROGRAMVERSION" factor="4">48,25,177,9</Metric>
+		<Metric id="IDM_PROGRAMCOPYRIGHT" factor="4">48,41,177,9</Metric>
+		<Metric id="IDM_PROGRAMICON" factor="4">13,13,0,0</Metric>
+		<Metric id="IDM_SEPARATORLINE" factor="4">7,57,227,1</Metric>
+		<Metric id="IDM_THANKS" factor="4">22,83,207,111</Metric>
+		<Metric id="IDM_THANKS_HEADER" factor="4">8,65,226,8</Metric>
+		<Metric id="IDM_LINK_FEEDBACK" factor="4">7,203,52,8</Metric>
+		<Metric id="IDM_LINK_HOMEPAGE" factor="4">155,203,79,8</Metric>
+		<!-- Activation dialog box -->
+		<Metric id="IDM_DLGACTIVATION" factor="2">273,68</Metric>
+		<Metric id="IDM_DLGACT_STATIC_ACTIVATIONSTATUS" factor="4">36,8,230,36</Metric>
+		<Metric id="IDM_DLGACT_STATIC_ACTIVATIONICON" factor="4">7,8,0,0</Metric>
+		<Metric id="IDM_DLGACT_BTNSIZE" factor="2">52,14</Metric>
+		<Metric id="IDM_DLGACT_BTNVERTPOS" factor="1">45</Metric>
+		<Metric id="IDM_DLGACT_BTNSPACING" factor="1">12</Metric>
+		<!-- Approach Items Options dialog box -->
+		<Metric id="IDM_DLGAPCHITEMS_SELF" factor="2">307,175</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_LBL_CURITEMS" factor="4">7,7,114,8</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_LBL_ALLITEMS" factor="4">186,7,114,8</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_LBX_CURITEMS" factor="4">7,18,114,129</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_LBX_ALLITEMS" factor="4">186,18,114,129</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_BTN_BROWSE" factor="4">7,154,114,14</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_BTN_ADD" factor="4">128,34,50,14</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_BTN_REMOVE" factor="4">128,50,50,14</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_BTN_UP" factor="4">128,74,50,14</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_BTN_DOWN" factor="4">128,90,50,14</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_BTN_OK" factor="4">196,154,50,14</Metric>
+		<Metric id="IDM_DLGAPCHITEMS_BTN_CANCEL" factor="4">250,154,50,14</Metric>
+		<!-- Titlebar Menus Options dialog box -->
+		<Metric id="IDM_DLGTBMENUS_SELF" factor="2">192,103</Metric>
+		<Metric id="IDM_DLGTBMENUS_GRP_ORDER" factor="4">7,3,178,40</Metric>
+		<Metric id="IDM_DLGTBMENUS_RBN_PARENTTOCHILD" factor="4">16,16,159,10</Metric>
+		<Metric id="IDM_DLGTBMENUS_RBN_CHILDTOPARENT" factor="4">16,27,159,10</Metric>
+		<Metric id="IDM_DLGTBMENUS_CHK_CURFOLDERASITEM" factor="4">7,49,178,10</Metric>
+		<Metric id="IDM_DLGTBMENUS_CHK_AUTOSELECTCURFOLDER" factor="4">18,61,167,10</Metric>
+		<Metric id="IDM_DLGTBMENUS_BTN_OK" factor="4">79,82,50,14</Metric>
+		<Metric id="IDM_DLGTBMENUS_BTN_CANCEL" factor="4">135,82,50,14</Metric>
+	</Metrics>
+</Approach_Localization>

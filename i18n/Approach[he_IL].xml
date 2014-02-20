@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Approach_Localization version="1">
+	<Summary>
+		<Locale>he_IL</Locale>
+		<Titles>
+			<Title locale="bg_BG">Иврит</Title>
+			<Title locale="cs_CZ">Hebrejština</Title>
+			<Title locale="da_DK">Hebraisk</Title>
+			<Title locale="de_DE">Hebräisch</Title>
+			<Title locale="en_US">Hebrew</Title>
+			<Title locale="es_ES">Hebreo</Title>
+			<Title locale="fi_FI">Heprea</Title>
+			<Title locale="fr_FR">Hébreu</Title>
+			<Title locale="he_IL">עברית</Title>
+			<Title locale="hu_HU">Héber</Title>
+			<Title locale="is_IS">Hebreska</Title>
+			<Title locale="it_IT">Ebraico</Title>
+			<Title locale="nb_NO">Hebraisk</Title>
+			<Title locale="nl_NL">Hebreeuws</Title>
+			<Title locale="nn_NO">Hebraisk</Title>
+			<Title locale="pl_PL">Hebrajski</Title>
+			<Title locale="pt_PT">Hebraico</Title>
+			<Title locale="ro_RO">Evrei</Title>
+			<Title locale="ru_RU">Иврит</Title>
+			<Title locale="sk_SK">Hebrejčina</Title>
+			<Title locale="sl_SI">Hebrew</Title>
+			<Title locale="sv_SE">Hebreiska</Title>
+			<Title locale="tr_TR">İbranice</Title>
+			<Title locale="zh_CN">希伯来文</Title>
+		</Titles>
+		<Created_Bys>
+			<Created_By locale="en_US">Created by Arik S. Petrov</Created_By>
+			<Created_By locale="he_IL">תרגום לעברית - אריק פטרוב</Created_By>
+			<Created_By locale="ru_RU">Перевел Арик C. Петров</Created_By>
+		</Created_Bys>
+		<Comments>
+			<Comment locale="en_US">Hebrew KO Approach localization</Comment>
+			<Comment locale="he_IL">לוקליזציה בעברית</Comment>
+			<Comment locale="ru_RU">Ивритская локализация KO Approach</Comment>
+		</Comments>
+	</Summary>
+
+	<Strings>
+		<!-- Tab titles -->
+		<String id="IDD_O_FEAT">מאפיינים</String>
+		<String id="IDD_O_MNSC">תפריטים וגלילה</String>
+		<String id="IDD_O_CNTS">תוכן</String>
+		<String id="IDD_O_MNTC">אחזקה</String>
+		<String id="IDD_O_REG">הרשמה</String>
+		<String id="IDD_O_ABT">אודות</String>
+		<!-- Exception item -->
+		<String id="IDS_EXCEPT_UNAVAILABLE">(אינו זמין)</String>
+		<String id="IDS_EXCEPT_EMPTY">(ריק)</String>
+		<String id="IDS_EXCEPT_GENERIC">(שגיאה כללית)</String>
+		<!-- Popup menu strings -->
+		<String id="IDP_MAIN_ENBL_FLDMNUS">הפעל תפריטי תיקיה</String>
+		<String id="IDP_MAIN_ENBL_APCHITMS">הפעל פריטי Approach</String>
+		<String id="IDP_MAIN_ENBL_TTLBARMNUS">אפשר תפריטי פס הכותרת</String>
+		<String id="IDP_MAIN_OPTIONS">אפשרויות...</String>
+		<String id="IDP_MAIN_EXIT">יציאה</String>
+		<String id="IDP_CXMN_TOAPPROACHITEMS">Approach צור קיצור דרך לפריטי</String>
+		<!-- Approach Items elements -->
+		<String id="IDS_APCHITEMS_ITEMRUN">רץ...</String>
+		<String id="IDS_APCHITEMS_ITEMPROC">תהליכים רצים</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_SYS">מערכת</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_QUIT">יציאה</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_REVEAL">חשוף</String>
+		<!-- Global command strings -->
+		<String id="IDS_GLBL_CMD_OK">אשר</String>
+		<String id="IDS_GLBL_CMD_CANCEL">בטל</String>
+		<String id="IDS_GLBL_CMD_HELP">עזרה...</String>
+		<String id="IDS_GLBL_CMD_YES">כן</String>
+		<String id="IDS_GLBL_CMD_NO">לא</String>
+		<String id="IDS_GLBL_CMD_RETRY">נסה שוב</String>
+		<!-- Global strings -->
+		<String id="IDS_GLBL_WARNING">אזהרה</String>
+		<String id="IDS_GLBL_ERROR">שגיאה</String>
+		<String id="IDS_GLBL_ALWAYS">תמיד</String>
+		<String id="IDS_GLBL_NEVER">אף פעם</String>
+		<String id="IDS_GLBL_MILLISEC">מילי-שנ'</String>
+		<String id="IDS_GLBL_USESYSSETTING">השתמש בהגדרות מערכת</String>
+		<!-- Features tab -->
+		<String id="IDL_O_FEAT_CAT_FLDMENUS">תפריטי תיקיה</String>
+		<String id="IDL_O_FEAT_FLDMENUSDESC">Folder Menus מאפשר ניווט ועיון מהירים בתוך תיקיה על ידי לחיצה ארוכה על התיקיה</String>
+		<String id="IDL_O_FEAT_INITDELAY">השהיית אתחול התפריט</String>
+		<String id="IDL_O_FEAT_CAT_APCHITEMS">פריטי Approach</String>
+		<String id="IDL_O_FEAT_APCHITEMSDESC"> פריטי Approach מאפשר גישה מהירה לתיקיות וקבצים הנמצאים בשימוש תדיר</String>
+		<String id="IDC_O_FEAT_APCHITEMSOPT">אפשרויות...</String>
+		<String id="IDL_O_FEAT_CAT_TTLBARMENUS">תפריטי פס כותרת</String>
+		<String id="IDL_O_FEAT_TTLBARMENUSDESC">תפריטי פס הכותרת: מאפשר עיון תוכן התיקיה בצורה היררכית על ידי לחיצת העכבר ביחד עם מקש הקונטרול על פס הכותרת של התיקיה</String>
+		<String id="IDC_O_FEAT_DESKPOS_0TOP">הצג את שולחן העבודה בקצה העליון</String>
+		<String id="IDC_O_FEAT_DESKPOS_1BOTM">הצג את שולחן העבודה בקצה התחתון</String>
+		<String id="IDC_O_FEAT_CURFLDISFILE">אל תציג תת-תפריט עבור התיקייה הנוכחית</String>
+		<String id="IDC_O_FEAT_CURFLDAUTOSEL">הבהרה אוטומטית של תיקיה נוכחית</String>
+		<!-- Menus and Scrolling tab -->
+		<String id="IDL_O_MNSC_CAT_MENUS">תפריטים</String>
+		<String id="IDL_O_MNSC_MAXMNUWIDTH">רוחב תפריטים מקסימלי</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_0PXL">פיקסלים</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_1PRC">% רוחב מסך</String>
+		<String id="IDL_O_MNSC_CHILDDELAY">השהיית תת תפריט</String>
+		<String id="IDL_O_MNSC_CAT_SCROLLING">גלילה</String>
+		<String id="IDL_O_MNSC_WHEELSCROLLS">גלגלת העכבר תעביר</String>
+		<String id="IDL_O_MNSC_WHEELITEMS">פריט/ים</String>
+		<String id="IDL_O_MNSC_PAGESCROLLS">גלילת Page Up / Page Down תעביר</String>
+		<String id="IDL_O_MNSC_PAGEITEMS">פריט/ים</String>
+		<String id="IDL_O_MNSC_SCROLLARROWS">הצג חיצי גלילה</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_0TOP">בקצה העליון</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_1BOTM">בקצה התחתון</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_2ENDS">בקצוות העליון והתחתון</String>
+		<String id="IDC_O_MNSC_DISPNUMTOSCROLL">הצג מספר פריטים הנותרו לגלילה</String>
+		<String id="IDL_O_MNSC_SCROLLDELAY">השהיית גלילה</String>
+		<!-- Contents tab -->
+		<String id="IDL_O_CNTS_CAT_ITEMS">פריטים</String>
+		<String id="IDL_O_CNTS_HDNITMS">הצג פריטים נסתרים</String>
+		<String id="IDC_O_CNTS_HDNITMS_DIMICN">הצג סמל מעומעם</String>
+		<String id="IDL_O_CNTS_BROWSEFLD">פתח תיקיות</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_0NEWWND">בחלון חדש</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_1SAMEWND">בחלון קיים</String>
+		<String id="IDL_O_CNTS_SSFISWHAT">התייחס לקיצורי דרך לתקיות כאל</String>
+		<String id="IDC_O_CNTS_SSFIS_0FOLDER">תיקיות</String>
+		<String id="IDC_O_CNTS_SSFIS_1FILE">קבצים</String>
+		<String id="IDL_O_CNTS_ZIPISWHAT">התייחס לתיקיות דחוסות כאל</String>
+		<String id="IDC_O_CNTS_ZIPIS_0FOLDER">תיקיות</String>
+		<String id="IDC_O_CNTS_ZIPIS_1FILE">קבצים</String>
+		<String id="IDL_O_CNTS_MOUSEITEMCLK">בחירת פריט על ידי העכבר</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_0REG">רגיל</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_1SGL">לחיצה רגילה</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_2DBL">לחיצה כפולה</String>
+		<String id="IDL_O_CNTS_CAT_ORDER">סדר פריטים</String>
+		<String id="IDC_O_CNTS_SORTITEMS">סדר פריטים לפי סדר הא-ב</String>
+		<String id="IDC_O_CNTS_FLDORD_0TOP">קבצים מקדימים תיקיות</String>
+		<String id="IDC_O_CNTS_FLDORD_1BOTM">קבצים קודמים לתיקיות</String>
+		<String id="IDC_O_CNTS_FLDORD_2MIX">אל תקבץ</String>
+		<String id="IDL_O_CNTS_CAT_ICONS">סמלים</String>
+		<String id="IDC_O_CNTS_ICN_0GENERIC">הצג סמלים כלליים</String>
+		<String id="IDC_O_CNTS_ICN_1REGULAR">הצג סמלים רגילים</String>
+		<String id="IDC_O_CNTS_ICNOVERLAYS">הצג סמלים מוספים</String>
+		<String id="IDC_O_CNTS_ICNOPTIMIZ">תייעל קבלת סמלים (דורש יותר משאבים)</String>
+		<!-- Maintenance tab -->
+		<String id="IDL_O_MNTC_CAT_MNTC">אחזקה</String>
+		<String id="IDL_O_MNTC_UILANG">שפת ממשק משתמש</String>
+		<String id="IDS_O_MNTC_UILANG_MORE">שםות נוספות</String>
+		<String id="IDL_O_MNTC_UPDATE">עדכוני תוכנה</String>
+		<String id="IDC_O_MNTC_UPDATE">בדוק עדכונים</String>
+		<String id="IDC_O_MNTC_UPDATEAUTO">בדוק עדכונים אוטמטית</String>
+		<String id="IDL_O_MNTC_RESTDEF">ברירת מחדל</String>
+		<String id="IDC_O_MNTC_RESTDEF">שחזר ברירת מחדל</String>
+		<String id="IDL_O_MNTC_AUTORUN">הפעל עם העלאת מערכת ההפעלה</String>
+		<String id="IDC_O_MNTC_AUTORUN">אפשר הפעלה אוטומטית</String>
+		<String id="IDL_O_MNTC_CAT_PLUGINS">התקנים</String>
+		<String id="IDC_O_MNTC_PLGNENBL">מפעיל</String>
+		<String id="IDC_O_MNTC_PLGNDSBL">מפסיק</String>
+		<String id="IDS_O_MNTC_PLGNLST_NAME">שם</String>
+		<String id="IDS_O_MNTC_PLGNLST_STATUS">סטטוס</String>
+		<String id="IDS_O_MNTC_PLGNLST_LOADED">טעון</String>
+		<String id="IDS_O_MNTC_PLGNLST_NOTLOADED">לא טעון</String>
+		<String id="IDS_O_MNTC_PLGNLST_STOPPING">עוצר</String>
+		<String id="IDS_O_MNTC_PLGNLST_DISABLED">מופסק</String>
+		<String id="IDS_O_MNTC_MSG_UPDYES">?קיים עדכון זמין. האם תרצה להוריד אותו</String>
+		<String id="IDS_O_MNTC_MSG_UPDNO">לא קיים עדכון זמין כעת</String>
+		<String id="IDS_O_MNTC_MSG_RESTDEF">ברירות המחדל שוחזרו</String>
+		<!-- Registration tab (registered mode) -->
+		<String id="IDL_O_RGOK_CAT_USER">משתמש רשום</String>
+		<String id="IDL_O_RGOK_REGUSER">מוצר זה רשום ל</String>
+		<String id="IDL_O_RGOK_CAT_KEYBKP">מפתח גיבוי</String>
+		<String id="IDL_O_RGOK_BACKUP">שקול שמירת מפתח ההפעלה שברשותך במקום בטוח. לחץ על גיבוי על מנת לשמור העתק של מפתח</String>
+		<String id="IDC_O_RGOK_BACKUP">גיבוי...</String>
+		<!-- Registration tab (unregistered mode) -->
+		<String id="IDL_O_RGNO_INETREQD">עליך להתחבר לאינטרנט על מנת להמשיך עם רישוי ההפעלה</String>
+		<String id="IDL_O_RGNO_CAT_LIC">רישוי</String>
+		<String id="IDL_O_RGNO_ACTDESC1">העתק זה של תוכנה אינו רשום ופועל כעת במצב פונקציונליות מוגבלת. על מנת להשתמש במוצר באופן מלא עליך לרכוש רישיון ולהפעיל את התוכנה</String>
+		<String id="IDL_O_RGNO_ACTDESC2">אם קיים ברשותך רשיון, הינך יכול להפעילו על מנת לקבל גישה לפונקציונליות מלאה של התוכנה</String>
+		<String id="IDC_O_RGNO_PURCHASE">רכישה...</String>
+		<String id="IDC_O_RGNO_KEYRESTORE">לשחזר...</String>
+		<String id="IDL_O_RGNO_CAT_ACTIVN">הפעלה</String>
+		<String id="IDL_O_RGNO_SERNUM">הזן את המספר הסידורי שקיבלת בדוא"ל, בפורמט 0-00000-00000-00000-00000</String>
+		<String id="IDC_O_RGNO_SERNUMHIDE">הסתר מספר סידורי</String>
+		<String id="IDC_O_RGNO_ACTIVATE">הפעל...</String>
+		<!-- About tab -->
+		<String id="IDC_O_ABT_THXCAPTION">תודה מיוחדת ל:</String>
+		<String id="IDS_O_ABT_VERSION">גרסה</String>
+		<String id="IDS_O_ABT_THX1">Turlough O'Connor - על הרעיון המקורי</String>
+		<String id="IDS_O_ABT_THX2">Dmitry Osipov - עבור תיעוד המוצר, הצעות לשיפור, בדיקות טרום-שחרור מוצר ותמיכה כללית</String>
+		<String id="IDS_O_ABT_THX3">Andrew Fellows, Denis Gavrilov, Alexander Gusev, Ilya Kirilkin, Ilya Popov, Sergey Samsonov, Jan Schröder, Alexander Simanov, Roman Soshkin, and Denis Vlasov - עבור הצעות חשובות ובדיקות טרום   שחרור המוצר</String>
+		<String id="IDS_O_ABT_THX4">CodeProject - על ההשראה</String>
+		<String id="IDC_O_ABT_FEEDBACK">שלח תגובה</String>
+		<String id="IDC_O_ABT_HOMEPAGE">דף הבית KO Approach</String>
+		<!-- Backup/Restore dialog box -->
+		<String id="IDS_KEYDLG_FILTER">קבצי מפתח של KO Approach</String>
+		<String id="IDS_KEYDLG_TITLE">בחר מיקום שמירה של מפתח ההפעלה</String>
+		<!-- Activation dialog box -->
+		<String id="IDS_ACTN_ST_CONN">מתחבר...</String>
+		<String id="IDS_ACTN_ST_SUCC">ההפעלה בוצעה בהצלחה</String>
+		<String id="IDS_ACTN_ST_FAIL">שגיאת הפעלה</String>
+		<String id="IDS_ACTN_ST_RSTR">השחזור הושלם</String>
+		<String id="IDS_ACTN_DS_CONN">מתחבר לשרת ההפעלה, נא להמתין</String>
+		<String id="IDS_ACTN_DS_CONNERR">התקשרות לא הצליחה. נא בדוק את הגדרות הרשת ונסה שוב. אם הינך משתמש בחומת האש נא אפשר גישה יוצאת עבור Approach</String>
+		<String id="IDS_ACTN_DS_HWIDERR">אין אפשרות ליצור מזהה חומרה עבור מחשב זה. נא נסה להפעיל את התוכנה מחדש. אם הבעיה חוזרת נא צור קשר עם תמיכת הלקוחות בכתובת support@koapproach.com</String>
+		<String id="IDS_ACTN_DS_SRNMERR">המספר הסידורי אינו מאומת. נא הזן שוב את המספר הסידורי</String>
+		<String id="IDS_ACTN_DS_GNRCERR">התרחשה שגיאה לא מוגדרת. נא נסה להפעיל את התוכנה שוב. אם הבעיה חוזרת נא צור קשר עם תמיכת הלקוחות בכתובת support@koapproach.com</String>
+		<String id="IDS_ACTN_DS_LMTEXCD">חרגת מהגבלת ניסיונות לבקשת מפתחות ההפעלה. האם תרצה לרכוש רישיונות נוספים?</String>
+		<String id="IDS_ACTN_DS_SUCC">ברכות! הפעלת התוכנה הצליחה</String>
+		<String id="IDS_ACTN_DS_RSTR">מפתח הפעלה הושם בתיקיית היישומים של התונכה. לחץ על אישור על מנת להפעיל מחדש את התוכנה ולאמת את המפתח</String>
+		<String id="IDS_ACTN_DS_KEYACCS">למרות שמפתח ההפעלה הושג בהצלחה, התוכנה לא הצליחה לרשום אותו בתיקיית היישומים. נא בדוק אם קיימות ברשותך זכויות גישה על מנת לבצע את הפעולה</String>
+		<!-- Warning dialog boxes -->
+		<String id="IDS_WARNTXT_FEATURELOCKED">העתק זה של תוכנה אינו רשום. אינך יכול להפעיל יותר משתי תכונות התוכנה במקביל</String>
+		<String id="IDS_WARNTXT_INVALIDKEY">מפתח הפעלה זה אינו תקין. התוכנה תפעל במצב של פונקציונליות מוגבלת. נא הסר את מפתח ההתקנה הלא תקין על מנת למנוע הופעת הודעת שגיאה זו בכל פעם שתפעיל את התוכנה</String>
+		<!-- Approach Items Options dialog box -->
+		<String id="IDD_APCHITMS">פריטי Approach</String>
+		<String id="IDL_APCHITMS_CUR">פריטים נוכחיים:</String>
+		<String id="IDL_APCHITMS_ALL">פריטים זמינים:</String>
+		<String id="IDC_APCHITMS_ADD">הוסף</String>
+		<String id="IDC_APCHITMS_RMV">הסר</String>
+		<String id="IDC_APCHITMS_UP">מעלה</String>
+		<String id="IDC_APCHITMS_DOWN">מטה</String>
+		<String id="IDC_APCHITMS_BRW">חפש בפריטי Approach</String>
+		<!-- Help popups -->
+		<String id="IDH_OPTS_OK">שומר שינויים וסוגר את חלון התוכנה</String>
+		<String id="IDH_OPTS_CANCEL">מתעלם משינויים וסוגר את חלון התוכנה</String>
+		<String id="IDH_OPTS_HELP">פותח את תיעוד התוכנה</String>
+		<String id="IDH_O_FEAT_FLDMENUSTGL">מאפשר/מבטל את תכונות תפריטי התיקיה המאפשרות להציג תפריטים אשר מדמים את המבנה של התיקיה הנבחרת</String>
+		<String id="IDH_O_FEAT_INITDELAY">מגדיר את משך זמן לחיצת מקש העכבר הדרוש לפתיחת התפריט הראשוני</String>
+		<String id="IDH_O_FEAT_APCHITEMSTGL">מאפשר/מבטל את תכונות פריטי התוכנה המספקים גישה מהירה לקבצים מועדפים</String>
+		<String id="IDH_O_FEAT_APCHITEMSOPT">פותח חלון אפשרויות של פריטי התוכנה המאפשרות ניהול תוכן</String>
+		<String id="IDH_O_FEAT_TTLBARMENUSTGL">מאפשר/מבטל את תכונות תפריטי פס הכותרת המאפשרות דפדוף בתפריטים מורשים המובנים בפס הכותרת של חלון האקספלורר</String>
+		<String id="IDH_O_FEAT_DESKPOS_0TOP">תפריטי פס הכותרת יציג את שולחן העבודה בקצה העליון של הרשימה ואת התיקיה הנוכחית בתחתית</String>
+		<String id="IDH_O_FEAT_DESKPOS_1BOTM">תפריטי פס הכתורת יציג את התיקיה הנוכחית בקצה העליון של הרשימה ואת שולחן העבודה בתחתית</String>
+		<String id="IDH_O_FEAT_CURFLDISFILE">פריטי פס הכתורת לא יציג את חיצי תתי התפריט ויטפל בהם כקבצים</String>
+		<String id="IDH_O_FEAT_CURFLDAUTOSEL">תפריטי פס הכותרת יבהיר את הפריט המתייחס לתיקיה הנוכחית</String>
+		<String id="IDH_O_MNSC_MAXMNUWIDTH">מציין את הרוחב המקסימלי של התפריט. רוחב מקסימלי לא יעלה על שליש מרוחב המסךו</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_0PXL">מגדיר את רוחב התפריט המקסימלי למספר פיקסלים מסוים</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_1PRC">מגדיר את רוחב התפריט המקסימלי למספר אחוזים מסוים מרוחב המסך</String>
+		<String id="IDH_O_MNSC_CHILDDELAY">מגדיר את משך זמן לחיצת מקש העכבר לפתיחת תתי הכותרת</String>
+		<String id="IDH_O_MNSC_WHEELSCROLLS">מציין את מספר הפריטים שידולגו בעת גלילה על ידי העכבר</String>
+		<String id="IDH_O_MNSC_PAGESCROLLS">מציין את מספר הפריטים שידולגו בעת לחיצת מקשי ה Page Up/Page Down</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_0TOP">מגדיר את שני חיצי הגלילה, במידה והינם מוצגים, בקצה העליון של התפריט</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_1BOTM">מגדיר את שני חיצי הגלילה, במידה והינם מוצגים, בקצה התחתון של התפריט</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_2ENDS">מגדיר את חיצי הגלילה המעלה\מטה, במידה והינם מוצגים, בקצוות העליון והתחתון, בהתאמה</String>
+		<String id="IDH_O_MNSC_DISPNUMTOSCROLL">מציג\מסתיר את הסופר של פריטי התפריט הנמצאים מחוץ לגבולות המסך</String>
+		<String id="IDH_O_MNSC_SCROLLDELAY">מגדיר את משך זמן לחיצת העכבר הדרוש להצגת תפריט עליון/תחתון הבא בתפריט בעת גלילה</String>
+		<String id="IDH_O_CNTS_HDNITMS">מגדיר הצגת פריטים מוסתרים</String>
+		<String id="IDH_O_CNTS_HDNITMS_DIMICN">מציין שפריטים נסתרים יוצגו על ידי סמל חצי שקוף</String>
+		<String id="IDH_O_CNTS_BROWSEFLD">מגדיר שימוש חוזר בחלון האקספלורר בזמן הקשה על התיקיה</String>
+		<String id="IDH_O_CNTS_SSFIS_0FOLDER">מציין שקיצורי הדרך של התיקיה יציגו את תוכנם</String>
+		<String id="IDH_O_CNTS_SSFIS_1FILE">מציין שקיצורי הדרך של התיקיה לא יציגו את תוכנם</String>
+		<String id="IDH_O_CNTS_ZIPIS_0FOLDER">מציין שקבצים דחוסים יציגו את תוכנם</String>
+		<String id="IDH_O_CNTS_ZIPIS_1FILE">מציין שקבצים דחוסים לא יציגו את תוכנם</String>
+		<String id="IDH_O_CNTS_MOUSEITEMCLK">מציין אם תפריט יופעל על ידי לחיצת עכבר רגילה או כפולה</String>
+		<String id="IDH_O_CNTS_SORTITEMS">מגדיר את אופן ההצגה של פריטי התפריט בסדר הא-ב</String>
+		<String id="IDH_O_CNTS_FLDORD_0TOP">מציין הצגת תיקיות ואחר כך קבצים</String>
+		<String id="IDH_O_CNTS_FLDORD_1BOTM">מציין אם קבצים בתפריט יוצגו לפני תיקיות</String>
+		<String id="IDH_O_CNTS_FLDORD_2MIX">אין הפרדה בין הצגת קבצים או תיקיות אלא על ידי הצגה רשימה רציפה</String>
+		<String id="IDH_O_CNTS_ICN_0GENERIC">מציין אם סמלים מקוריים יוחלפיו על ידי סמלים כלליים של תיקיה, אפליקציה או קובץ על מנת לאפשר הצגת תפריטים מהירה יותר</String>
+		<String id="IDH_O_CNTS_ICN_1REGULAR">מציין אם פריטים יציגו סמלים דומים לאלה של Windows Explorer </String>
+		<String id="IDH_O_CNTS_ICNOVERLAYS">מציין אם פריטים יציגו סמלים נוספים, גכון חיצי קיצורי הדרך</String>
+		<String id="IDH_O_CNTS_ICNOPTIMIZ">מגדיר לתוכנה לשלוף סמלים של פריטים בצרורות על מנת לשפר את תהליך ההגשה של הסמלים</String>
+		<String id="IDH_O_MNTC_UILANG">מציין את הלוקליזציה של התוכנה</String>
+		<String id="IDH_O_MNTC_LOCALEINFO">מציג מידע עבור לוקליזציה שנבחרה</String>
+		<String id="IDH_O_MNTC_UPDATE">בודק אם קיים עדכון זמין באתר האינטרנט של התוכנה ומציע לך להוריד ולהתקינו</String>
+		<String id="IDH_O_MNTC_UPDATEAUTO">מציין אם התוכנה תבדוק עדכונים בצורה שוטפת ותציג הודעה בהמצאות עדכון זמין </String>
+		<String id="IDH_O_MNTC_RESTDEF">מחזיר הגדרות עבור משתמש נוכחי לערכים שהוגדרו בזמן ההפעלה הראשונית של התוכנה</String>
+		<String id="IDH_O_MNTC_AUTORUN">יוצר/מסיר קיצור הדרך של התוכנה בתיקיית ההתחלה בתפריט ההתחל</String>
+		<String id="IDH_O_MNTC_PLGNLST">מציג רשימה של התקנים מותקנים</String>
+		<String id="IDH_O_MNTC_PLGNENBL">מפעיל את ההתקנים הנבחרים לאחר אישור והפעלת התוכנה מחדש</String>
+		<String id="IDH_O_MNTC_PLGNDSBL">מפסיק את ההקנים הנבחרים לאחר אישור והפלת התוכנה מחדש</String>
+		<String id="IDH_O_RGOK_REGUSER">מציג את השם של המשתמש הרשום</String>
+		<String id="IDH_O_RGOK_BACKUP">מגבה את מפתח ההפעלה שלך למיקום שציינת</String>
+		<String id="IDH_O_RGNO_KEYRESTORE">משחזר את מפתח ההפעלה שלך מהמיקום שציינת</String>
+		<String id="IDH_O_RGNO_PURCHASE">פותח את דף ההזמנה המקוון של KO Approach</String>
+		<String id="IDH_O_RGNO_ACTIVATE">מנסה להשיג את מפתח ההפעלה על ידי שירות ההפעלה המקוון של KO Approach</String>
+		<String id="IDH_O_RGNO_SERNUMHIDE">מציג את המספר הסידורי שלך על ידי כוכביות למטרת סודיות</String>
+		<String id="IDH_O_RGNO_SERNUM">מאפשר לציין את המספר הסידורי שלך לשירות ההפעלה המקוון</String>
+		<String id="IDH_O_ABT_FEEDBACK">יוצר דוא"ל חדש על מנת שתוכל לשלוח לנו תגובות והערות</String>
+		<String id="IDH_O_ABT_HOMEPAGE">פותח את אתר האינטרנט של התוכנה בעזרת דפדפן ברירת המחדל שלך</String>
+	</Strings>
+	<Metrics>
+		<!-- Global -->
+		<Metric id="IDM_GLBL_LANGRTL" factor="1">1</Metric>
+		<Metric id="IDM_GLBL_MILLISECFMT" factor="1">0</Metric>
+		<!-- Main dialog box -->
+		<Metric id="IDM_OPTS_CONTROLMARGIN" factor="1">7</Metric>
+		<Metric id="IDM_OPTS_CATEGORIESWIDTH" factor="1">80</Metric>
+		<Metric id="IDM_OPTS_BUTTONSIZE" factor="2">52,14</Metric>
+		<!-- Features tab -->
+		<Metric id="IDD_O_FEAT" factor="2">320,290</Metric>
+		<Metric id="IDL_O_FEAT_CAT_FLDMENUS" factor="4">20,5,293,12</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSVIS" factor="4">27,25,38,35</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSDESC" factor="4">74,25,222,17</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAY" factor="4">74,52,77,9</Metric>
+		<Metric id="IDC_O_FEAT_INITDELAY" factor="4">153,52,73,20</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAYVAL" factor="4">239,52,57,10</Metric>
+		<Metric id="IDL_O_FEAT_CAT_APCHITEMS" factor="4">20,80,293,12</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSVIS" factor="4">27,100,38,35</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSDESC" factor="4">74,100,222,17</Metric>
+		<Metric id="IDC_O_FEAT_APCHITEMSOPT" factor="4">74,124,55,13</Metric>
+		<Metric id="IDL_O_FEAT_CAT_TTLBARMENUS" factor="4">20,156,293,12</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSVIS" factor="4">27,176,38,35</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSDESC" factor="4">74,176,222,17</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_0TOP" factor="4">74,201,222,9</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_1BOTM" factor="4">74,211,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDISFILE" factor="4">74,223,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDAUTOSEL" factor="4">84,234,212,9</Metric>
+		<!-- Menus and Scrolling tab -->
+		<Metric id="IDD_O_MNSC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNSC_CAT_MENUS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNSC_MAXMNUWIDTH" factor="4">27,25,124,9</Metric>
+		<Metric id="IDC_O_MNSC_MAXMNUWIDTH" factor="4">158,23,33,12</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_0PXL" factor="4">195,20,101,9</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_1PRC" factor="4">195,29,101,9</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAY" factor="4">27,47,124,10</Metric>
+		<Metric id="IDC_O_MNSC_CHILDDELAY" factor="4">153,46,91,20</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAYVAL" factor="4">247,48,49,10</Metric>
+		<Metric id="IDL_O_MNSC_CAT_SCROLLING" factor="4">6,75,307,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELSCROLLS" factor="4">27,95,124,9</Metric>
+		<Metric id="IDC_O_MNSC_WHEELSCROLLS" factor="4">158,93,33,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELITEMS" factor="4">195,95,101,9</Metric>
+		<Metric id="IDL_O_MNSC_PAGESCROLLS" factor="4">27,115,124,9</Metric>
+		<Metric id="IDC_O_MNSC_PAGESCROLLS" factor="4">158,113,33,12</Metric>
+		<Metric id="IDL_O_MNSC_PAGEITEMS" factor="4">195,115,101,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLARROWS" factor="4">27,132,124,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_0TOP" factor="4">158,132,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_1BOTM" factor="4">158,143,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_2ENDS" factor="4">158,154,138,9</Metric>
+		<Metric id="IDC_O_MNSC_DISPNUMTOSCROLL" factor="4">158,170,155,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAY" factor="4">27,188,124,10</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLDELAY" factor="4">153,187,91,20</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAYVAL" factor="4">247,188,49,10</Metric>
+		<!-- Contents tab -->
+		<Metric id="IDD_O_CNTS" factor="2">320,290</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ITEMS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_CNTS_HDNITMS" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS" factor="4">158,22,138,33</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS_DIMICN" factor="4">158,38,138,9</Metric>
+		<Metric id="IDL_O_CNTS_BROWSEFLD" factor="4">27,57,124,8</Metric>
+		<Metric id="IDC_O_CNTS_BROWSEFLD" factor="4">158,54,138,33</Metric>
+		<Metric id="IDL_O_CNTS_SSFISWHAT" factor="4">27,75,124,8</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_0FOLDER" factor="4">158,74,52,9</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_1FILE" factor="4">218,74,52,9</Metric>
+		<Metric id="IDL_O_CNTS_ZIPISWHAT" factor="4">27,93,124,8</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_0FOLDER" factor="4">158,92,52,9</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_1FILE" factor="4">218,92,52,9</Metric>
+		<Metric id="IDL_O_CNTS_MOUSEITEMCLK" factor="4">27,111,124,8</Metric>
+		<Metric id="IDC_O_CNTS_MOUSEITEMCLK" factor="4">158,108,138,33</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ORDER" factor="4">6,139,307,12</Metric>
+		<Metric id="IDC_O_CNTS_SORTITEMS" factor="4">27,159,124,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_0TOP" factor="4">158,159,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_1BOTM" factor="4">158,171,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_2MIX" factor="4">158,183,138,9</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ICONS" factor="4">6,206,307,12</Metric>
+		<Metric id="IDC_O_CNTS_ICN_0GENERIC" factor="4">27,225,124,9</Metric>
+		<Metric id="IDC_O_CNTS_ICN_1REGULAR" factor="4">158,225,138,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOVERLAYS" factor="4">168,237,128,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOPTIMIZ" factor="4">168,249,128,19</Metric>
+		<!-- Maintenance and Plug-ins tab -->
+		<Metric id="IDD_O_MNTC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNTC_CAT_MNTC" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNTC_UILANG" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UILANG" factor="4">158,22,138,30</Metric>
+		<Metric id="IDC_O_MNTC_LOCALEINFO" factor="4">158,39,138,20</Metric>
+		<Metric id="IDL_O_MNTC_UPDATE" factor="4">27,71,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UPDATE" factor="4">158,67,138,14</Metric>
+		<Metric id="IDC_O_MNTC_UPDATEAUTO" factor="4">158,84,138,10</Metric>
+		<Metric id="IDL_O_MNTC_RESTDEF" factor="4">27,106,124,8</Metric>
+		<Metric id="IDC_O_MNTC_RESTDEF" factor="4">158,102,138,14</Metric>
+		<Metric id="IDL_O_MNTC_AUTORUN" factor="4">27,127,124,8</Metric>
+		<Metric id="IDC_O_MNTC_AUTORUN" factor="4">158,126,138,9</Metric>
+		<Metric id="IDL_O_MNTC_CAT_PLUGINS" factor="4">6,146,307,12</Metric>
+		<Metric id="IDC_O_MNTC_PLGNLST" factor="4">27,164,269,91</Metric>
+		<Metric id="IDC_O_MNTC_PLGNDSBL" factor="4">229,260,67,14</Metric>
+		<Metric id="IDC_O_MNTC_PLGNENBL" factor="4">158,260,67,14</Metric>
+		<!-- Registration tab (unregistered mode) -->
+		<Metric id="IDD_O_RGNO" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGNO_INETICN" factor="4">27,9,0,0</Metric>
+		<Metric id="IDL_O_RGNO_INETREQD" factor="4">62,11,234,17</Metric>
+		<Metric id="IDL_O_RGNO_CAT_LIC" factor="4">6,38,307,12</Metric>
+		<Metric id="IDL_O_RGNO_UNREGICN" factor="4">27,58,0,0</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC1" factor="4">62,56,234,26</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC2" factor="4">62,88,234,23</Metric>
+		<Metric id="IDC_O_RGNO_PURCHASE" factor="4">155,116,68,14</Metric>
+		<Metric id="IDC_O_RGNO_KEYRESTORE" factor="4">228,116,68,14</Metric>
+		<Metric id="IDL_O_RGNO_CAT_ACTIVN" factor="4">6,140,307,12</Metric>
+		<Metric id="IDL_O_RGNO_SERNUM" factor="4">27,158,269,17</Metric>
+		<Metric id="IDC_O_RGNO_SERNUM" factor="4">27,179,196,12</Metric>
+		<Metric id="IDC_O_RGNO_SERNUMHIDE" factor="4">27,193,78,9</Metric>
+		<Metric id="IDC_O_RGNO_ACTIVATE" factor="4">228,178,68,14</Metric>
+		<!-- Registration tab (registered mode) -->
+		<Metric id="IDD_O_RGOK" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGOK_CAT_USER" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_RGOK_REGUSER" factor="4">27,25,286,8</Metric>
+		<Metric id="IDC_O_RGOK_REGUSER" factor="4">27,38,286,8</Metric>
+		<Metric id="IDL_O_RGOK_CAT_KEYBKP" factor="4">6,59,307,12</Metric>
+		<Metric id="IDL_O_RGOK_BACKUP" factor="4">27,79,269,17</Metric>
+		<Metric id="IDC_O_RGOK_BACKUP" factor="4">228,100,68,14</Metric>
+		<!-- About tab -->
+		<Metric id="IDD_O_ABT" factor="2">320,290</Metric>
+		<Metric id="IDC_O_ABT_APPICON" factor="4">27,18,0,0</Metric>
+		<Metric id="IDC_O_ABT_APPNAME" factor="4">70,9,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPVER" factor="4">70,25,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPCOPY" factor="4">70,41,180,9</Metric>
+		<Metric id="IDC_O_ABT_HORRULE" factor="4">7,57,306,1</Metric>
+		<Metric id="IDC_O_ABT_THXCAPTION" factor="4">8,65,305,8</Metric>
+		<Metric id="IDC_O_ABT_THXLIST" factor="4">27,83,286,111</Metric>
+		<Metric id="IDC_O_ABT_FEEDBACK" factor="4">6,275,52,8</Metric>
+		<Metric id="IDC_O_ABT_HOMEPAGE" factor="4">234,275,79,8</Metric>
+		<Metric id="IDM_O_ABT_NUMTHANKSLINES" factor="1">4</Metric>
+		<!-- Activation dialog box -->
+		<Metric id="IDD_ACTN" factor="2">273,68</Metric>
+		<Metric id="IDL_ACTN_ICON" factor="4">7,8,0,0</Metric>
+		<Metric id="IDL_ACTN_STATUS" factor="4">36,8,230,36</Metric>
+		<Metric id="IDM_ACTN_BTNSIZE" factor="2">52,14</Metric>
+		<Metric id="IDM_ACTN_BTNVERTPOS" factor="1">45</Metric>
+		<Metric id="IDM_ACTN_BTNSPACING" factor="1">12</Metric>
+		<!-- Approach Items Options dialog box -->
+		<Metric id="IDD_APCHITMS" factor="2">307,175</Metric>
+		<Metric id="IDL_APCHITMS_CUR" factor="4">7,7,114,8</Metric>
+		<Metric id="IDL_APCHITMS_ALL" factor="4">186,7,114,8</Metric>
+		<Metric id="IDC_APCHITMS_CUR" factor="4">7,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ALL" factor="4">186,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ADD" factor="4">128,34,50,14</Metric>
+		<Metric id="IDC_APCHITMS_RMV" factor="4">128,50,50,14</Metric>
+		<Metric id="IDC_APCHITMS_UP" factor="4">128,74,50,14</Metric>
+		<Metric id="IDC_APCHITMS_DOWN" factor="4">128,90,50,14</Metric>
+		<Metric id="IDC_APCHITMS_BRW" factor="4">7,154,114,14</Metric>
+		<Metric id="IDM_APCHITMS_OK" factor="4">196,154,50,14</Metric>
+		<Metric id="IDM_APCHITMS_CANCEL" factor="4">250,154,50,14</Metric>
+	</Metrics>
+</Approach_Localization>

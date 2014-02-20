@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Content Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>htm;html;css;js;txt</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="HTML Help files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>hhp;hhc;hhk</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\_src\Help\content\approach_items.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\approach_items_options.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\clipboardassistant_plugin.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\faq.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\files_installed.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\folder_menus.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\functions.js">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\installation.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\instanttxt_plugin.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\instantwave_plugin.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\issues.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\keyboard_navigation.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\manual_removal.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\overview.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\quick_start.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\running_installer.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\running_uninstaller.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\scope_plugin.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\styles.css">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\system_requirements.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\tab_about.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\tab_contents.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\tab_features.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\tab_maintenance.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\tab_menusscrolling.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\tab_registration.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\technical_support.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\titlebar_menus.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\tray_menu.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\uninstall.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\user_interface.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\using_approach.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\content\version_history.html">
+      <Filter>Content Files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\Approach.hhc">
+      <Filter>HTML Help files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\Approach.hhk">
+      <Filter>HTML Help files</Filter>
+    </None>
+    <None Include="..\..\_src\Help\Approach.hhp">
+      <Filter>HTML Help files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

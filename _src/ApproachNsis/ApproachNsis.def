@@ -1,0 +1,7 @@
+LIBRARY	ApproachNsis
+
+EXPORTS
+   IsVersionOK           PRIVATE
+   DlgRunningPrepare     PRIVATE
+   QuitProgram           PRIVATE
+   UpdateRegPermissions  PRIVATE

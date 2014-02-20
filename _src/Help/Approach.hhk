@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Features tab">
+		<param name="Local" value="content\tab_features.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Menus &amp; Scrolling tab">
+		<param name="Local" value="content\tab_menusscrolling.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="About tab">
+		<param name="Local" value="content\tab_about.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Scope Plugin">
+		<param name="Local" value="content\scope_plugin.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Graphics files, previewing">
+		<param name="Local" value="content\scope_plugin.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Graphics files, supported formats">
+		<param name="Local" value="content\scope_plugin.html#Formats">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="WAV sound files, playing">
+		<param name="Name" value="InstantWave Plugin">
+		<param name="Local" value="content\instantwave_plugin.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Text files, previewing">
+		<param name="Name" value="InstantTxt Plugin">
+		<param name="Local" value="content\instanttxt_plugin.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Folder Menus">
+		<param name="Local" value="content\folder_menus.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Initial menu delay">
+		<param name="Local" value="content\tab_features.html#InitialMenu">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Child menu delay">
+		<param name="Local" value="content\tab_menusscrolling.html#ChildMenu">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ZIP archives, treat as folders">
+		<param name="Local" value="content\tab_contents.html#ZipArchives">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tray menu">
+		<param name="Local" value="content\tray_menu.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Scrolling">
+		<param name="Local" value="content\using_approach.html#Scrolling">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Contextual menus">
+		<param name="Local" value="content\using_approach.html#Context">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Contextual menus, additional items">
+		<param name="Local" value="content\clipboardassistant_plugin.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Uninstall, automatic">
+		<param name="Local" value="content\running_uninstaller.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Uninstall, manual">
+		<param name="Local" value="content\manual_removal.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Approach Items">
+		<param name="Local" value="content\approach_items.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Launching Approach automatically">
+		<param name="Local" value="content\maintenance.html#Autorun">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Keyboard, using for navigation">
+		<param name="Local" value="content\keyboard_navigation.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="_Target shortcut">
+		<param name="Local" value="content\approach_items.html#Target">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Re-point Approach Items">
+		<param name="Local" value="content\approach_items.html#Target">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Contents tab">
+		<param name="Local" value="content\tab_contents.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Titlebar Menus">
+		<param name="Local" value="content\titlebar_menus.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Plug-ins, enabling and disabling">
+		<param name="Local" value="content\tab_maintenance.html#Plugins">
+		</OBJECT>
+</UL>
+</BODY></HTML>

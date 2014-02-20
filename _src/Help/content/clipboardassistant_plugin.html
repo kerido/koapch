@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<title>ClipboardAssistant Plug-In</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div class="Content">
+			<p>
+				The <span class="EntityName">ClipboardAssistant</span> plug-in inserts additional
+				items into standard <a href="using_approach.html#Context">contextual menus</a>
+				displayed in KO&nbsp;Approach. The following items may be inserted:
+			</p>
+
+			<ol>
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Copy full path</span> item</p>
+					<p>
+						Copies the full path of the file or folder to the clipboard. This item is displayed for
+						all files and folders. For non file-system items (such as <span class="EntityName">My Computer</span>),
+						this item will not be present.
+					</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Copy target path</span> item</p>
+					<p>
+						Copies to the clipboard the full path to the file or folder whose shortcut is selected. This item is
+						displayed only for shortcuts.
+					</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Copy directory listing</span> item</p>
+					<p>
+						Copies the list of file and folder names contained in the selected folder, to the clipboard. This item
+						is displayed only for file-system folders.
+					</p>
+				</li>
+			</ol>
+
+			<p>
+				Depending on the type of the element for which the contextual menu is active,
+				certain items may not be present. For example, items displayed in the contextual menu
+				for a file system folder are as follows:
+			</p>
+
+			<p><img src="../images/plugin_clipboardassistant.png" alt="ClipboardAssistant plug-in" /></p>
+
+			<p>
+				Choosing the <span class="EntityName">Copy directory listing</span> command on
+				the KO&nbsp;Approach <a href="files_installed.html">installation directory</a>
+				places the following data to the clipboard:
+			</p>
+
+			<pre>..
+Approach.chm
+Approach.exe
+ApproachIpc.dll
+License.txt
+Locale
+Plugins
+Uninstall.exe
+whatsnew.txt</pre>
+
+		</div>
+		<script type="text/javascript" src="functions.js"></script>
+	</body>
+</html>

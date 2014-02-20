@@ -1,0 +1,180 @@
+body
+{
+	font-size: 10pt;
+	color: black;
+	font-family: Tahoma;
+	margin: 0px;
+	padding: 0px;
+	min-width:380px;
+}
+
+ol,
+ul
+{
+	margin-top:0px;
+}
+
+ul p,
+ol p
+{
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+
+h1
+{
+	font-weight:bold;
+	font-size:18px;
+	padding: 0px 0px 5px 10px;
+	margin:0px;
+}
+
+h2
+{
+	font-size:110%;
+	padding-bottom: 0px;
+	margin: 20px 0px 6px 0px;
+}
+
+p
+{
+	margin: 0px 0px 12px 0px;
+	padding: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.External
+{
+	background-image: url(../images/link_external.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right:19px;
+}
+
+.Content
+{
+	padding: 24px 12px 24px 12px;
+}
+p.Note,
+p.Warning
+{
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+	padding-left:20px;
+}
+
+p.Note
+{
+	background-image: url(../images/note.gif);
+}
+
+p.Warning
+{
+	background-image: url(../images/warning.gif);
+}
+
+.ParagraphTitle
+{
+	margin-top:12px;
+	margin-bottom:3px;
+}
+
+.UiControlValue
+{
+	text-decoration:underline;
+}
+
+.EntityName
+{
+	font-weight:bold;
+}
+
+.TableHeader
+{
+	border:solid 1px white;
+	background-color:#eeeeee;
+	padding:4px 12px 4px 12px;
+	font-weight:bold;
+}
+
+.TableHeaderSpaced
+{
+	border:solid 1px white;
+	border-bottom-width:12px;
+	background-color:#eeeeee;
+	padding:4px 12px 4px 12px;
+	font-weight:bold;
+}
+
+.TableValue
+{
+	border:solid 1px white;
+	background-color:#eeeeee;
+	padding:4px 12px 4px 12px;
+}
+
+.TableValueCentered
+{
+	border:solid 1px white;
+	background-color:#eeeeee;
+	padding:4px 12px 4px 12px;
+	text-align:center;
+}
+
+.TableValueSpaced
+{
+	border:solid 1px white;
+	border-bottom-width:12px;
+	background-color:#eeeeee;
+	padding:4px 12px 4px 12px;
+}
+
+.SetupImage
+{
+	margin-bottom: 12px;
+	width: 513px;
+	height: 399px;
+}
+
+.TabImage
+{
+	width: 686px;
+	height: 565px;
+}
+
+.TabImageSmall
+{
+	width: 649px;
+	height: 565px;
+}
+
+.LogoImage
+{
+	display: block;
+	float: right;
+	width: 98px;
+	height: 66px;
+}
+
+.Header
+{
+	background-color:#cccccc;
+	border-bottom:solid 16px white;
+}
+
+.HeaderStatic
+{
+	font-style:italic;
+	padding: 7px 0px 0px 10px;
+}
+
+.Footer
+{
+	border-top:1px solid #cccccc;
+	padding:6px 0px 18px 12px;
+	font-style:italic;
+}

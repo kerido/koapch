@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Approach_Localization version="1">
+	<Summary>
+		<Locale>nl_NL</Locale>
+		<Titles>
+			<Title locale="bg_BG">Холандски</Title>
+			<Title locale="cs_CZ">Holandský</Title>
+			<Title locale="da_DK">Hollandsk</Title>
+			<Title locale="de_DE">Niederländisch</Title>
+			<Title locale="en_US">Dutch</Title>
+			<Title locale="es_ES">Holandés</Title>
+			<Title locale="fi_FI">Hollannin</Title>
+			<Title locale="fr_FR">Néerlandais</Title>
+			<Title locale="he_IL">הולדנדית</Title>
+			<Title locale="hu_HU">Holland</Title>
+			<Title locale="is_IS">Hollenska</Title>
+			<Title locale="it_IT">Olandese</Title>
+			<Title locale="nb_NO">Nederlandsk</Title>
+			<Title locale="nl_NL">Nederlands</Title>
+			<Title locale="nn_NO">Nederlandsk</Title>
+			<Title locale="pl_PL">Niderlandzkim</Title>
+			<Title locale="pt_PT">Holandês</Title>
+			<Title locale="ro_RO">Olandeză</Title>
+			<Title locale="ru_RU">Нидерландский</Title>
+			<Title locale="sk_SK">Holandský</Title>
+			<Title locale="sl_SI">Nizozemski</Title>
+			<Title locale="sv_SE">Nederländska</Title>
+			<Title locale="tr_TR">Hollandalı</Title>
+			<Title locale="zh_CN">荷兰</Title>
+		</Titles>
+		<Created_Bys>
+			<Created_By locale="en_US">Translated by Orjan De Smet</Created_By>
+		</Created_Bys>
+		<Comments>
+			<Comment locale="en_US">The Dutch KO Approach localization</Comment>
+		</Comments>
+	</Summary>
+
+	<Strings>
+		<!-- Tab titles -->
+		<!-- TODO: <String id="IDD_O_FEAT">Features</String> -->
+		<String id="IDD_O_MNSC">Menu's &amp; scrollen</String> 
+		<String id="IDD_O_CNTS">Inhoud</String>
+		<!-- TODO: <String id="IDD_O_MNTC">Maintenance</String> -->
+		<String id="IDD_O_REG">Registratie</String>
+		<String id="IDD_O_ABT">Over</String>
+		<!-- Exception item -->
+		<String id="IDS_EXCEPT_UNAVAILABLE">(Niet beschikbaar)</String>
+		<String id="IDS_EXCEPT_EMPTY">(Leeg)</String>
+		<String id="IDS_EXCEPT_GENERIC">(Algemene fout)</String>
+		<!-- Popup menu strings -->
+		<String id="IDP_MAIN_ENBL_FLDMNUS">Activeer Folder-menus</String>
+		<String id="IDP_MAIN_ENBL_APCHITMS">Activeer Approach items</String>
+		<String id="IDP_MAIN_ENBL_TTLBARMNUS">Activeer Titelbalkmenus</String>
+		<String id="IDP_MAIN_OPTIONS">Opties...</String>
+		<String id="IDP_MAIN_EXIT">Afsluiten</String>
+		<String id="IDP_CXMN_TOAPPROACHITEMS">Voeg snelkoppeling naar Approach items toe</String>
+		<!-- Approach Items elements -->
+		<String id="IDS_APCHITEMS_ITEMRUN">Uitvoeren...</String>
+		<!-- TODO: <String id="IDS_APCHITEMS_ITEMPROC">Running processes</String> -->
+		<!-- TODO: <String id="IDS_APCHITEMS_ITEMPROC_SYS">System</String> -->
+		<!-- TODO: <String id="IDS_APCHITEMS_ITEMPROC_QUIT">Quit</String> -->
+		<!-- TODO: <String id="IDS_APCHITEMS_ITEMPROC_REVEAL">Reveal</String> -->
+		<!-- Global command strings -->
+		<String id="IDS_GLBL_CMD_OK">OK</String>
+		<String id="IDS_GLBL_CMD_CANCEL">Annuleren</String>
+		<String id="IDS_GLBL_CMD_HELP">Help...</String>
+		<String id="IDS_GLBL_CMD_YES">Ja</String>
+		<String id="IDS_GLBL_CMD_NO">Nee</String>
+		<String id="IDS_GLBL_CMD_RETRY">Opnieuw</String>
+		<!-- Global strings -->
+		<String id="IDS_GLBL_WARNING">Waarschuwing</String>
+		<String id="IDS_GLBL_ERROR">Fout</String>
+		<String id="IDS_GLBL_ALWAYS">Altijd</String>
+		<String id="IDS_GLBL_NEVER">Nooit</String>
+		<String id="IDS_GLBL_MILLISEC">ms</String>
+		<String id="IDS_GLBL_USESYSSETTING">Gebruik systeeminstellingen</String>
+		<!-- Features tab -->
+		<String id="IDL_O_FEAT_CAT_FLDMENUS">Folder menu’s</String>
+		<!-- TODO: <String id="IDL_O_FEAT_FLDMENUSDESC">Folder Menus enables quick directory navigation through a set of menus invoked by holding down the mouse key on a folder.</String> -->
+		<String id="IDL_O_FEAT_INITDELAY">Eerste menu vertraging:</String>
+		<String id="IDL_O_FEAT_CAT_APCHITEMS">Approach items</String>
+		<!-- TODO: <String id="IDL_O_FEAT_APCHITEMSDESC">Approach Items provides quick access to frequently used folders and files from the Notification Area.</String> -->
+		<String id="IDC_O_FEAT_APCHITEMSOPT">Opties...</String>
+		<String id="IDL_O_FEAT_CAT_TTLBARMENUS">Titelbalkmenu's</String>
+		<!-- TODO: <String id="IDL_O_FEAT_TTLBARMENUSDESC">Titlebar Menus allows for browsing the entire folder hierarchy by CTRL-clicking its title bar in Windows Explorer.</String> -->
+		<String id="IDC_O_FEAT_DESKPOS_0TOP">Toon bureaublad bovenaan</String>
+		<String id="IDC_O_FEAT_DESKPOS_1BOTM">Toon bureaublad onderaan</String>
+		<String id="IDC_O_FEAT_CURFLDISFILE">Submenu niet weergeven voor de huidige map</String>
+		<String id="IDC_O_FEAT_CURFLDAUTOSEL">Automatisch de huidige map selecteren</String>
+		<!-- Menus and Scrolling tab -->
+		<String id="IDL_O_MNSC_CAT_MENUS">Menu's</String>
+		<String id="IDL_O_MNSC_MAXMNUWIDTH">Beperk de menubreedte:</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_0PXL">pixels</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_1PRC">% van de schermbreedte</String>
+		<String id="IDL_O_MNSC_CHILDDELAY">Submenu vertraging:</String>
+		<String id="IDL_O_MNSC_CAT_SCROLLING">Scrollen</String>
+		<String id="IDL_O_MNSC_WHEELSCROLLS">Muiswiel scrollt:</String>
+		<String id="IDL_O_MNSC_WHEELITEMS">item(s)</String>
+		<String id="IDL_O_MNSC_PAGESCROLLS">Page Up / Page Down scrollt:</String>
+		<String id="IDL_O_MNSC_PAGEITEMS">item(s)</String>
+		<!-- TODO: <String id="IDL_O_MNSC_SCROLLARROWS">Display scrolling arrows:</String> -->
+		<!-- TODO: <String id="IDC_O_MNSC_SCROLLPOS_0TOP">At top</String> -->
+		<!-- TODO: <String id="IDC_O_MNSC_SCROLLPOS_1BOTM">At bottom</String> -->
+		<!-- TODO: <String id="IDC_O_MNSC_SCROLLPOS_2ENDS">At top and bottom</String> -->
+		<!-- TODO: <String id="IDC_O_MNSC_DISPNUMTOSCROLL">Display number of remaining items to scroll</String> -->
+		<String id="IDL_O_MNSC_SCROLLDELAY">Scrollen vertraging:</String>
+		<!-- Contents tab -->
+		<String id="IDL_O_CNTS_CAT_ITEMS">Items</String>
+		<String id="IDL_O_CNTS_HDNITMS">Toon verborgen items:</String>
+		<!-- TODO: <String id="IDC_O_CNTS_HDNITMS_DIMICN">Display dimmed icon</String> -->
+		<String id="IDL_O_CNTS_BROWSEFLD">Open mappen:</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_0NEWWND">In een nieuw venster</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_1SAMEWND">In het bestaande venster</String>
+		<!-- TODO: <String id="IDL_O_CNTS_SSFISWHAT">Treat shortcuts to folders as:</String> -->
+		<String id="IDC_O_CNTS_SSFIS_0FOLDER">Mappen</String>
+		<String id="IDC_O_CNTS_SSFIS_1FILE">Bestanden</String>
+		<String id="IDL_O_CNTS_ZIPISWHAT">Behandel ZIP-archieven als:</String>
+		<String id="IDC_O_CNTS_ZIPIS_0FOLDER">Mappen</String>
+		<String id="IDC_O_CNTS_ZIPIS_1FILE">Bestanden</String>
+		<!-- TODO: <String id="IDL_O_CNTS_MOUSEITEMCLK">Item mouse invocation:</String> -->
+		<!-- TODO: <String id="IDS_O_CNTS_MOUSEITEMCLK_0REG">Regular</String> -->
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_1SGL">Enkele klik</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_2DBL">Dubbelklik</String>
+		<String id="IDL_O_CNTS_CAT_ORDER">Volgorde</String>
+		<String id="IDC_O_CNTS_SORTITEMS">Sorteer items alfabetisch</String>
+		<String id="IDC_O_CNTS_FLDORD_0TOP">Mappen voorafgaand op bestanden</String>
+		<String id="IDC_O_CNTS_FLDORD_1BOTM">Bestanden voorafgaand op mappen</String>
+		<String id="IDC_O_CNTS_FLDORD_2MIX">Niet groeperen</String>
+		<String id="IDL_O_CNTS_CAT_ICONS">Pictogrammen</String>
+		<!-- TODO: <String id="IDC_O_CNTS_ICN_0GENERIC">Display generic icons</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ICN_1REGULAR">Display regular icons</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ICNOVERLAYS">Display icon overlays</String> -->
+		<!-- TODO: <String id="IDC_O_CNTS_ICNOPTIMIZ">Optimize icon extraction (requires more resources)</String> -->
+		<!-- Maintenance tab -->
+		<!-- TODO: <String id="IDL_O_MNTC_CAT_MNTC">Maintenance</String> -->
+		<!-- TODO: <String id="IDL_O_MNTC_UILANG">User interface language:</String> -->
+		<!-- TODO: <String id="IDS_O_MNTC_UILANG_MORE">More languages...</String> -->
+		<!-- TODO: <String id="IDL_O_MNTC_UPDATE">Program updates:</String> -->
+		<String id="IDC_O_MNTC_UPDATE">Controleren op updates</String>
+		<!-- TODO: <String id="IDC_O_MNTC_UPDATEAUTO">Automatisch controleren op updates</String> -->
+		<String id="IDL_O_MNTC_RESTDEF">Standaardinstellingen:</String>
+		<String id="IDC_O_MNTC_RESTDEF">Standaardwaarden herstellen</String>
+		<!-- TODO: <String id="IDL_O_MNTC_AUTORUN">Automatic launch at startup:</String> -->
+		<!-- TODO: <String id="IDC_O_MNTC_AUTORUN">Enable auto-launch</String> -->
+		<String id="IDL_O_MNTC_CAT_PLUGINS">Plug-ins</String>
+		<String id="IDC_O_MNTC_PLGNENBL">Inschakelen</String>
+		<String id="IDC_O_MNTC_PLGNDSBL">Uitschakelen</String>
+		<String id="IDS_O_MNTC_PLGNLST_NAME">Naam</String>
+		<String id="IDS_O_MNTC_PLGNLST_STATUS">Status</String>
+		<String id="IDS_O_MNTC_PLGNLST_LOADED">Geladen</String>
+		<String id="IDS_O_MNTC_PLGNLST_NOTLOADED">Niet geladen</String>
+		<String id="IDS_O_MNTC_PLGNLST_STOPPING">Stoppend</String>
+		<String id="IDS_O_MNTC_PLGNLST_DISABLED">Uitgeschakeld</String>
+		<String id="IDS_O_MNTC_MSG_UPDYES">Er is een update beschikbaar is. Wil je het downloaden?</String>
+		<String id="IDS_O_MNTC_MSG_UPDNO">Er zijn momenteel geen updates beschikbaar.</String>
+		<String id="IDS_O_MNTC_MSG_RESTDEF">De standaardinstellingen zijn hersteld.</String>
+		<!-- Registration tab (registered mode) -->
+		<String id="IDL_O_RGOK_CAT_USER">Geregistreerde gebruiker</String>
+		<String id="IDL_O_RGOK_REGUSER">Dit product is geregistreerd voor:</String>
+		<String id="IDL_O_RGOK_CAT_KEYBKP">Key back-up</String>
+		<String id="IDL_O_RGOK_BACKUP">Het is aangeraden om je Activatie-sleutel op een veilige plek te bewaren. Klik op Back-up om een kopie van uw sleutel op te slaan naar een gekozen locatie.</String>
+		<String id="IDC_O_RGOK_BACKUP">Back-up...</String>
+		<!-- Registration tab (unregistered mode) -->
+		<String id="IDL_O_RGNO_INETREQD">U moet verbonden zijn met het internet om door te kunnen gaan met de licentie en activering.</String>
+		<String id="IDL_O_RGNO_CAT_LIC">Licentie</String>
+		<String id="IDL_O_RGNO_ACTDESC1">Dit exemplaar van KO Approach is NIET GEREGISTREERD en is uitgevoerd in de modus met beperkte functionaliteit. Om alle functionaliteit te ontgrendelen van de software, moet u een licentie aanschaffen en KO Approach activeren.</String>
+		<String id="IDL_O_RGNO_ACTDESC2">Als u al een licentie en een back-up kopie van uw Activatie-sleutel, kunt u deze gebruiken om de functionaliteit van KO Approach te ontgrendelen.</String>
+		<String id="IDC_O_RGNO_PURCHASE">Kopen...</String>
+		<String id="IDC_O_RGNO_KEYRESTORE">Herstel...</String>
+		<String id="IDL_O_RGNO_CAT_ACTIVN">Activeren</String>
+		<String id="IDL_O_RGNO_SERNUM">Voer het volgnummer dat u hebt ontvangen in de Registratie notificatie e-mail (in de vorm: X-XXXXX-XXXXX-XXXXX-XXXXX):</String>
+		<String id="IDC_O_RGNO_SERNUMHIDE">Masker</String>
+		<String id="IDC_O_RGNO_ACTIVATE">Activeer...</String>
+		<!-- About tab -->
+		<String id="IDC_O_ABT_THXCAPTION">Speciale dank aan:</String>
+		<String id="IDS_O_ABT_VERSION">Versie</String>
+		<String id="IDS_O_ABT_THX1">Turlough O'Connor - voor het originele idee;</String>
+		<String id="IDS_O_ABT_THX2">Dmitry Osipov - voor productdocumentatie, waardevolle suggesties, pre-release testen, en algemene ondersteuning;</String>
+		<String id="IDS_O_ABT_THX3">Andrew Fellows, Denis Gavrilov, Alexander Gusev, Ilya Kirilkin, Ilya Popov, Sergey Samsonov, Jan Schröder, Alexander Simanov, Roman Soshkin en Denis Vlasov - voor de waardevolle suggesties en pre-release testen;</String>
+		<String id="IDS_O_ABT_THX4">Alle mensen op CodeProject voor mij geïnspireerd te houden.</String>
+		<String id="IDC_O_ABT_FEEDBACK">Stuur feedback</String>
+		<String id="IDC_O_ABT_HOMEPAGE">KO Approach startpagina</String>
+		<!-- Backup/Restore dialog box -->
+		<String id="IDS_KEYDLG_FILTER">KO Approach belangrijke dossiers</String>
+		<String id="IDS_KEYDLG_TITLE">Kies de locatie van de Activatie-sleutel</String>
+		<!-- Activation dialog box -->
+		<String id="IDS_ACTN_ST_CONN">Verbinding maken...</String>
+		<String id="IDS_ACTN_ST_SUCC">Activering geslaagd</String>
+		<String id="IDS_ACTN_ST_FAIL">Activering Fout</String>
+		<String id="IDS_ACTN_ST_RSTR">Herstellen voltooid</String>
+		<String id="IDS_ACTN_DS_CONN">Bezig met verbinden met de dienst Activering. Even geduld...</String>
+		<String id="IDS_ACTN_DS_CONNERR">Verbinding kon niet worden vastgesteld. Gelieve uw netwerkinstellingen te controleren en opnieuw te proberen. Als u een firewall hebt, sta dan uitgaande verzoeken van  KO Approach toe.</String>
+		<String id="IDS_ACTN_DS_HWIDERR">Kon geen hardware-id voor deze computer genereren.&#0013;&#0010;Probeer KO Approach opnieuw te activeren. Als het probleem aanhoudt, neem dan contact op met KO Software Customer Support op support@koapproach.com</String>
+		<String id="IDS_ACTN_DS_SRNMERR">Serienummer kon niet worden geverifieerd.&#0013;&#0010;Vul een geldig serienummer in en probeer het opnieuw.</String>
+		<String id="IDS_ACTN_DS_GNRCERR">Er is een onbekende fout opgetreden. Probeer KO Approach opnieuw te activeren. Als het probleem aanhoudt, neem dan contact op met KO Software Customer Support op support@koapproach.com</String>
+		<String id="IDS_ACTN_DS_LMTEXCD">Je hebt je limiet van Activatie-sleutelaanvragen overschreden. Wilt u extra licenties aanschaffen?</String>
+		<String id="IDS_ACTN_DS_SUCC">Gefeliciteerd!&#0013;&#0010;Uw exemplaar van Approach is geactiveerd.</String>
+		<String id="IDS_ACTN_DS_RSTR">De Activatie-sleutel werd geplaatst in de KO Approach Applicatie-map. Druk op OK om Approach opnieuw op te starten en de sleutel te valideren.</String>
+		<String id="IDS_ACTN_DS_KEYACCS">Hoewel de Activatie-sleutel met succes werd verkregen, was Approach niet in staat het sleutelbestand te schrijven naar de map.&#0013;&#0010;Controleer aub of u genoeg toegangsrechten hebt om deze actie uit te voeren.</String>
+		<!-- Warning dialog boxes -->
+		<String id="IDS_WARNTXT_FEATURELOCKED">Dit exemplaar van KO Approach is NIET GEREGISTREERD.&#0013;&#0010;U kan niet meer dan twee programmaonderdelen tegelijk activeren.</String>
+		<String id="IDS_WARNTXT_INVALIDKEY">De Activatie-sleutel voor dit exemplaar van KO Approach blijkt ongeldig te zijn. KO Approach wordt uitgevoerd in de modus met beperkte functionaliteit.&#0013;&#0010;Verwijder de ongeldige Activatie-sleutel om te voorkomen dat dit bericht elke keer verschijnt bij het opstarten van Approach.</String>
+		<!-- Approach Items Options dialog box -->
+		<String id="IDD_APCHITMS">Approach Items</String>
+		<String id="IDL_APCHITMS_CUR">Huidige items:</String>
+		<String id="IDL_APCHITMS_ALL">Beschikbare items:</String>
+		<String id="IDC_APCHITMS_ADD">Toevoegen</String>
+		<String id="IDC_APCHITMS_RMV">Verwijderen</String>
+		<String id="IDC_APCHITMS_UP">Omhoog</String>
+		<String id="IDC_APCHITMS_DOWN">Omlaag</String>
+		<String id="IDC_APCHITMS_BRW">Bladeren door Approach items...</String>
+		<!-- Help popups -->
+		<String id="IDH_OPTS_OK">Slaat de wijzigingen op en sluit het programmavenster.</String>
+		<String id="IDH_OPTS_CANCEL">Negeert de wijzigingen en sluit het programmavenster.</String>
+		<String id="IDH_OPTS_HELP">Opent KO Approach-documentatie.</String>
+		<String id="IDH_O_FEAT_FLDMENUSTGL">Schakelt de Folder menu-functie in/uit die het mogelijk maakt om menu's te tonen die de structuur van de geselecteerde map nabootsen.</String>
+		<String id="IDH_O_FEAT_INITDELAY">Wijzigt de hoeveelheid tijd die de muis-toets moet worden ingedrukt voordat het eerste menu getoond wordt.</String>
+		<String id="IDH_O_FEAT_APCHITEMSTGL">Schakelt de Approach items functie in/uit, die snel toegang tot uw favoriete bestanden verleent.</String>
+		<String id="IDH_O_FEAT_APCHITEMSOPT">Hiermee opent u het venster Opties voor Approach items waarmee u de inhoud kunt beheren.</String>
+		<String id="IDH_O_FEAT_TTLBARMENUSTGL">Schakelt de titelbalk menu’s in/uit zodat u door hoofd- en submenu's kunt bladeren via de titelbalk van een Verkenner-venster.</String>
+		<!-- TODO: <String id="IDH_O_FEAT_DESKPOS_0TOP">Titlebar Menus will display the Desktop at the top and the current folder at the bottom of the list.</String> -->
+		<!-- TODO: <String id="IDH_O_FEAT_DESKPOS_1BOTM">Titlebar Menus will display the current folder at the top and the Desktop at the bottom of the list.</String> -->
+		<!-- TODO: <String id="IDH_O_FEAT_CURFLDISFILE">Titlebar Menus will not display submenu arrows for the current folder, treating it as a file.</String> -->
+		<!-- TODO: <String id="IDH_O_FEAT_CURFLDAUTOSEL">Titlebar Menus will highlight the item pointing at the current folder.</String> -->
+		<String id="IDH_O_MNSC_MAXMNUWIDTH">Hiermee geeft u de maximale breedte in van het menu. De maximale breedte mag niet meer bedragen dan 1 / 3 van de volledige schermbreedte.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_0PXL">Stelt de maximale breedte van het menu in op het opgegeven aantal pixels.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_1PRC">Stelt de maximale breedte van het menu in op het opgegeven percentage van de schermbreedte.</String>
+		<String id="IDH_O_MNSC_CHILDDELAY">Wijzigt de hoeveelheid tijd die KO Approach zal wachten voor het weergeven van sub-menu's.</String>
+		<String id="IDH_O_MNSC_WHEELSCROLLS">Geeft het aantal punten die moeten worden overgeslagen bij het scrollen met het muiswiel.</String>
+		<String id="IDH_O_MNSC_PAGESCROLLS">Geeft het aantal punten die moeten worden overgeslagen tijdens het schuiven met de Page Up / Page Down toetsen.</String>
+		<!-- TODO: <String id="IDH_O_MNSC_SCROLLPOS_0TOP">Sets both scrolling arrows, if displayed, to appear at the top of the menu.</String> -->
+		<!-- TODO: <String id="IDH_O_MNSC_SCROLLPOS_1BOTM">Sets both scrolling arrows, if displayed, to appear at the bottom of the menu.</String> -->
+		<!-- TODO: <String id="IDH_O_MNSC_SCROLLPOS_2ENDS">Sets UP and DOWN scrolling arrows, if displayed, to appear at the top and bottom of the menu, respectively.</String> -->
+		<!-- TODO: <String id="IDH_O_MNSC_DISPNUMTOSCROLL">Shows/hides a counter of menu items currently outside the boundaries of the screen.</String> -->
+		<String id="IDH_O_MNSC_SCROLLDELAY">Wijzigt de hoeveelheid tijd die KO Approach zal wachten voor het weergeven van het volgende punt in een menu bij het scrollen.</String>
+		<String id="IDH_O_CNTS_HDNITMS">Geeft of verborgen bestanden moeten weergegeven worden.</String>
+		<!-- TODO: <String id="IDH_O_CNTS_HDNITMS_DIMICN">Specifies that hidden items will be displayed with a semi-transparent icon.</String> -->
+		<String id="IDH_O_CNTS_BROWSEFLD">Geeft aan of Approach een Verkenner-venster moet hergebruiken wanneer u klikt op een map.</String>
+		<!-- TODO: <String id="IDH_O_CNTS_SSFIS_0FOLDER">Specifies that folder shortcuts should display contents of their targets.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_SSFIS_1FILE">Specifies that folder shortcuts should not display contents of their targets.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ZIPIS_0FOLDER">Specifies that ZIP archives should display items inside.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ZIPIS_1FILE">Specifies that ZIP archives should not display items inside.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_MOUSEITEMCLK">Specifies whether menu items should be activated with a single- or double mouse click.</String> -->
+		<String id="IDH_O_CNTS_SORTITEMS">Geeft aan of items op een menu moet worden vermeld in alfabetische volgorde.</String>
+		<String id="IDH_O_CNTS_FLDORD_0TOP">Geeft aan of mappen op een menu vooraf moeten gaan op bestanden.</String>
+		<!-- TODO: <String id="IDH_O_CNTS_FLDORD_1BOTM">Specifies whether files on a menu should be listed first, followed by folders.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_FLDORD_2MIX">Makes no distinction between files and folders displaying all items as a continuous list.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ICN_0GENERIC">Specifies whether original icons should be replaced with generic type ones (folder, application, or file) to allow for faster menu display.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ICN_1REGULAR">Specifies whether items should only display icons similar to those in Windows Explorer.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ICNOVERLAYS">Specifies whether items should display icon overlays, such as shortcut arrows.</String> -->
+		<!-- TODO: <String id="IDH_O_CNTS_ICNOPTIMIZ">Instructs KO Approach to retrieve item icons in batches to help optimize the icon rendering process.</String> -->
+		<String id="IDH_O_MNTC_UILANG">Geeft KO Approach lokalisatie weer.</String>
+		<String id="IDH_O_MNTC_LOCALEINFO">Geeft beknopte informatie over de geselecteerde locatie.</String>
+		<String id="IDH_O_MNTC_UPDATE">Controleert of er een update beschikbaar is op de website KO Approach en biedt u aan om te downloaden en te installeren.</String>
+		<!-- TODO: <String id="IDH_O_MNTC_UPDATEAUTO">Specifies whether KO Approach should periodically check for updates and display a notification when an update becomes available.</String> -->
+		<String id="IDH_O_MNTC_RESTDEF">Herstelt Approach instellingen voor de huidige gebruiker naar de waarden die gedefinieerd werden bij de eerste start van het programma.</String>
+		<String id="IDH_O_MNTC_AUTORUN">Creëert / Verwijdert de KO Approach snelkoppeling in de map Opstarten van het menu Start.</String>
+		<String id="IDH_O_MNTC_PLGNLST">Toont de lijst met geïnstalleerde plugins.</String>
+		<String id="IDH_O_MNTC_PLGNENBL">Schakelt de geselecteerde plugin in als u op OK duwt en KO Approach herstart.</String>
+		<String id="IDH_O_MNTC_PLGNDSBL">Schakelt de geselecteerde plugin uit als u op OK duwt en KO Approach herstart.</String>
+		<String id="IDH_O_RGOK_REGUSER">Toont de naam van de geregistreerde gebruiker.</String>
+		<String id="IDH_O_RGOK_BACKUP">Maakt een back-up van uw Activatie-sleutel naar de locatie die u opgeeft.</String>
+		<String id="IDH_O_RGNO_KEYRESTORE">Herstelt uw activeringscode in de locatie die u opgeeft.</String>
+		<String id="IDH_O_RGNO_PURCHASE">Hiermee opent u de KO Approach aankooppagina in uw standaard browser.</String>
+		<String id="IDH_O_RGNO_ACTIVATE">Maakt een poging om een Activatie-meitel verkrijgen van KO Approach Service online activeren.</String>
+		<String id="IDH_O_RGNO_SERNUMHIDE">Geeft uw serienummer met een sterretje (*) voor vertrouwelijke redenen.</String>
+		<String id="IDH_O_RGNO_SERNUM">Hiermee kunt u uw serienummer opgeven voor de online activatie Service.</String>
+		<String id="IDH_O_ABT_FEEDBACK">Maakt een nieuw e-mailbericht, zodat u ons uw opmerkingen en suggesties kunt mededelen.</String>
+		<String id="IDH_O_ABT_HOMEPAGE">Hiermee opent u de website van KO Approach in uw standaardbrowser.</String>
+	</Strings>
+	<Metrics>
+		<!-- Global -->
+		<Metric id="IDM_GLBL_LANGRTL" factor="1">0</Metric>
+		<Metric id="IDM_GLBL_MILLISECFMT" factor="1">0</Metric>
+		<!-- Main dialog box -->
+		<Metric id="IDM_OPTS_CONTROLMARGIN" factor="1">7</Metric>
+		<Metric id="IDM_OPTS_CATEGORIESWIDTH" factor="1">80</Metric>
+		<Metric id="IDM_OPTS_BUTTONSIZE" factor="2">52,14</Metric>
+		<!-- Features tab -->
+		<Metric id="IDD_O_FEAT" factor="2">320,290</Metric>
+		<Metric id="IDL_O_FEAT_CAT_FLDMENUS" factor="4">20,5,293,12</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSVIS" factor="4">27,25,38,35</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSDESC" factor="4">74,25,222,17</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAY" factor="4">74,52,77,9</Metric>
+		<Metric id="IDC_O_FEAT_INITDELAY" factor="4">153,52,73,20</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAYVAL" factor="4">239,52,57,10</Metric>
+		<Metric id="IDL_O_FEAT_CAT_APCHITEMS" factor="4">20,80,293,12</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSVIS" factor="4">27,100,38,35</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSDESC" factor="4">74,100,222,17</Metric>
+		<Metric id="IDC_O_FEAT_APCHITEMSOPT" factor="4">74,124,55,13</Metric>
+		<Metric id="IDL_O_FEAT_CAT_TTLBARMENUS" factor="4">20,156,293,12</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSVIS" factor="4">27,176,38,35</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSDESC" factor="4">74,176,222,17</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_0TOP" factor="4">74,201,222,9</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_1BOTM" factor="4">74,211,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDISFILE" factor="4">74,223,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDAUTOSEL" factor="4">84,234,212,9</Metric>
+		<!-- Menus and Scrolling tab -->
+		<Metric id="IDD_O_MNSC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNSC_CAT_MENUS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNSC_MAXMNUWIDTH" factor="4">27,25,124,9</Metric>
+		<Metric id="IDC_O_MNSC_MAXMNUWIDTH" factor="4">158,23,33,12</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_0PXL" factor="4">195,20,101,9</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_1PRC" factor="4">195,29,101,9</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAY" factor="4">27,47,124,10</Metric>
+		<Metric id="IDC_O_MNSC_CHILDDELAY" factor="4">153,46,91,20</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAYVAL" factor="4">247,48,49,10</Metric>
+		<Metric id="IDL_O_MNSC_CAT_SCROLLING" factor="4">6,75,307,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELSCROLLS" factor="4">27,95,124,9</Metric>
+		<Metric id="IDC_O_MNSC_WHEELSCROLLS" factor="4">158,93,33,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELITEMS" factor="4">195,95,101,9</Metric>
+		<Metric id="IDL_O_MNSC_PAGESCROLLS" factor="4">27,115,124,9</Metric>
+		<Metric id="IDC_O_MNSC_PAGESCROLLS" factor="4">158,113,33,12</Metric>
+		<Metric id="IDL_O_MNSC_PAGEITEMS" factor="4">195,115,101,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLARROWS" factor="4">27,132,124,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_0TOP" factor="4">158,132,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_1BOTM" factor="4">158,143,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_2ENDS" factor="4">158,154,138,9</Metric>
+		<Metric id="IDC_O_MNSC_DISPNUMTOSCROLL" factor="4">158,170,155,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAY" factor="4">27,188,124,10</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLDELAY" factor="4">153,187,91,20</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAYVAL" factor="4">247,188,49,10</Metric>
+		<!-- Contents tab -->
+		<Metric id="IDD_O_CNTS" factor="2">320,290</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ITEMS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_CNTS_HDNITMS" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS" factor="4">158,22,138,33</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS_DIMICN" factor="4">158,38,138,9</Metric>
+		<Metric id="IDL_O_CNTS_BROWSEFLD" factor="4">27,57,124,8</Metric>
+		<Metric id="IDC_O_CNTS_BROWSEFLD" factor="4">158,54,138,33</Metric>
+		<Metric id="IDL_O_CNTS_SSFISWHAT" factor="4">27,75,124,8</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_0FOLDER" factor="4">158,74,52,9</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_1FILE" factor="4">218,74,52,9</Metric>
+		<Metric id="IDL_O_CNTS_ZIPISWHAT" factor="4">27,93,124,8</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_0FOLDER" factor="4">158,92,52,9</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_1FILE" factor="4">218,92,52,9</Metric>
+		<Metric id="IDL_O_CNTS_MOUSEITEMCLK" factor="4">27,111,124,8</Metric>
+		<Metric id="IDC_O_CNTS_MOUSEITEMCLK" factor="4">158,108,138,33</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ORDER" factor="4">6,139,307,12</Metric>
+		<Metric id="IDC_O_CNTS_SORTITEMS" factor="4">27,159,124,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_0TOP" factor="4">158,159,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_1BOTM" factor="4">158,171,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_2MIX" factor="4">158,183,138,9</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ICONS" factor="4">6,206,307,12</Metric>
+		<Metric id="IDC_O_CNTS_ICN_0GENERIC" factor="4">27,225,124,9</Metric>
+		<Metric id="IDC_O_CNTS_ICN_1REGULAR" factor="4">158,225,138,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOVERLAYS" factor="4">168,237,128,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOPTIMIZ" factor="4">168,249,128,19</Metric>
+		<!-- Maintenance and Plug-ins tab -->
+		<Metric id="IDD_O_MNTC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNTC_CAT_MNTC" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNTC_UILANG" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UILANG" factor="4">158,22,138,30</Metric>
+		<Metric id="IDC_O_MNTC_LOCALEINFO" factor="4">158,39,138,20</Metric>
+		<Metric id="IDL_O_MNTC_UPDATE" factor="4">27,71,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UPDATE" factor="4">158,67,138,14</Metric>
+		<Metric id="IDC_O_MNTC_UPDATEAUTO" factor="4">158,84,138,10</Metric>
+		<Metric id="IDL_O_MNTC_RESTDEF" factor="4">27,106,124,8</Metric>
+		<Metric id="IDC_O_MNTC_RESTDEF" factor="4">158,102,138,14</Metric>
+		<Metric id="IDL_O_MNTC_AUTORUN" factor="4">27,127,124,8</Metric>
+		<Metric id="IDC_O_MNTC_AUTORUN" factor="4">158,126,138,9</Metric>
+		<Metric id="IDL_O_MNTC_CAT_PLUGINS" factor="4">6,146,307,12</Metric>
+		<Metric id="IDC_O_MNTC_PLGNLST" factor="4">27,164,269,91</Metric>
+		<Metric id="IDC_O_MNTC_PLGNDSBL" factor="4">229,260,67,14</Metric>
+		<Metric id="IDC_O_MNTC_PLGNENBL" factor="4">158,260,67,14</Metric>
+		<!-- Registration tab (unregistered mode) -->
+		<Metric id="IDD_O_RGNO" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGNO_INETICN" factor="4">27,9,0,0</Metric>
+		<Metric id="IDL_O_RGNO_INETREQD" factor="4">62,11,234,17</Metric>
+		<Metric id="IDL_O_RGNO_CAT_LIC" factor="4">6,38,307,12</Metric>
+		<Metric id="IDL_O_RGNO_UNREGICN" factor="4">27,58,0,0</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC1" factor="4">62,56,234,26</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC2" factor="4">62,88,234,23</Metric>
+		<Metric id="IDC_O_RGNO_PURCHASE" factor="4">155,116,68,14</Metric>
+		<Metric id="IDC_O_RGNO_KEYRESTORE" factor="4">228,116,68,14</Metric>
+		<Metric id="IDL_O_RGNO_CAT_ACTIVN" factor="4">6,140,307,12</Metric>
+		<Metric id="IDL_O_RGNO_SERNUM" factor="4">27,158,269,17</Metric>
+		<Metric id="IDC_O_RGNO_SERNUM" factor="4">27,179,196,12</Metric>
+		<Metric id="IDC_O_RGNO_SERNUMHIDE" factor="4">27,193,78,9</Metric>
+		<Metric id="IDC_O_RGNO_ACTIVATE" factor="4">228,178,68,14</Metric>
+		<!-- Registration tab (registered mode) -->
+		<Metric id="IDD_O_RGOK" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGOK_CAT_USER" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_RGOK_REGUSER" factor="4">27,25,286,8</Metric>
+		<Metric id="IDC_O_RGOK_REGUSER" factor="4">27,38,286,8</Metric>
+		<Metric id="IDL_O_RGOK_CAT_KEYBKP" factor="4">6,59,307,12</Metric>
+		<Metric id="IDL_O_RGOK_BACKUP" factor="4">27,79,269,17</Metric>
+		<Metric id="IDC_O_RGOK_BACKUP" factor="4">228,100,68,14</Metric>
+		<!-- About tab -->
+		<Metric id="IDD_O_ABT" factor="2">320,290</Metric>
+		<Metric id="IDC_O_ABT_APPICON" factor="4">27,18,0,0</Metric>
+		<Metric id="IDC_O_ABT_APPNAME" factor="4">70,9,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPVER" factor="4">70,25,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPCOPY" factor="4">70,41,180,9</Metric>
+		<Metric id="IDC_O_ABT_HORRULE" factor="4">7,57,306,1</Metric>
+		<Metric id="IDC_O_ABT_THXCAPTION" factor="4">8,65,305,8</Metric>
+		<Metric id="IDC_O_ABT_THXLIST" factor="4">27,83,286,111</Metric>
+		<Metric id="IDC_O_ABT_FEEDBACK" factor="4">6,275,52,8</Metric>
+		<Metric id="IDC_O_ABT_HOMEPAGE" factor="4">234,275,79,8</Metric>
+		<Metric id="IDM_O_ABT_NUMTHANKSLINES" factor="1">4</Metric>
+		<!-- Activation dialog box -->
+		<Metric id="IDD_ACTN" factor="2">273,68</Metric>
+		<Metric id="IDL_ACTN_ICON" factor="4">7,8,0,0</Metric>
+		<Metric id="IDL_ACTN_STATUS" factor="4">36,8,230,36</Metric>
+		<Metric id="IDM_ACTN_BTNSIZE" factor="2">52,14</Metric>
+		<Metric id="IDM_ACTN_BTNVERTPOS" factor="1">45</Metric>
+		<Metric id="IDM_ACTN_BTNSPACING" factor="1">12</Metric>
+		<!-- Approach Items Options dialog box -->
+		<Metric id="IDD_APCHITMS" factor="2">307,175</Metric>
+		<Metric id="IDL_APCHITMS_CUR" factor="4">7,7,114,8</Metric>
+		<Metric id="IDL_APCHITMS_ALL" factor="4">186,7,114,8</Metric>
+		<Metric id="IDC_APCHITMS_CUR" factor="4">7,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ALL" factor="4">186,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ADD" factor="4">128,34,50,14</Metric>
+		<Metric id="IDC_APCHITMS_RMV" factor="4">128,50,50,14</Metric>
+		<Metric id="IDC_APCHITMS_UP" factor="4">128,74,50,14</Metric>
+		<Metric id="IDC_APCHITMS_DOWN" factor="4">128,90,50,14</Metric>
+		<Metric id="IDC_APCHITMS_BRW" factor="4">7,154,114,14</Metric>
+		<Metric id="IDM_APCHITMS_OK" factor="4">196,154,50,14</Metric>
+		<Metric id="IDM_APCHITMS_CANCEL" factor="4">250,154,50,14</Metric>
+	</Metrics>
+</Approach_Localization>

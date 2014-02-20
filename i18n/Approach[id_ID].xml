@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Approach_Localization version="1">
+	<Summary>
+		<Locale>id_ID</Locale>
+		<Titles>
+			<Title locale="bg_BG">Индонезийски</Title>
+			<Title locale="cs_CZ">Indonésan</Title>
+			<Title locale="da_DK">Indonesisk</Title>
+			<Title locale="de_DE">Indonesier</Title>
+			<Title locale="en_US">Indonesian</Title>
+			<Title locale="es_ES">Indonesio</Title>
+			<Title locale="fi_FI">Indonesian</Title>
+			<Title locale="fr_FR">Indonésienne</Title>
+			<Title locale="he_IL">אינדונזית</Title>
+			<Title locale="hu_HU">Indonéz</Title>
+			<Title locale="id_ID">Bahasa Indonesia</Title>
+			<Title locale="is_IS">Indónesísku</Title>
+			<Title locale="it_IT">Indonesiano</Title>
+			<Title locale="nb_NO">Indonesisk</Title>
+			<Title locale="nl_NL">Indonesisch</Title>
+			<Title locale="nn_NO">Indonesisk</Title>
+			<Title locale="pl_PL">Indonezyjski</Title>
+			<Title locale="pt_PT">Indonésio</Title>
+			<Title locale="ro_RO">Indoneziană</Title>
+			<Title locale="ru_RU">Индонезийский</Title>
+			<Title locale="sk_SK">Indonézsky</Title>
+			<Title locale="sl_SI">Indonezijski</Title>
+			<Title locale="sv_SE">Indonesisk</Title>
+			<Title locale="tr_TR">Endonezya</Title>
+			<Title locale="zh_CN">印度尼西亚</Title>
+		</Titles>
+		<Created_Bys>
+			<Created_By locale="en_US">Created by elda taluta</Created_By>
+			<Created_By locale="id_ID">Dibuat oleh elda taluta</Created_By>
+			<Created_By locale="ru_RU">Создана elda taluta</Created_By>
+		</Created_Bys>
+		<Comments>
+			<Comment locale="en_US">Indonesian localization of KO Approach</Comment>
+			<Comment locale="id_ID">Lokalisasi Indonesia KO Approach</Comment>
+			<Comment locale="ru_RU">Индонезийская локализация KO Approach</Comment>
+		</Comments>
+	</Summary>
+
+	<Strings>
+		<!-- Tab titles -->
+		<String id="IDD_O_FEAT">Fitur</String>
+		<String id="IDD_O_MNSC">Menu &amp; Penggulungan</String>
+		<String id="IDD_O_CNTS">Isi</String>
+		<String id="IDD_O_MNTC">Pemeliharaan</String>
+		<String id="IDD_O_REG">Pendaftaran</String>
+		<String id="IDD_O_ABT">Tentang</String>
+		<!-- Exception item -->
+		<String id="IDS_EXCEPT_UNAVAILABLE">(Tak tersedia)</String>
+		<String id="IDS_EXCEPT_EMPTY">(Kosong)</String>
+		<String id="IDS_EXCEPT_GENERIC">(Galat generik)</String>
+		<!-- Popup menu strings -->
+		<String id="IDP_MAIN_ENBL_FLDMNUS">Fungsikan Menu Pelipat</String>
+		<String id="IDP_MAIN_ENBL_APCHITMS">Fungsikan Butir Approach</String>
+		<String id="IDP_MAIN_ENBL_TTLBARMNUS">Fungsikan Menu Batang Judul</String>
+		<String id="IDP_MAIN_OPTIONS">Opsi...</String>
+		<String id="IDP_MAIN_EXIT">Keluar</String>
+		<String id="IDP_CXMN_TOAPPROACHITEMS">Tambah pintasan ke Butir Approach</String>
+		<!-- Approach Items elements -->
+		<String id="IDS_APCHITEMS_ITEMRUN">Jalankan...</String>
+		<String id="IDS_APCHITEMS_ITEMPROC">Proses berjalan</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_SYS">Sistem</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_QUIT">Keluar</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_REVEAL">Ungkap</String>
+		<!-- Global command strings -->
+		<String id="IDS_GLBL_CMD_OK">Oke</String>
+		<String id="IDS_GLBL_CMD_CANCEL">Batal</String>
+		<String id="IDS_GLBL_CMD_HELP">Bantuan...</String>
+		<String id="IDS_GLBL_CMD_YES">Ya</String>
+		<String id="IDS_GLBL_CMD_NO">Tidak</String>
+		<String id="IDS_GLBL_CMD_RETRY">Coba lagi</String>
+		<!-- Global strings -->
+		<String id="IDS_GLBL_WARNING">Peringatan</String>
+		<String id="IDS_GLBL_ERROR">Galat</String>
+		<String id="IDS_GLBL_ALWAYS">Selalu</String>
+		<String id="IDS_GLBL_NEVER">Tak pernah</String>
+		<String id="IDS_GLBL_MILLISEC">mdet</String>
+		<String id="IDS_GLBL_USESYSSETTING">Gunakan penataan sistem</String>
+		<!-- Features tab -->
+		<String id="IDL_O_FEAT_CAT_FLDMENUS">Menu Pelipat</String>
+		<String id="IDL_O_FEAT_FLDMENUSDESC">Menu Pelipat memfungsikan navigasi direktori kilat melalui seperangkat menu yang dipanggil dengan cara menahan tombol tetikus pada sebuah pelipat.</String>
+		<String id="IDL_O_FEAT_INITDELAY">Waktu tunda menu awal:</String>
+		<String id="IDL_O_FEAT_CAT_APCHITEMS">Butir Approach</String>
+		<String id="IDL_O_FEAT_APCHITEMSDESC">Butir Approach menyediakan akses kilat ke pelipat yang sering digunakan dan berkas dari Wilayah Notifikasi.</String>
+		<String id="IDC_O_FEAT_APCHITEMSOPT">Opsi...</String>
+		<String id="IDL_O_FEAT_CAT_TTLBARMENUS">Menu Batang Judul</String>
+		<String id="IDL_O_FEAT_TTLBARMENUSDESC">Menu Batang Judul mengijinkan meramban hierarki seluruh pelipat dengan cara mengklik-CTRL batang judulnya dalam Penjelajah Windows.</String>
+		<String id="IDC_O_FEAT_DESKPOS_0TOP">Tayangkan destop di puncak</String>
+		<String id="IDC_O_FEAT_DESKPOS_1BOTM">Tayangkan destop di dasar</String>
+		<String id="IDC_O_FEAT_CURFLDISFILE">Jangan tayangkan submenu untuk pelipat ini</String>
+		<String id="IDC_O_FEAT_CURFLDAUTOSEL">Otomatis sorot pelipat ini</String>
+		<!-- Menus and Scrolling tab -->
+		<String id="IDL_O_MNSC_CAT_MENUS">Menu</String>
+		<String id="IDL_O_MNSC_MAXMNUWIDTH">Lebar maksimum menu:</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_0PXL">piksel</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_1PRC">% lebar layar</String>
+		<String id="IDL_O_MNSC_CHILDDELAY">Waktu tunda menu anak:</String>
+		<String id="IDL_O_MNSC_CAT_SCROLLING">Penggulungan</String>
+		<String id="IDL_O_MNSC_WHEELSCROLLS">Gulungan roda tetikus:</String>
+		<String id="IDL_O_MNSC_WHEELITEMS">butir</String>
+		<String id="IDL_O_MNSC_PAGESCROLLS">Gulungan Naik Halaman/Turun Halaman:</String>
+		<String id="IDL_O_MNSC_PAGEITEMS">butir</String>
+		<String id="IDL_O_MNSC_SCROLLARROWS">Tayangkan panah penggulungan:</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_0TOP">Di puncak</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_1BOTM">Di dasar</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_2ENDS">Di puncak dan di dasar</String>
+		<String id="IDC_O_MNSC_DISPNUMTOSCROLL">Tayangkan jumlah butir tersisa untuk digulung</String>
+		<String id="IDL_O_MNSC_SCROLLDELAY">Waktu tunda penggulungan:</String>
+		<!-- Contents tab -->
+		<String id="IDL_O_CNTS_CAT_ITEMS">Butir</String>
+		<String id="IDL_O_CNTS_HDNITMS">Tampilkan butir tersembunyi:</String>
+		<String id="IDC_O_CNTS_HDNITMS_DIMICN">Tayangkan ikon redup</String>
+		<String id="IDL_O_CNTS_BROWSEFLD">Ramban pelipat:</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_0NEWWND">Dalam sebuah jendela baru</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_1SAMEWND">Dalam jendela yang ada</String>
+		<String id="IDL_O_CNTS_SSFISWHAT">Perlakukan pintasan ke pelipat sebagai:</String>
+		<String id="IDC_O_CNTS_SSFIS_0FOLDER">Pelipat</String>
+		<String id="IDC_O_CNTS_SSFIS_1FILE">Berkas</String>
+		<String id="IDL_O_CNTS_ZIPISWHAT">Perlakukan arsip ZIP sebagai:</String>
+		<String id="IDC_O_CNTS_ZIPIS_0FOLDER">Pelipat</String>
+		<String id="IDC_O_CNTS_ZIPIS_1FILE">Berkas</String>
+		<String id="IDL_O_CNTS_MOUSEITEMCLK">Pemanggilan tetikus butir:</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_0REG">Reguler</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_1SGL">Klik-tunggal</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_2DBL">Klik-ganda</String>
+		<String id="IDL_O_CNTS_CAT_ORDER">Penyusunan</String>
+		<String id="IDC_O_CNTS_SORTITEMS">Pilah butir secara alfabetis</String>
+		<String id="IDC_O_CNTS_FLDORD_0TOP">Pelipat mendahului berkas</String>
+		<String id="IDC_O_CNTS_FLDORD_1BOTM">Berkas mendahului pelipat</String>
+		<String id="IDC_O_CNTS_FLDORD_2MIX">Jangan kelompokkan</String>
+		<String id="IDL_O_CNTS_CAT_ICONS">Ikon</String>
+		<String id="IDC_O_CNTS_ICN_0GENERIC">Tayangkan ikon generik</String>
+		<String id="IDC_O_CNTS_ICN_1REGULAR">Tayangkan ikon reguler</String>
+		<String id="IDC_O_CNTS_ICNOVERLAYS">Tayangkan lapisan ikon</String>
+		<String id="IDC_O_CNTS_ICNOPTIMIZ">Percepat pencarian ikon&#0013;&#0010;(membutuhkan tambahan sumber daya)</String>
+		<!-- Maintenance tab -->
+		<String id="IDL_O_MNTC_CAT_MNTC">Pemeliharaan</String>
+		<String id="IDL_O_MNTC_UILANG">Bahasa antarmuka pengguna:</String>
+		<String id="IDS_O_MNTC_UILANG_MORE">Lebih banyak bahasa...</String>
+		<String id="IDL_O_MNTC_UPDATE">Pemutakhiran program:</String>
+		<String id="IDC_O_MNTC_UPDATE">Periksa pemutakhiran</String>
+		<String id="IDC_O_MNTC_UPDATEAUTO">Otomatis periksa pemutakhiran</String>
+		<String id="IDL_O_MNTC_RESTDEF">Penataan standar:</String>
+		<String id="IDC_O_MNTC_RESTDEF">Simpan ulang standar</String>
+		<String id="IDL_O_MNTC_AUTORUN">Otomatis luncurkan saat hidupkan:</String>
+		<String id="IDC_O_MNTC_AUTORUN">Fungsikan oto-luncur</String>
+		<String id="IDL_O_MNTC_CAT_PLUGINS">Plug-in</String>
+		<String id="IDC_O_MNTC_PLGNENBL">Fungsikan</String>
+		<String id="IDC_O_MNTC_PLGNDSBL">Lumpuhkan</String>
+		<String id="IDS_O_MNTC_PLGNLST_NAME">Nama</String>
+		<String id="IDS_O_MNTC_PLGNLST_STATUS">Status</String>
+		<String id="IDS_O_MNTC_PLGNLST_LOADED">Dimuat</String>
+		<String id="IDS_O_MNTC_PLGNLST_NOTLOADED">Tak dimuat</String>
+		<String id="IDS_O_MNTC_PLGNLST_STOPPING">Menghentikan</String>
+		<String id="IDS_O_MNTC_PLGNLST_DISABLED">Lumpuhkan</String>
+		<String id="IDS_O_MNTC_MSG_UPDYES">Pemutakhiran tersedia. Apakah anda ingin mengunduhnya?</String>
+		<String id="IDS_O_MNTC_MSG_UPDNO">Tiada pemutakhiran yang tersedia untuk saat ini.</String>
+		<String id="IDS_O_MNTC_MSG_RESTDEF">Standar telah disimpan ulang.</String>
+		<!-- Registration tab (registered mode) -->
+		<String id="IDL_O_RGOK_CAT_USER">Pengguna Terdaftar</String>
+		<String id="IDL_O_RGOK_REGUSER">Produk ini terdaftar kepada:</String>
+		<String id="IDL_O_RGOK_CAT_KEYBKP">Rekam Cadang Kunci</String>
+		<String id="IDL_O_RGOK_BACKUP">Pertimbangkan untuk menyimpan Kunci Aktivasi anda di tempat yang aman. Klik Rekam cadang untuk menyimpan sebuah salinan Kunci anda ke lokasi yang diinginkan.</String>
+		<String id="IDC_O_RGOK_BACKUP">Rekam cadang...</String>
+		<!-- Registration tab (unregistered mode) -->
+		<String id="IDL_O_RGNO_INETREQD">Anda harus tersambung dengan Internet umtuk berlanjut dengan Pelisensian dan Aktivasi.</String>
+		<String id="IDL_O_RGNO_CAT_LIC">Pelisensian</String>
+		<String id="IDL_O_RGNO_ACTDESC1">Salinan KO Approach ini TAK TERDAFTAR dan sedang berjalan dalam moda fungsionalitas dikurangi. Untuk membuka secara penuh perangkat lunak ini, anda harus membeli sebuah Lisensi dan mengaktifkan KO Approach.</String>
+		<String id="IDL_O_RGNO_ACTDESC2">Jika anda telah memiliki sebuah Lisensi dan salinan cadangan dari Kunci Aktivasi, anda dapat menyimpan ulang untuk memperoleh akses ke fungsionalitas penuh KO Approach.</String>
+		<String id="IDC_O_RGNO_PURCHASE">Beli...</String>
+		<String id="IDC_O_RGNO_KEYRESTORE">Simpan ulang...</String>
+		<String id="IDL_O_RGNO_CAT_ACTIVN">Aktivasi</String>
+		<String id="IDL_O_RGNO_SERNUM">Masukkan Nomor Seri yang telah anda terima di surel Notifikasi Pendaftaran&#0013;&#0010;(dalam format X-XXXXX-XXXXX-XXXXX-XXXXX):</String>
+		<String id="IDC_O_RGNO_SERNUMHIDE">Sembunyikan Nomor Seri</String>
+		<String id="IDC_O_RGNO_ACTIVATE">Aktifkan...</String>
+		<!-- About tab -->
+		<String id="IDC_O_ABT_THXCAPTION">Ucapan terima kasih khusus kepada:</String>
+		<String id="IDS_O_ABT_VERSION">Versi</String>
+		<String id="IDS_O_ABT_THX1">Turlough O'Connor - untuk ide orisinal;</String>
+		<String id="IDS_O_ABT_THX2">Dmitry Osipov - untuk Dokumentasi produk, saran berharga, uji coba pra-rilis, dan dukungan keseluruhan;</String>
+		<String id="IDS_O_ABT_THX3">Andrew Fellows, Denis Gavrilov, Alexander Gusev, Ilya Kirilkin, Ilya Popov, Sergey Samsonov, Jan Schröder, Alexander Simanov, Roman Soshkin, dan Denis Vlasov - untuk saran berharga dan uji coba pra-rilis;</String>
+		<String id="IDS_O_ABT_THX4">Semua orang di CodeProject yang membuat saya terinspirasi.</String>
+		<String id="IDC_O_ABT_FEEDBACK">Kirim umpan balik</String>
+		<String id="IDC_O_ABT_HOMEPAGE">Halaman pangkal KO Approach</String>
+		<!-- Backup/Restore dialog box -->
+		<String id="IDS_KEYDLG_FILTER">Berkas Kunci KO Approach</String>
+		<String id="IDS_KEYDLG_TITLE">Pilih Lokasi Kunci Aktivasi</String>
+		<!-- Activation dialog box -->
+		<String id="IDS_ACTN_ST_CONN">Menyambung...</String>
+		<String id="IDS_ACTN_ST_SUCC">Aktivasi Berhasil</String>
+		<String id="IDS_ACTN_ST_FAIL">Aktivasi Gagal</String>
+		<String id="IDS_ACTN_ST_RSTR">Simpan Ulang Selesai</String>
+		<String id="IDS_ACTN_DS_CONN">Menghubungi Layanan Aktivasi. Harap tunggu...</String>
+		<String id="IDS_ACTN_DS_CONNERR">Sambungan tak dapat dibentuk. Silahkan periksa konfigurasi jaringan anda dan coba lagi. Jika anda menggunakan Firewall harap ijinkan permintaan keluar untuk KO Approach.</String>
+		<String id="IDS_ACTN_DS_HWIDERR">Tak dapat membangkitkan ID Perangkat Keras untuk komputer ini.&#0013;&#0010;Silahkan coba mengaktifkan KO Approach lagi. Jika masalahnya membandel, silahkan hubungi Dukungan Pelanggan KO Software di support@koapproach.com.</String>
+		<String id="IDS_ACTN_DS_SRNMERR">Nomor Seri tak dapat terverifikasi.&#0013;&#0010;Silahkan masukkan sebuah Nomor Seri yang sah dan coba lagi.</String>
+		<String id="IDS_ACTN_DS_GNRCERR">Sebuah Galat Tak Dikenal telah terjadi. Silahkan coba mengaktifkan KO Approach lagi. Jika masalahnya membandel, silahkan hubungi Dukungan Pelanggan KO Software di support@koapproach.com.</String>
+		<String id="IDS_ACTN_DS_LMTEXCD">Anda telah melampui batas permintaan Kunci Aktivasi anda. Apakah anda ingin membeli Lisensi tambahan?</String>
+		<String id="IDS_ACTN_DS_SUCC">Selamat!&#0013;&#0010;Anda telah berhasil mengaktifkan salinan KO Approach anda.</String>
+		<String id="IDS_ACTN_DS_RSTR">Kunci Aktivasi ditempatkan dalam direktori Aplikasi KO Approach. Tekan Oke untuk memulai ulang Approach dan validasikan Kunci.</String>
+		<String id="IDS_ACTN_DS_KEYACCS">Meskipun Kunci Aktivasi berhasil diperoleh, KO Approach tak dapat menulis berkas Kunci ke direktori Aplikasi.&#0013;&#0010;Silahkan periksa apakah anda mempunyai hak akses yang cukup untuk melakukan aksi ini.</String>
+		<!-- Warning dialog boxes -->
+		<String id="IDS_WARNTXT_FEATURELOCKED">Salinan KO Approach ini TAK TERDAFTAR dan dibatasi menjadi dua fitur program saja. Silahkan dapatkan sebuah Kunci Lisensi untuk menikmati fungsionalitas penuh KO Approach.</String>
+		<String id="IDS_WARNTXT_INVALIDKEY">Kunci Aktivasi untuk salinan KO Approach ini tampaknya tak sah. KO Approach akan berjalan dalam moda fungsionalitas dikurangi.&#0013;&#0010;Silahkan hapus Kunci Aktivasi yang tak sah untuk menghindari pesan ditayangkan tiap kali anda meluncurkan Approach.</String>
+		<!-- Approach Items Options dialog box -->
+		<String id="IDD_APCHITMS">Butir Approach</String>
+		<String id="IDL_APCHITMS_CUR">Butir Sekarang:</String>
+		<String id="IDL_APCHITMS_ALL">Butir Tersedia:</String>
+		<String id="IDC_APCHITMS_ADD">Tambah</String>
+		<String id="IDC_APCHITMS_RMV">Hapus</String>
+		<String id="IDC_APCHITMS_UP">Ungguh</String>
+		<String id="IDC_APCHITMS_DOWN">Anjlok</String>
+		<String id="IDC_APCHITMS_BRW">Ramban Butir Approach...</String>
+		<!-- Help popups -->
+		<String id="IDH_OPTS_OK">Menyimpan perubahan dan menutup jendela program.</String>
+		<String id="IDH_OPTS_CANCEL">Membuang perubahan dan menutup jendela program.</String>
+		<String id="IDH_OPTS_HELP">Membuka Dokumentasi KO Approach.</String>
+		<String id="IDH_O_FEAT_FLDMENUSTGL">Memfungsikan/Melumpuhkan fitur Pelipat Menu yang mengijinkan penayangan menu yang menyerupai struktur pelipat terpilih.</String>
+		<String id="IDH_O_FEAT_INITDELAY">Menyesuaikan banyaknya waktu yang dibutuhkan tombol tetikus untuk ditahan sebelum perluasan menu awal.</String>
+		<String id="IDH_O_FEAT_APCHITEMSTGL">Memfungsikan/Melumpuhkan fitur Butir Approach yang menyediakan akses kilat ke berkas favorit anda.</String>
+		<String id="IDH_O_FEAT_APCHITEMSOPT">Membuka jendela Opsi Butir Approach yang mengijinkan anda untuk mengelola isinya.</String>
+		<String id="IDH_O_FEAT_TTLBARMENUSTGL">Memfungsikan/Melumpuhkan fitur Menu Batang Judul yang mengijinkan anda untuk meramban menu induk-ke-anak yang terbuat dari sebuah Batang Judul jendela Penjelajah.</String>
+		<String id="IDH_O_FEAT_DESKPOS_0TOP">Menu Batang Judul akan menayangkan Destop di puncak dan pelipat saat ini di dasar senarai.</String>
+		<String id="IDH_O_FEAT_DESKPOS_1BOTM">Menu Batang Judul akan menayangkan pelipat saat ini di puncak dan Destop di dasar senarai.</String>
+		<String id="IDH_O_FEAT_CURFLDISFILE">Menu Batang Judul tak akan menayangkan panah submenu untuk pelipat saat ini, memperlakukannya sebagai sebuah berkas.</String>
+		<String id="IDH_O_FEAT_CURFLDAUTOSEL">Menu Batang Judul akan menyorot butir yang menunjuk ke pelipat saat ini.</String>
+		<String id="IDH_O_MNSC_MAXMNUWIDTH">Menentukan lebar maksimum menu. lebar maksimum tak boleh melebihi 1/3 dari lebar layar keseluruhan.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_0PXL">Menata lebar maksimum menu ke jumlah piksel yang ditentukan.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_1PRC">Menata lebar maksimum menu ke persentase lebar layar yang ditentukan.</String>
+		<String id="IDH_O_MNSC_CHILDDELAY">Menyesuaikan berapa lama KO Approach akan menunggu sebelum menayangkan sub-menu.</String>
+		<String id="IDH_O_MNSC_WHEELSCROLLS">Menentukan jumlah butir untuk dilompati ketika menggulung dengan roda tetikus.</String>
+		<String id="IDH_O_MNSC_PAGESCROLLS">Menentukan jumlah butir untuk dilompati ketika menggulung dengan tombol Naik Halaman/Turun Halaman.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_0TOP">Menata kedua panah penggulungan, jika ditayangkan, agar tampil di puncak menu.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_1BOTM">Menata kedua panah penggulungan, jika ditayangkan, agar tampil di dasar menu.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_2ENDS">Menata panah penggulungan NAIK dan TURUN, jika ditayangkan, agar masing-masing tampil di puncak dan di dasar menu.</String>
+		<String id="IDH_O_MNSC_DISPNUMTOSCROLL">Menampilkan/menyembunyikan loket butir menu yang tengah berada di luar batas layar.</String>
+		<String id="IDH_O_MNSC_SCROLLDELAY">Menyesuaikan berapa lama KO Approach akan menunggu sebelum butir atas/bawah berikutnya pada menu ketika menggulung.</String>
+		<String id="IDH_O_CNTS_HDNITMS">Menentukan apakah akan menayangkan berkas tersembunyi.</String>
+		<String id="IDH_O_CNTS_HDNITMS_DIMICN">Menentukan butir tersembunyi akan ditayangkan dengan ikon semi-transparan.</String>
+		<String id="IDH_O_CNTS_BROWSEFLD">Menentukan apakah KO Approach mesti menggunakan kembali sebuah jendela Explorer ketika anda mengklik di atas sebuah pelipat.</String>
+		<String id="IDH_O_CNTS_SSFIS_0FOLDER">Menentukan bahwa pintasan pelipat mesti menayangkan isi targetnya.</String>
+		<String id="IDH_O_CNTS_SSFIS_1FILE">Menentukan bahwa pintasan pelipat jangan menayangkan isi targetnya.</String>
+		<String id="IDH_O_CNTS_ZIPIS_0FOLDER">Menentukan bahwa arsip ZIP mesti menayangkan butir di dalamnya.</String>
+		<String id="IDH_O_CNTS_ZIPIS_1FILE">Menentukan bahwa arsip ZIP jangan menayangkan butir di dalamnya.</String>
+		<String id="IDH_O_CNTS_MOUSEITEMCLK">Menentukan apakah butir menu mesti diaktifkan dengan klik tunggal- atau ganda tetikus.</String>
+		<String id="IDH_O_CNTS_SORTITEMS">Menentukan apakah butir di menu mesti tersenarai dalam urutan alfabetis.</String>
+		<String id="IDH_O_CNTS_FLDORD_0TOP">Menentukan apakah pelipat di menu mesti tersenarai lebih dahulu, diikuti oleh berkas.</String>
+		<String id="IDH_O_CNTS_FLDORD_1BOTM">Menentukan apakah berkas di menu mesti tersenarai lebih dahulu, diikuti oleh pelipat.</String>
+		<String id="IDH_O_CNTS_FLDORD_2MIX">Tak membedakan di antara berkas dan pelipat yang menayangkan seluruh butir sebagai senarai kontinyu.</String>
+		<String id="IDH_O_CNTS_ICN_0GENERIC">Menentukan apakah ikon orisinal mesti diganti dengan tipe generik (pelipat, aplikasi, atau berkas) untuk menghasilkan tampilan menu yang lebih cepat.</String>
+		<String id="IDH_O_CNTS_ICN_1REGULAR">Menentukan apakah butir mesti hanya menayangkan ikon yang mirip dalam Windows Explorer.</String>
+		<String id="IDH_O_CNTS_ICNOVERLAYS">Menentukan apakah butir mesti menayangkan lapisan ikon, contohnya panah pintasan.</String>
+		<String id="IDH_O_CNTS_ICNOPTIMIZ">Memerintahkan KO Approach untuk mencari tumpak ikon butir agar mengoptimalkan proses rendering ikon.</String>
+		<String id="IDH_O_MNTC_UILANG">Menentukan lokalisasi KO Approach.</String>
+		<String id="IDH_O_MNTC_LOCALEINFO">Menayangkan informasi singkat mengenai about lokalisasi yang saat ini dipilih.</String>
+		<String id="IDH_O_MNTC_UPDATE">Memeriksa apakah pemutakhiran tersedia di situs Web KO Approach dan menawarkan kepada anda untuk mengunduh dan menginstalnya.</String>
+		<String id="IDH_O_MNTC_UPDATEAUTO">Menentukan apakah KO Approach mesti memeriksa pemutakhiran secara berkala dan menayangkan pemberitahuan ketika pemutakhiran tersedia.</String>
+		<String id="IDH_O_MNTC_RESTDEF">Mengembalikan penataan KO Approach untuk pengguna saat ini ke nilai yang ditetapkan pada pelucuran program pertama kali.</String>
+		<String id="IDH_O_MNTC_AUTORUN">Membuat/Menghapus pintasan KO Approach di pelipat Startup Menu Mulai anda.</String>
+		<String id="IDH_O_MNTC_PLGNLST">Menayangkan senarai plug-in yang terinstal.</String>
+		<String id="IDH_O_MNTC_PLGNENBL">Memfungsikan plug-in terpilih ketika anda menekan Oke dan membuka-lagi KO Approach.</String>
+		<String id="IDH_O_MNTC_PLGNDSBL">Melumpuhkan plug-in terpilih ketika anda menekan Oke dan membuka-lagi KO Approach.</String>
+		<String id="IDH_O_RGOK_REGUSER">Menayangkan nama Pengguna Terdaftar.</String>
+		<String id="IDH_O_RGOK_BACKUP">Merekam cadang Kunci Aktivasi ke lokasi yang anda tentukan.</String>
+		<String id="IDH_O_RGNO_KEYRESTORE">Menyimpan ulang Kunci Aktivasi dari lokasi yang anda tentukan.</String>
+		<String id="IDH_O_RGNO_PURCHASE">Membuka Halaman Pemesanan KO Approach dalam peramban standar anda.</String>
+		<String id="IDH_O_RGNO_ACTIVATE">Mencoba untuk memperoleh sebuah Kunci Aktivasi dari Layanan Aktivasi terhubung KO Approach.</String>
+		<String id="IDH_O_RGNO_SERNUMHIDE">Menayangkan Nomor Seri anda sebagai tanda bintang (*) untuk tujuan kerahasiaan.</String>
+		<String id="IDH_O_RGNO_SERNUM">Mengijinkan anda untuk menentukan Nomor Seri ke Layanan Aktivasi terhubung.</String>
+		<String id="IDH_O_ABT_FEEDBACK">Membuat sebuah pesan surel baru, agar anda dapat mengirimkan komentar dan saran kepada kami.</String>
+		<String id="IDH_O_ABT_HOMEPAGE">Membuka situs Web KO Approach dalam peramban standar anda.</String>
+	</Strings>
+	<Metrics>
+		<!-- Global -->
+		<Metric id="IDM_GLBL_LANGRTL" factor="1">0</Metric>
+		<Metric id="IDM_GLBL_MILLISECFMT" factor="1">0</Metric>
+		<!-- Main dialog box -->
+		<Metric id="IDM_OPTS_CONTROLMARGIN" factor="1">7</Metric>
+		<Metric id="IDM_OPTS_CATEGORIESWIDTH" factor="1">80</Metric>
+		<Metric id="IDM_OPTS_BUTTONSIZE" factor="2">52,14</Metric>
+		<!-- Features tab -->
+		<Metric id="IDD_O_FEAT" factor="2">320,290</Metric>
+		<Metric id="IDL_O_FEAT_CAT_FLDMENUS" factor="4">20,5,293,12</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSVIS" factor="4">27,25,38,35</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSDESC" factor="4">74,25,222,24</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAY" factor="4">74,60,80,9</Metric>
+		<Metric id="IDC_O_FEAT_INITDELAY" factor="4">160,58,73,20</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAYVAL" factor="4">239,60,57,10</Metric>
+		<Metric id="IDL_O_FEAT_CAT_APCHITEMS" factor="4">20,88,293,12</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSVIS" factor="4">27,108,38,35</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSDESC" factor="4">74,108,222,17</Metric>
+		<Metric id="IDC_O_FEAT_APCHITEMSOPT" factor="4">74,132,55,13</Metric>
+		<Metric id="IDL_O_FEAT_CAT_TTLBARMENUS" factor="4">20,164,293,12</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSVIS" factor="4">27,184,38,35</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSDESC" factor="4">74,184,222,24</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_0TOP" factor="4">74,217,222,9</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_1BOTM" factor="4">74,228,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDISFILE" factor="4">74,239,222,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDAUTOSEL" factor="4">84,251,212,9</Metric>
+		<!-- Menus and Scrolling tab -->
+		<Metric id="IDD_O_MNSC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNSC_CAT_MENUS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNSC_MAXMNUWIDTH" factor="4">27,25,124,9</Metric>
+		<Metric id="IDC_O_MNSC_MAXMNUWIDTH" factor="4">158,23,33,12</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_0PXL" factor="4">195,20,101,9</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_1PRC" factor="4">195,29,101,9</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAY" factor="4">27,47,124,10</Metric>
+		<Metric id="IDC_O_MNSC_CHILDDELAY" factor="4">153,46,91,20</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAYVAL" factor="4">247,48,49,10</Metric>
+		<Metric id="IDL_O_MNSC_CAT_SCROLLING" factor="4">6,75,307,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELSCROLLS" factor="4">27,95,124,9</Metric>
+		<Metric id="IDC_O_MNSC_WHEELSCROLLS" factor="4">158,93,33,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELITEMS" factor="4">195,95,101,9</Metric>
+		<Metric id="IDL_O_MNSC_PAGESCROLLS" factor="4">23,115,128,9</Metric>
+		<Metric id="IDC_O_MNSC_PAGESCROLLS" factor="4">158,113,33,12</Metric>
+		<Metric id="IDL_O_MNSC_PAGEITEMS" factor="4">195,115,101,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLARROWS" factor="4">27,132,124,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_0TOP" factor="4">158,132,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_1BOTM" factor="4">158,143,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_2ENDS" factor="4">158,154,138,9</Metric>
+		<Metric id="IDC_O_MNSC_DISPNUMTOSCROLL" factor="4">158,170,125,17</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAY" factor="4">27,196,124,10</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLDELAY" factor="4">153,195,91,20</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAYVAL" factor="4">247,196,49,10</Metric>
+		<!-- Contents tab -->
+		<Metric id="IDD_O_CNTS" factor="2">320,290</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ITEMS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_CNTS_HDNITMS" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS" factor="4">158,22,148,33</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS_DIMICN" factor="4">158,38,138,9</Metric>
+		<Metric id="IDL_O_CNTS_BROWSEFLD" factor="4">27,57,124,8</Metric>
+		<Metric id="IDC_O_CNTS_BROWSEFLD" factor="4">158,54,148,33</Metric>
+		<Metric id="IDL_O_CNTS_SSFISWHAT" factor="4">19,75,132,8</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_0FOLDER" factor="4">158,74,52,9</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_1FILE" factor="4">218,74,52,9</Metric>
+		<Metric id="IDL_O_CNTS_ZIPISWHAT" factor="4">27,93,124,8</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_0FOLDER" factor="4">158,92,52,9</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_1FILE" factor="4">218,92,52,9</Metric>
+		<Metric id="IDL_O_CNTS_MOUSEITEMCLK" factor="4">27,111,124,8</Metric>
+		<Metric id="IDC_O_CNTS_MOUSEITEMCLK" factor="4">158,108,148,33</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ORDER" factor="4">6,139,307,12</Metric>
+		<Metric id="IDC_O_CNTS_SORTITEMS" factor="4">27,159,124,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_0TOP" factor="4">158,159,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_1BOTM" factor="4">158,171,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_2MIX" factor="4">158,183,138,9</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ICONS" factor="4">6,206,307,12</Metric>
+		<Metric id="IDC_O_CNTS_ICN_0GENERIC" factor="4">27,225,124,9</Metric>
+		<Metric id="IDC_O_CNTS_ICN_1REGULAR" factor="4">158,225,138,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOVERLAYS" factor="4">168,237,128,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOPTIMIZ" factor="4">168,249,146,19</Metric>
+		<!-- Maintenance and Plug-ins tab -->
+		<Metric id="IDD_O_MNTC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNTC_CAT_MNTC" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNTC_UILANG" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UILANG" factor="4">158,22,138,30</Metric>
+		<Metric id="IDC_O_MNTC_LOCALEINFO" factor="4">158,39,138,20</Metric>
+		<Metric id="IDL_O_MNTC_UPDATE" factor="4">27,71,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UPDATE" factor="4">158,67,138,14</Metric>
+		<Metric id="IDC_O_MNTC_UPDATEAUTO" factor="4">158,84,138,10</Metric>
+		<Metric id="IDL_O_MNTC_RESTDEF" factor="4">27,106,124,8</Metric>
+		<Metric id="IDC_O_MNTC_RESTDEF" factor="4">158,102,138,14</Metric>
+		<Metric id="IDL_O_MNTC_AUTORUN" factor="4">27,127,124,8</Metric>
+		<Metric id="IDC_O_MNTC_AUTORUN" factor="4">158,126,138,9</Metric>
+		<Metric id="IDL_O_MNTC_CAT_PLUGINS" factor="4">6,146,307,12</Metric>
+		<Metric id="IDC_O_MNTC_PLGNLST" factor="4">27,164,269,91</Metric>
+		<Metric id="IDC_O_MNTC_PLGNDSBL" factor="4">229,260,67,14</Metric>
+		<Metric id="IDC_O_MNTC_PLGNENBL" factor="4">158,260,67,14</Metric>
+		<!-- Registration tab (unregistered mode) -->
+		<Metric id="IDD_O_RGNO" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGNO_INETICN" factor="4">27,9,0,0</Metric>
+		<Metric id="IDL_O_RGNO_INETREQD" factor="4">62,11,234,17</Metric>
+		<Metric id="IDL_O_RGNO_CAT_LIC" factor="4">6,38,307,12</Metric>
+		<Metric id="IDL_O_RGNO_UNREGICN" factor="4">27,58,0,0</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC1" factor="4">62,56,244,26</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC2" factor="4">62,88,244,26</Metric>
+		<Metric id="IDC_O_RGNO_PURCHASE" factor="4">162,116,68,14</Metric>
+		<Metric id="IDC_O_RGNO_KEYRESTORE" factor="4">234,116,68,14</Metric>
+		<Metric id="IDL_O_RGNO_CAT_ACTIVN" factor="4">6,140,307,12</Metric>
+		<Metric id="IDL_O_RGNO_SERNUM" factor="4">27,158,269,17</Metric>
+		<Metric id="IDC_O_RGNO_SERNUM" factor="4">27,179,202,12</Metric>
+		<Metric id="IDC_O_RGNO_SERNUMHIDE" factor="4">27,193,78,9</Metric>
+		<Metric id="IDC_O_RGNO_ACTIVATE" factor="4">234,178,68,14</Metric>
+		<!-- Registration tab (registered mode) -->
+		<Metric id="IDD_O_RGOK" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGOK_CAT_USER" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_RGOK_REGUSER" factor="4">27,25,286,8</Metric>
+		<Metric id="IDC_O_RGOK_REGUSER" factor="4">27,38,286,8</Metric>
+		<Metric id="IDL_O_RGOK_CAT_KEYBKP" factor="4">6,59,307,12</Metric>
+		<Metric id="IDL_O_RGOK_BACKUP" factor="4">27,79,269,24</Metric>
+		<Metric id="IDC_O_RGOK_BACKUP" factor="4">218,106,78,14</Metric>
+		<!-- About tab -->
+		<Metric id="IDD_O_ABT" factor="2">320,290</Metric>
+		<Metric id="IDC_O_ABT_APPICON" factor="4">27,18,0,0</Metric>
+		<Metric id="IDC_O_ABT_APPNAME" factor="4">70,9,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPVER" factor="4">70,25,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPCOPY" factor="4">70,41,180,9</Metric>
+		<Metric id="IDC_O_ABT_HORRULE" factor="4">7,57,306,1</Metric>
+		<Metric id="IDC_O_ABT_THXCAPTION" factor="4">8,65,305,8</Metric>
+		<Metric id="IDC_O_ABT_THXLIST" factor="4">27,83,286,111</Metric>
+		<Metric id="IDC_O_ABT_FEEDBACK" factor="4">6,275,60,8</Metric>
+		<Metric id="IDC_O_ABT_HOMEPAGE" factor="4">206,275,107,8</Metric>
+		<Metric id="IDM_O_ABT_NUMTHANKSLINES" factor="1">4</Metric>
+		<!-- Activation dialog box -->
+		<Metric id="IDD_ACTN" factor="2">273,68</Metric>
+		<Metric id="IDL_ACTN_ICON" factor="4">7,8,0,0</Metric>
+		<Metric id="IDL_ACTN_STATUS" factor="4">36,8,230,36</Metric>
+		<Metric id="IDM_ACTN_BTNSIZE" factor="2">52,14</Metric>
+		<Metric id="IDM_ACTN_BTNVERTPOS" factor="1">45</Metric>
+		<Metric id="IDM_ACTN_BTNSPACING" factor="1">12</Metric>
+		<!-- Approach Items Options dialog box -->
+		<Metric id="IDD_APCHITMS" factor="2">307,175</Metric>
+		<Metric id="IDL_APCHITMS_CUR" factor="4">7,7,114,8</Metric>
+		<Metric id="IDL_APCHITMS_ALL" factor="4">186,7,114,8</Metric>
+		<Metric id="IDC_APCHITMS_CUR" factor="4">7,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ALL" factor="4">186,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ADD" factor="4">128,34,50,14</Metric>
+		<Metric id="IDC_APCHITMS_RMV" factor="4">128,50,50,14</Metric>
+		<Metric id="IDC_APCHITMS_UP" factor="4">128,74,50,14</Metric>
+		<Metric id="IDC_APCHITMS_DOWN" factor="4">128,90,50,14</Metric>
+		<Metric id="IDC_APCHITMS_BRW" factor="4">7,154,114,14</Metric>
+		<Metric id="IDM_APCHITMS_OK" factor="4">196,154,50,14</Metric>
+		<Metric id="IDM_APCHITMS_CANCEL" factor="4">250,154,50,14</Metric>
+	</Metrics>
+</Approach_Localization>

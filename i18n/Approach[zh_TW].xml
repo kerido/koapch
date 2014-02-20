@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Approach_Localization version="1">
+	<Summary>
+		<Locale>zh_TW</Locale>
+		<Titles>
+			<Title locale="de_DE">Chinesisch traditionell</Title>
+			<Title locale="en_US">Traditional Chinese</Title>
+			<Title locale="fr_FR">Chinois traditionnel</Title>
+			<Title locale="ru_RU">Традиционный китайский</Title>
+			<Title locale="zh_TW">繁體中文</Title>
+		</Titles>
+		<Created_Bys>
+			<Created_By locale="en_US">Translated by Willy Wong</Created_By>
+			<Created_By locale="zh_TW">Willy Wong 翻譯</Created_By>
+			<Created_By locale="ru_RU">Перевод Willy Wong</Created_By>
+		</Created_Bys>
+		<Comments>
+			<Comment locale="zh_TW">KO Approach 繁體中文化</Comment>
+			<Comment locale="en_US">The Traditional Chinese localization of KO Approach</Comment>
+			<Comment locale="ru_RU">Традиционная китайская локализация</Comment>
+		</Comments>
+	</Summary>
+
+	<Strings>
+		<!-- Tab titles -->
+		<String id="IDS_TAB_GENERAL">一般</String>
+		<String id="IDS_TAB_BEHAVIOR">執行</String>
+		<String id="IDS_TAB_SETTINGS">設定</String>
+		<!-- TODO: <String id="IDS_TAB_PLUGINS">Plugins</String> -->
+		<String id="IDS_TAB_REGISTRATION">注冊</String>
+		<String id="IDS_TAB_ABOUT">關於</String>
+		<!-- Combobox strings -->
+		<String id="IDS_USESYSTEMSETTING">跟據系統設定</String>
+		<String id="IDS_INANEWWINDOW">使用新視窗</String>
+		<!-- TODO: <String id="IDS_INTHEEXISTINGWINDOW">In the existing window</String> -->
+		<String id="IDS_ALWAYS">總是</String>
+		<String id="IDS_NEVER">永不</String>
+		<!-- Exception item -->
+		<String id="IDS_EXCEPT_UNAVAILABLE">(不能使用)</String>
+		<String id="IDS_EXCEPT_EMPTY">(無意義)</String>
+		<String id="IDS_EXCEPT_GENERIC">(一般性錯誤)</String>
+		<!-- Popup menu strings -->
+		<String id="IDS_POPUP_OPTIONS">選項...</String>
+		<String id="IDS_POPUP_EXIT">退出</String>
+		<String id="IDS_POPUP_FOLDERMENUS">分層式選單</String>
+		<String id="IDS_POPUP_APPROACHITEMS">自定義選單</String>
+		<String id="IDS_POPUP_TITLEBARMENUS">展開式選單</String>
+		<String id="IDS_POPUP_HELP">說明...</String>
+		<String id="IDS_MENU_CANCEL">取消</String>
+		<String id="IDS_MENU_TOAPPROACHITEMS">添加 Approach 捷徑至桌面</String>
+		<!-- Approach Items elements -->
+		<!-- TODO: <String id="IDS_APCHITEMS_ITEMRUN">Run...</String> -->
+		<!-- Global buttons -->
+		<String id="IDS_BTN_OK">確定</String>
+		<String id="IDS_BTN_CANCEL">取消</String>
+		<String id="IDS_BTN_HELP">說明...</String>
+		<String id="IDS_BTN_YES">是</String>
+		<String id="IDS_BTN_NO">否</String>
+		<!-- TODO: <String id="IDS_BTN_RETRY">Retry</String> -->
+		<!-- General tab -->
+		<String id="IDS_CAT_MAIN">主設定</String>
+		<String id="IDS_CAT_SCROLLING">捲動項</String>
+		<String id="IDS_CAT_DELAY">延遲項</String>
+		<String id="IDS_STATIC_FOLDERMENUS">分層式選單:</String>
+		<String id="IDS_STATIC_APPROACHITEMS">自定義選單:</String>
+		<String id="IDS_STATIC_TITLEBARMENUS">展開式選單:</String>
+		<String id="IDS_ENABLE">使用</String>
+		<!-- TODO: <String id="IDS_APPROACHITEMS_SHOWOPTIONS">Options...</String> -->
+		<!-- TODO: <String id="IDS_TITLEBARMENUS_SHOWOPTIONS">Options...</String> -->
+		<String id="IDS_AUTORUN">在開機時自動執行</String>
+		<String id="IDS_STATIC_INITIALMENU">主功能表:</String>
+		<String id="IDS_STATIC_CHILDMENU">子功能表:</String>
+		<String id="IDS_STATIC_SCROLLING">捲動:</String>
+		<String id="IDS_STATIC_MOUSEWHEELSCROLLS">滑鼠滾輪捲動</String>
+		<String id="IDS_STATIC_PAGEUPPAGEDOWNSCROLLS">Page Up / Page Down</String>
+		<String id="IDS_STATIC_NUMELEMENTS">項目</String>
+		<String id="IDS_MILLISECOND">ms</String>
+		<!-- Behavior tab -->
+		<String id="IDS_CAT_CONTENTS">內容</String>
+		<String id="IDS_CAT_ORDER">選單次序</String>
+		<String id="IDS_CAT_CLICKITEMS">打開選單如下</String>
+		<String id="IDS_STATIC_HIDDENFILES">顯示隱藏檔案:</String>	
+		<String id="IDS_STATIC_BROWSEFORFOLDERS">打開文件夾:</String>
+		<String id="IDS_ZIPSAREFOLDERS">將壓縮檔解壓成文件夾 (Windows XP)</String>
+		<String id="IDS_STATIC_MAXMENUWIDTH">最大選單闊度</String>
+		<String id="IDS_PIXELS">像素</String>
+		<String id="IDS_PERCENTSCREEN">螢幕闊度百份比</String>
+		<String id="IDS_SORTALPHABETICALLY">按字母順序排列項目</String>
+		<String id="IDS_FOLDERSPRECEDEFILES">文件夾排列在檔案前面</String>
+		<String id="IDS_ACTIVATE_SINGLEFILES">使用雙按打開文件夾; 單按打開檔案</String>
+		<String id="IDS_ACTIVATE_SINGLEALL">使用單按打開所有文件夾及檔案</String>
+		<String id="IDS_ACTIVATE_DOUBLE">使用雙按打開所有文件夾及檔案</String>
+		<!-- Settings tab -->
+		<String id="IDS_CAT_INTERFACE">顯示界面</String>
+		<String id="IDS_CAT_UPDATES">更新</String>
+		<String id="IDS_CAT_DEFAULTS">原設定</String>
+		<String id="IDS_CHOOSELANGUAGE">選擇語言:</String>
+		<String id="IDS_LANGUAGE_NOTIFICATION">變更語言選項在按下"確定"後才生效</String>
+		<String id="IDS_UPDATES_DESCRIPTION">檢查並下載最後版本的 KO Approach:</String>
+		<String id="IDS_CHECKFORUPDATES">檢查更新 </String>
+		<String id="IDS_DEFAULTS_DESCRIPTION">回復 KO Approach 到原設定:</String>
+		<String id="IDS_RESTOREDEFAULTS">回復設定 </String>	
+		<String id="IDS_MSGBOX_UPDATEAVAILABLE">有可用更新, 要下載嗎?</String>
+		<String id="IDS_MSGBOX_NOUPDATES">目前沒有可用更新.</String>
+		<String id="IDS_RESTOREDEFAULTSFINISHED">已回復默認值.</String>
+		<!-- Registration tab (registered mode) -->
+		<String id="IDS_CAT_REGUSER">用戶名稱</String>
+		<String id="IDS_CAT_KEYBACKUP">儲存的注冊碼</String>
+		<String id="IDS_STATIC_REGISTEREDTO">此軟件已授權給:</String>
+		<String id="IDS_STATIC_KEYBACKUPDESCR">儲存您的注冊碼到一個穩健的地方, 按下"儲存鍵"去創建一個注冊碼的副本到指定位置.</String>
+		<String id="IDS_BACKUP">儲存鍵...</String>
+		<!-- Registration tab (unregistered mode) -->
+		<String id="IDS_STATIC_INTERNETREQUIRED">購買注冊碼及激活時, 請確定您己連上互聯網.</String>
+		<String id="IDS_CAT_LICENSING">認可</String>
+		<String id="IDS_CAT_ACTIVATION">激活</String>
+		<String id="IDS_STATIC_LICENSINGDESCRIPTION_1">此 KO Approach 未被激活, 現以簡約模式運行. 想為軟件解除限制, 請購買注冊碼及激活 KO Approach.</String>
+		<String id="IDS_STATIC_LICENSINGDESCRIPTION_2">如果曾經購買本軟件及擁有注冊碼的副本, 您可以恢復本軟件的所有功能.</String>
+		<String id="IDS_PURCHASE">購買... </String>
+		<String id="IDS_RESTORE">恢復功能 </String>
+		<String id="IDS_STATIC_SERIAL">複製電郵中的注冊碼並照如下格式輸入 (X-XXXXX-XXXXX-XXXXX-XXXXX):</String>
+		<String id="IDS_HIDESERNUM">覆蓋</String>
+		<String id="IDS_ACTIVATE">激活... </String>
+		<!-- Plugins tab -->
+		<!-- TODO: <String id="IDS_CAT_PLUGINS">Plugins</String> -->
+		<!-- TODO: <String id="IDS_BTN_PLUGINENABLE">Enable</String> -->
+		<!-- TODO: <String id="IDS_BTN_PLUGINDISABLE">Disable</String> -->
+		<!-- TODO: <String id="IDS_COL_PLUGINNAME">Name</String> -->
+		<!-- TODO: <String id="IDS_COL_PLUGINSTATUS">Status</String> -->
+		<!-- TODO: <String id="IDS_PLUGINSTATUS_STOPPING">Stopping</String> -->
+		<!-- TODO: <String id="IDS_PLUGINSTATUS_LOADED">Loaded</String> -->
+		<!-- TODO: <String id="IDS_PLUGINSTATUS_DISABLED">Disabled</String> -->
+		<!-- TODO: <String id="IDS_PLUGINSTATUS_NOTLOADED">Not loaded</String> -->
+		<!-- TODO: <String id="IDS_PLUGIN_NOTIFICATION">The plugin settings will not take effect until you press 'OK' and restart the application</String> -->
+		<!-- About tab -->
+		<String id="IDS_STATIC_SPECIALTHANKS">特別感謝:</String>
+		<String id="IDS_VERSION">翻譯本</String>
+		<String id="IDS_LINK_SENDFEEDBACK">寄出回嚮</String>
+		<String id="IDS_LINK_HOMEPAGE">KO Approach 網頁</String>	
+		<String id="IDS_THANKS_1">Turlough O'Connor - 提出最初的概念;</String>
+		<String id="IDS_THANKS_2">Dmitry Osipov - 作出產品說明, 可貴的建議, 發布前測試, 及全面的支持;</String>
+		<String id="IDS_THANKS_3">Andrew Fellows, Denis Gavrilov, Alexander Gusev, Ilya Kirilkin, Ilya Popov, Sergey Samsonov, Jan Schröder, Alexander Simanov, Roman Soshkin, 及 Denis Vlasov - 作出可貴的建議及發布前測試;</String>
+		<String id="IDS_THANKS_4">在代碼項目上令我取得靈感的所有人.</String>
+		<!-- Backup/Restore dialog box -->
+		<String id="IDS_DLG_KEYFILEFILTERDESCR">KO Approach 注冊碼的檔案</String>
+		<String id="IDS_DLG_KEYFILELOCATION">選擇一處位置儲存注冊碼</String>
+		<!-- Activation dialog box -->
+		<String id="IDS_ACTSTATUS_CONNECTING">激活中...</String>
+		<String id="IDS_ACTSTATUS_SUCCESS">成功激活</String>
+		<String id="IDS_ACTSTATUS_FAILURE">激活失敗</String>
+		<String id="IDS_ACTSTATUS_RESTORECOMPLETE">恢復全功能完成</String>
+		<String id="IDS_ACTDESCRIPTION_CONNECTING">恢復全功能中. 請耐心等候...</String>
+		<String id="IDS_ACTDESCRIPTION_NOTCONNECTED">激活不能成功. 請檢查您的網路設定及重試. 如果有使用防火牆, 請準許 KO Approach 通過.</String>
+		<String id="IDS_ACTDESCRIPTION_UNABLETOIDENTIFY">發生錯誤不能成功激活.&#0013;&#0010;請遲些再激活. 如果問題持續, 請聯絡 KO Software : support@koapproach.com.</String>
+		<String id="IDS_ACTDESCRIPTION_INCORRECTSERNUM">此注冊碼不能被識別.&#0013;&#0010;請輸入正確注冊碼及重試.</String>
+		<String id="IDS_ACTDESCRIPTION_GENERICERROR">不能識別的錯誤. 請遲些再激活. 如果問題持續, 請聯絡 KO Software: support@koapproach.com.</String>
+		<String id="IDS_ACTDESCRIPTION_LIMITEXCEEDED">您的注冊碼已經過期. 你需要購買新的注冊碼嗎?</String>
+		<String id="IDS_ACTDESCRIPTION_SUCCESS">恭喜!&#0013;&#0010;您的 KO Approach 已經被成功激活.</String>
+		<String id="IDS_ACTDESCRIPTION_RESTORECOMPLETE">KO Approach 的注冊碼己安裝成功. 請按下"確定"重啟及激活 KO Approach</String>
+		<String id="IDS_ACTDESCRIPTION_COULDNOTWRITEKEY">雖然已成功獲得了注冊碼, 但 KO Approach 無法給指定目錄寫入注冊文件.&#0013;&#0010;請檢查您有否足夠的存取權執行這動作.</String>
+		<!-- Warning dialog boxes -->
+		<String id="IDS_WARNINGTEXT_FEATURELOCKED">此注冊碼不能使用.&#0013;&#0010;你不能同時激活兩個 KO Approach.</String>
+		<String id="IDS_WARNINGTEXT_INVALIDKEY">您輸入的 KO Approach 注冊碼已經作廢. KO Approach 將以簡約模式運行.&#0013;&#0010;移除作廢的注冊碼在軟件起動時此訊息將不會再出現.</String>
+		<String id="IDS_WARNING">注意</String>
+		<!-- Approach Items Options dialog box -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_SELF">Approach Items</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_LBL_CURITEMS">Current Items:</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_LBL_ALLITEMS">Available Items:</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_ADD">Add</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_REMOVE">Remove</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_UP">Up</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_DOWN">Down</String> -->
+		<!-- TODO: <String id="IDS_DLGAPCHITEMS_BTN_BROWSE">Browse Approach Items...</String> -->
+		<!-- Titlebar Menus Options dialog box -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_SELF">Titlebar Menus</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_GRP_ORDER">Folder Order</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_RBN_PARENTTOCHILD">Display desktop at top</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_RBN_CHILDTOPARENT">Display desktop at bottom</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_CHK_CURFOLDERASITEM">Do not display submenu for current folder</String> -->
+		<!-- TODO: <String id="IDS_DLGTBMENUS_CHK_AUTOSELECTCURFOLDER">Automatically select current folder</String> -->
+		<!-- Help popups -->
+		<String id="IDH_OKBUTTON">確定使用彈出視窗.</String>
+		<String id="IDH_CANCELBUTTON">取消使用彈出視窗.</String>
+		<String id="IDH_HELPBUTTON">打開 KO Approach 的幫助文件.</String>
+		<String id="IDH_FOLDERMENUS_ENABLE">准許或禁止"分層式選單"仿效檔案結構來展開項目.</String>
+		<String id="IDH_APPROACHITEMS_ENABLE">准許或禁止"自定義選單"用捷徑導向偏好的文件夾.</String>
+		<String id="IDH_TITLEBARMENUS_ENABLE">准許或禁止"展開式選單"仿效Windows explorer結構使用樹狀展開項目.</String>
+		<!-- TODO: <String id="IDH_APPROACHITEMS_OPTIONS">Opens the Approach Items Options window allowing you to administer its contents.</String> -->
+		<!-- TODO: <String id="IDH_TITLEBARMENUS_OPTIONS">Opens the Titlebar Menus Options window allowing you to administer its display settings.</String> -->
+		<String id="IDH_AUTORUN">准許或禁止 KO Approach 在啟動作業系統時自動啟動.</String>
+		<String id="IDH_INITIALMENU">調控 KO Approach 顯示主選單的延遲時間.</String>
+		<String id="IDH_CHILDMENU">調控 KO Approach 顯示子選單的延遲時間.</String>
+		<String id="IDH_SCROLLING">調控 KO Approach 捲動選單項目時的延遲時間.</String>
+		<String id="IDH_WHEELSCROLLS">變更滑輪捲動時跳躍的項目.</String>
+		<String id="IDH_PAGESCROLLS">變更按動 Page Up / Page Down時跳躍的項目.</String>
+		<String id="IDH_HIDDENFILES">指定會否展示隱藏文件.</String>
+		<String id="IDH_BROWSEFORFOLDERS">指定 KO Approach 會否用新視窗開啟檔案.</String>
+		<String id="IDH_ZIPSAREFOLDERS">選定後 KO Approach 會將壓縮檔當一般檔案展開.</String>
+		<String id="IDH_MAXWIDTH">指定選單的最大闊度. 最大將不能超越螢幕闊度的三分之一.</String>
+		<String id="IDH_MAXWIDTHPIXELS">用精確的像素去指定選單的最大闊度.</String>
+		<String id="IDH_MAXWIDTHPERCENT">用螢幕的百份比去指定選單的最大闊度.</String>
+		<String id="IDH_SORTALPHABEICALLY">選定後選單的項目將用字母順序列出.</String>
+		<String id="IDH_FOLDERSPRECEDEFILES">選定後選單中的文件夾會排列在檔案前面.</String>
+		<String id="IDH_SINGLEFILESDOUBLEFOLDERS">選定後單按打開文件夾; 雙按打開檔案.</String>
+		<String id="IDH_SINGLEFILESSINGLEFOLDERS">選定後單按打開所有文件夾及檔案.</String>
+		<String id="IDH_DOUBLEFILESDOUBLEFOLDERS">選定後雙按打開所有文件夾及檔案.</String>
+		<String id="IDH_LANGUAGE">指定 KO Approach 的語言.</String>
+		<String id="IDH_CHECKFORUPDATES">檢查在 KO Approach 網站的更新, 如果有可用的將會提議您下載及安裝它.</String>
+		<String id="IDH_RESTOREDEFAULTS">回復到 KO Approach 在第一次運行的初設定.</String>
+		<String id="IDH_LANGUAGE_DESCRIPTION">關於選擇語言檔的訊息。</String>
+		<String id="IDH_FEEDBACK">發送電子郵件給作者, 您能發送您的評論和給建議我們.</String>
+		<String id="IDH_HOMEPAGE">用瀏覽器打開 KO Approach 的官方正式網站.</String>
+		<String id="IDH_RESTORE">在指定位置用您庫存的注冊碼激活軟件.</String>
+		<String id="IDH_BACKUP">儲存您的注冊碼在指定的位置.</String>
+		<String id="IDH_ACTIVATE">用在 KO Approach 的網站購買授權服務獲得的注冊碼作為激活。</String>
+		<String id="IDH_PURCHASE">用瀏覽器打開 KO Approach 的購買頁面.</String>
+		<String id="IDH_TROUBLESHOOT">打開 KO Approach 說明文件中關於激活問題的頁面.</String>
+		<String id="IDH_HIDESERNUM">貼上您的注冊碼時以 * 星形作為覆蓋.</String>
+		<String id="IDH_REGISTEREDTO">顯示記錄的用戶名字.</String>
+		<String id="IDH_SERIALNUMBER">購買授權服務後指定給您激活功能的注冊號碼.</String>
+		<!-- TODO: <String id="IDH_PLUGINLIST">Displays the list of installed plugins.</String> -->
+		<!-- TODO: <String id="IDH_BTN_PLUGINENABLE">Enables the selected plugin when you press OK and re-open KO Approach.</String> -->
+		<!-- TODO: <String id="IDH_BTN_PLUGINDISABLE">Disables the selected plugin when you press OK and re-open KO Approach.</String> -->
+	</Strings>
+	<Metrics>
+		<!-- Global -->
+		<Metric id="IDM_GLOBAL_LANGRTL" factor="1">0</Metric>
+		<!-- Main dialog box -->
+		<Metric id="IDM_OPTIONSDLG_CONTROLMARGIN" factor="1">7</Metric>
+		<Metric id="IDM_OPTIONSDLG_CATEGORIESWIDTH" factor="1">80</Metric>
+		<Metric id="IDM_OPTIONSDLG_BUTTONSIZE" factor="2">52,14</Metric>
+		<!-- General tab -->
+		<Metric id="IDM_CAT_MAIN" factor="4">6,8,229,8</Metric>
+		<Metric id="IDM_CAT_DELAY" factor="4">6,79,229,8</Metric>
+		<Metric id="IDM_CAT_SCROLLING" factor="4">6,158,229,8</Metric>
+		<Metric id="IDM_STATIC_FOLDERMENUS" factor="4">18,21,72,9</Metric>
+		<Metric id="IDM_FOLDERMENUS_TOGGLE" factor="4">114,20,40,9</Metric>
+		<Metric id="IDM_STATIC_APPROACHITEMS" factor="4">18,35,72,8</Metric>
+		<Metric id="IDM_APPROACHITEMS_TOGGLE" factor="4">114,35,37,8</Metric>
+		<Metric id="IDM_APPROACHITEMS_SHOWOPTIONS" factor="4">164,34,55,13</Metric>
+		<Metric id="IDM_STATIC_TITLEBARMENUS" factor="4">18,49,94,8</Metric>
+		<Metric id="IDM_TITLEBARMENUS_TOGGLE" factor="4">114,49,37,8</Metric>
+		<Metric id="IDM_TITLEBARMENUS_SHOWOPTIONS" factor="4">164,50,55,13</Metric>
+		<Metric id="IDM_AUTORUN" factor="4">18,59,165,20</Metric>
+		<Metric id="IDM_STATIC_INITIALDELAY" factor="4">18,95,60,8</Metric>
+		<Metric id="IDM_SLD_INIT" factor="4">110,93,73,20</Metric>	
+		<Metric id="IDM_TIMEOUTVAL_INIT" factor="4">186,95,38,10</Metric>
+		<Metric id="IDM_STATIC_CHILDDELAY" factor="4">18,118,60,8</Metric>
+		<Metric id="IDM_SLD_CHILD" factor="4">110,115,73,17</Metric>
+		<Metric id="IDM_TIMEOUTVAL_CHILD" factor="4">186,116,38,10</Metric>
+		<Metric id="IDM_STATIC_SCROLLDELAY" factor="4">18,140,40,8</Metric>
+		<Metric id="IDM_SLD_SCROLL" factor="4">110,136,73,20</Metric>
+		<Metric id="IDM_TIMEOUTVAL_SCROLL" factor="4">186,138,38,10</Metric>
+		<Metric id="IDM_NUMSCROLLITEMS_WHEEL" factor="4">145,173,31,12</Metric>
+		<Metric id="IDM_NUMSCROLLITEMS_PAGE" factor="4">145,192,31,12</Metric>
+		<Metric id="IDM_STATIC_WHEELSCROLLS" factor="4">18,175,100,8</Metric>
+		<Metric id="IDM_STATIC_WHEELITEMS" factor="4">185,175,38,8</Metric>
+		<Metric id="IDM_STATIC_PAGESCROLLS" factor="4">18,194,120,8</Metric>
+		<Metric id="IDM_STATIC_PAGEITEMS" factor="4">185,194,38,8</Metric>
+		<Metric id="IDM_MILLISECONDSFORMAT" factor="1">0</Metric>
+		<!-- Behavior tab -->
+		<Metric id="IDM_CAT_CONTENTS" factor="4">6,8,229,8</Metric>
+		<Metric id="IDM_CAT_ORDER" factor="4">6,106,229,8</Metric>
+		<Metric id="IDM_CAT_CLICKITEMS" factor="4">6,145,229,8</Metric>
+		<Metric id="IDM_STATIC_BROWSEFORFOLDERS" factor="4">18,43,130,8</Metric>
+		<Metric id="IDM_BROWSEFORFOLDERS" factor="4">115,41,115,30</Metric>
+		<Metric id="IDM_STATIC_HIDDENFILES" factor="4">18,24,130,8</Metric>
+		<Metric id="IDM_HIDDENFILES" factor="4">115,21,115,67</Metric>
+		<Metric id="IDM_ZIPSAREFOLDERS" factor="4">18,59,190,18</Metric>
+		<Metric id="IDM_STATIC_MAXMENUWIDTH" factor="4">18,83,50,20</Metric>
+		<Metric id="IDM_MAXMENUWIDTH" factor="4">77,84,33,13</Metric>
+		<Metric id="IDM_WIDTHINPIXELS" factor="4">114,81,105,8</Metric>
+		<Metric id="IDM_WIDTHINPERCENT" factor="4">114,90,105,8</Metric>
+		<Metric id="IDM_SORTALPHABETICALLY" factor="4">18,116,90,18</Metric>
+		<Metric id="IDM_FOLDERSPRECEDEFILES" factor="4">115,116,82,18</Metric>
+		<Metric id="IDM_ACTIVATE_SINGLEFILES" factor="4">18,157,170,18</Metric>
+		<Metric id="IDM_ACTIVATE_SINGLEALL" factor="4">18,176,170,10</Metric>
+		<Metric id="IDM_ACTIVATE_DOUBLE" factor="4">18,190,170,10</Metric>
+		<!-- Settings tab -->
+		<Metric id="IDM_CAT_INTERFACE" factor="4">6,8,229,8</Metric>
+		<Metric id="IDM_CAT_UPDATES" factor="4">6,105,229,8</Metric>
+		<Metric id="IDM_CAT_DEFAULTS" factor="4">6,162,229,8</Metric>
+		<Metric id="IDM_STATIC_CHOOSELANGUAGE" factor="4">18,24,66,8</Metric>
+		<Metric id="IDM_LANGUAGE" factor="4">110,21,118,30</Metric>
+		<Metric id="IDM_LANGUAGE_DESCRIPTION" factor="4">18,42,210,20</Metric>
+		<Metric id="IDM_ICON_INFORMATION" factor="4">18,72,0,0</Metric>
+		<Metric id="IDM_LANGUAGE_NOTIFICATION" factor="4">47,70,172,19</Metric>
+		<Metric id="IDM_UPDATES_DESCRIPTION" factor="4">18,119,80,19</Metric>
+		<Metric id="IDM_CHECKFORUPDATES" factor="4">134,120,95,14</Metric>
+		<Metric id="IDM_DEFAULTS_DESCRIPTION" factor="4">18,176,100,19</Metric>
+		<Metric id="IDM_RESTOREDEFAULTS" factor="4">134,173,95,22</Metric>
+		<!-- Registration tab (unregistered mode) -->
+		<Metric id="IDM_ICON_INTERNETCONNECTION" factor="4">6,9,0,0</Metric>
+		<Metric id="IDM_STATIC_INTERNETREQUIRED" factor="4">36,11,198,18</Metric>
+		<Metric id="IDM_CAT_LICENSING" factor="4">6,35,229,8</Metric>
+		<Metric id="IDM_CAT_ACTIVATION" factor="4">6,127,229,8</Metric>
+		<Metric id="IDM_ICON_LICENSING" factor="4">6,48,0,0</Metric>
+		<Metric id="IDM_STATIC_LICENSINGDESCRIPTION_1" factor="4">36,46,198,32</Metric>
+		<Metric id="IDM_STATIC_LICENSINGDESCRIPTION_2" factor="4">36,82,198,32</Metric>
+		<Metric id="IDM_PURCHASE" factor="4">73,110,88,14</Metric>
+		<Metric id="IDM_KEYRESTORE" factor="4">166,110,68,14</Metric>
+		<Metric id="IDM_STATIC_SERIAL" factor="4">19,139,215,24</Metric>
+		<Metric id="IDM_SERIALNUMBER" factor="4">18,165,163,12</Metric>
+		<Metric id="IDM_HIDESERNUM" factor="4">185,166,38,10</Metric>
+		<Metric id="IDM_ACTIVATE" factor="4">166,182,68,14</Metric>
+		<!-- Registration tab (registered mode) -->
+		<Metric id="IDM_CAT_KEYBACKUP" factor="4">6,58,228,8</Metric>
+		<Metric id="IDM_CAT_REGUSER" factor="4">6,8,228,8</Metric>
+		<Metric id="IDM_STATIC_KEYBACKUPDESCR" factor="4">17,71,202,24</Metric>
+		<Metric id="IDM_STATIC_REGISTEREDTO" factor="4">17,22,217,8</Metric>
+		<Metric id="IDM_BACKUP" factor="4">166,93,68,14</Metric>
+		<Metric id="IDM_REGISTEREDUSERNAME" factor="4">17,33,217,8</Metric>
+		<!-- Plugins tab -->
+		<Metric id="IDM_CAT_PLUGINS" factor="4">6,8,229,8</Metric>                               <!--TODO-->
+		<Metric id="IDM_ICON_PLUGININFORMATION" factor="4">18,20,0,0</Metric>                    <!--TODO-->
+		<Metric id="IDM_PLUGIN_NOTIFICATION" factor="4">47,20,172,19</Metric>                    <!--TODO-->
+		<Metric id="IDM_PLUGINLIST" factor="4">18,47,201,108</Metric>                            <!--TODO-->
+		<Metric id="IDM_BTN_PLUGINENABLE" factor="4">114,160,50,14</Metric>                      <!--TODO-->
+		<Metric id="IDM_BTN_PLUGINDISABLE" factor="4">169,160,50,14</Metric>                     <!--TODO-->
+		<!-- About tab -->
+		<Metric id="IDM_NUMTHANKSLINES" factor="1">4</Metric>
+		<Metric id="IDM_PROGRAMTITLE" factor="4">48,9,177,9</Metric>
+		<Metric id="IDM_PROGRAMVERSION" factor="4">48,25,177,9</Metric>
+		<Metric id="IDM_PROGRAMCOPYRIGHT" factor="4">48,41,177,9</Metric>
+		<Metric id="IDM_PROGRAMICON" factor="4">13,13,0,0</Metric>
+		<Metric id="IDM_SEPARATORLINE" factor="4">7,57,227,1</Metric>
+		<Metric id="IDM_THANKS" factor="4">22,83,207,111</Metric>
+		<Metric id="IDM_THANKS_HEADER" factor="4">8,65,226,8</Metric>
+		<Metric id="IDM_LINK_FEEDBACK" factor="4">7,203,80,8</Metric>
+		<Metric id="IDM_LINK_HOMEPAGE" factor="4">140,203,90,8</Metric>
+		<!-- Activation dialog box -->
+		<Metric id="IDM_DLGACTIVATION" factor="2">273,68</Metric>
+		<Metric id="IDM_DLGACT_STATIC_ACTIVATIONSTATUS" factor="4">36,8,230,36</Metric>
+		<Metric id="IDM_DLGACT_STATIC_ACTIVATIONICON" factor="4">7,8,0,0</Metric>
+		<Metric id="IDM_DLGACT_BTNSIZE" factor="2">52,14</Metric>
+		<Metric id="IDM_DLGACT_BTNVERTPOS" factor="1">45</Metric>
+		<Metric id="IDM_DLGACT_BTNSPACING" factor="1">12</Metric>
+		<!-- Approach Items Options dialog box -->
+		<Metric id="IDM_DLGAPCHITEMS_SELF" factor="2">307,175</Metric>                           <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_LBL_CURITEMS" factor="4">7,7,114,8</Metric>                 <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_LBL_ALLITEMS" factor="4">186,7,114,8</Metric>               <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_LBX_CURITEMS" factor="4">7,18,114,129</Metric>              <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_LBX_ALLITEMS" factor="4">186,18,114,129</Metric>            <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_BTN_BROWSE" factor="4">7,154,114,14</Metric>                <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_BTN_ADD" factor="4">128,34,50,14</Metric>                   <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_BTN_REMOVE" factor="4">128,50,50,14</Metric>                <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_BTN_UP" factor="4">128,74,50,14</Metric>                    <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_BTN_DOWN" factor="4">128,90,50,14</Metric>                  <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_BTN_OK" factor="4">196,154,50,14</Metric>                   <!--TODO-->
+		<Metric id="IDM_DLGAPCHITEMS_BTN_CANCEL" factor="4">250,154,50,14</Metric>               <!--TODO-->
+		<!-- Titlebar Menus Options dialog box -->
+		<Metric id="IDM_DLGTBMENUS_SELF" factor="2">192,103</Metric>                             <!--TODO-->
+		<Metric id="IDM_DLGTBMENUS_GRP_ORDER" factor="4">7,3,178,40</Metric>                     <!--TODO-->
+		<Metric id="IDM_DLGTBMENUS_RBN_PARENTTOCHILD" factor="4">16,16,159,10</Metric>           <!--TODO-->
+		<Metric id="IDM_DLGTBMENUS_RBN_CHILDTOPARENT" factor="4">16,27,159,10</Metric>           <!--TODO-->
+		<Metric id="IDM_DLGTBMENUS_CHK_CURFOLDERASITEM" factor="4">7,49,178,10</Metric>          <!--TODO-->
+		<Metric id="IDM_DLGTBMENUS_CHK_AUTOSELECTCURFOLDER" factor="4">18,61,167,10</Metric>     <!--TODO-->
+		<Metric id="IDM_DLGTBMENUS_BTN_OK" factor="4">79,82,50,14</Metric>                       <!--TODO-->
+		<Metric id="IDM_DLGTBMENUS_BTN_CANCEL" factor="4">135,82,50,14</Metric>                  <!--TODO-->
+	</Metrics>
+</Approach_Localization>

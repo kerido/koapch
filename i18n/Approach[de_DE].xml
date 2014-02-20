@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Language Conventions German:
+	(use the following terms always in the same manner)
+	KO Approach
+	Approach Elemente
+	Ordnermenü
+	Titelleistenmenü
+	- "Ordner" statt "Verzeichnis"
+	- Items EN =  Elemente DE
+	- Notification Area = Benachrichtigungsbereich
+	
+	What is "icon extraction"??
+-->
+
+<Approach_Localization version="1">
+	<Summary>
+		<Locale>de_DE</Locale>
+		<Titles>
+			<Title locale="bg_BG">Немски</Title>
+			<Title locale="cs_CZ">Ne'mecky</Title>
+			<Title locale="da_DK">Tysk</Title>
+			<Title locale="de_DE">Deutsch</Title>
+			<Title locale="en_US">German</Title>
+			<Title locale="es_ES">Alemán</Title>
+			<Title locale="fi_FI">Saksa</Title>
+			<Title locale="fr_FR">Allemand</Title>
+			<Title locale="he_IL">גרמנית</Title>
+			<Title locale="hu_HU">Német</Title>
+			<Title locale="is_IS">Þýska</Title>
+			<Title locale="it_IT">Tedesco</Title>
+			<Title locale="nb_NO">Tysk</Title>
+			<Title locale="nl_NL">Duits</Title>
+			<Title locale="nn_NO">Tysk</Title>
+			<Title locale="pl_PL">Niemiecki</Title>
+			<Title locale="pt_PT">Alemão</Title>
+			<Title locale="ro_RO">Germană</Title>
+			<Title locale="ru_RU">Немецкий</Title>
+			<Title locale="sk_SK">Nemecký</Title>
+			<Title locale="sl_SI">Nemški</Title>
+			<Title locale="sv_SE">Tysk</Title>
+			<Title locale="tr_TR">Alman</Title>
+			<Title locale="zh_CN">德国</Title>
+		</Titles>
+		<Created_Bys>
+			<Created_By locale="de_DE">Unabhängig unterstützt von Max Gensthaler, Kurt Lettmaier und Jan Schröder</Created_By>
+			<Created_By locale="en_US">Contributed independently by Max Gensthaler, Kurt Lettmaier, and Jan Schröder</Created_By>
+			<Created_By locale="ru_RU">Составлено независимо Максом Генстхалером, Куртом Леттмайером и Яном Шрёдером</Created_By>
+		</Created_Bys>
+		<Comments>
+			<Comment locale="de_DE">Deutsche Übersetzung der KO Approach Benutzeroberfläche</Comment>
+			<Comment locale="en_US">The German KO Approach localization</Comment>
+			<Comment locale="ru_RU">Немецкая локализация KO Approach</Comment>
+		</Comments>
+	</Summary>
+
+	<Strings>
+		<!-- Tab titles -->
+		<String id="IDD_O_FEAT">Funktionen</String>
+		<String id="IDD_O_MNSC">Menus &amp; Scrollen</String>
+		<String id="IDD_O_CNTS">Inhalte</String>
+		<String id="IDD_O_MNTC">Verwaltung</String>
+		<String id="IDD_O_REG">Registrierung</String>
+		<String id="IDD_O_ABT">Info</String>
+		<!-- Exception item -->
+		<String id="IDS_EXCEPT_UNAVAILABLE">(Nicht verfügbar)</String>
+		<String id="IDS_EXCEPT_EMPTY">(Leer)</String>
+		<String id="IDS_EXCEPT_GENERIC">(Allgemeiner Fehler)</String>
+		<!-- Popup menu strings -->
+		<String id="IDP_MAIN_ENBL_FLDMNUS">Aktiviere Ordnermenüs</String>
+		<String id="IDP_MAIN_ENBL_APCHITMS">Aktiviere Approach Elemente</String>
+		<String id="IDP_MAIN_ENBL_TTLBARMNUS">Aktiviere Titelleistenmenüs</String>
+		<String id="IDP_MAIN_OPTIONS">Optionen...</String>
+		<String id="IDP_MAIN_EXIT">Beenden</String>
+		<String id="IDP_CXMN_TOAPPROACHITEMS">Hinzufügen eines Shortcuts zu Approach Elemente</String>
+		<!-- Approach Items elements -->
+		<String id="IDS_APCHITEMS_ITEMRUN">Ausführen...</String>
+		<String id="IDS_APCHITEMS_ITEMPROC">Laufende Prozesse</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_SYS">System</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_QUIT">Beenden</String>
+		<String id="IDS_APCHITEMS_ITEMPROC_REVEAL">Anzeigen</String>
+		<!-- Global command strings -->
+		<String id="IDS_GLBL_CMD_OK">OK</String>
+		<String id="IDS_GLBL_CMD_CANCEL">Abbrechen</String>
+		<String id="IDS_GLBL_CMD_HELP">Hilfe...</String>
+		<String id="IDS_GLBL_CMD_YES">Ja</String>
+		<String id="IDS_GLBL_CMD_NO">Nein</String>
+		<String id="IDS_GLBL_CMD_RETRY">Wiederholen</String>
+		<!-- Global strings -->
+		<String id="IDS_GLBL_WARNING">Warnung</String>
+		<String id="IDS_GLBL_ERROR">Fehler</String>
+		<String id="IDS_GLBL_ALWAYS">Immer</String>
+		<String id="IDS_GLBL_NEVER">Nie</String>
+		<String id="IDS_GLBL_MILLISEC">ms</String>
+		<String id="IDS_GLBL_USESYSSETTING">Systemeinstellungen</String>
+		<!-- Features tab -->
+		<String id="IDL_O_FEAT_CAT_FLDMENUS">Ordnermenüs</String>
+		<String id="IDL_O_FEAT_FLDMENUSDESC">Ordnermenüs aktiviert die schnelle Ordnernavigation. Mit einem langen Mausklick auf einen Ordner werden dann erweiterte Menüs angezeigt.</String>
+		<String id="IDL_O_FEAT_INITDELAY">Initiale Menüverzögerung:</String>
+		<String id="IDL_O_FEAT_CAT_APCHITEMS">Approach Elemente</String>
+		<String id="IDL_O_FEAT_APCHITEMSDESC">Approach Elemente ermöglichen den schnellen Zugriff auf oft aufgerufene Ordner und Dateien aus dem Benachrichtigungsbereich.</String>
+		<String id="IDC_O_FEAT_APCHITEMSOPT">Optionen...</String>
+		<String id="IDL_O_FEAT_CAT_TTLBARMENUS">Titelleistenmenüs</String>
+		<String id="IDL_O_FEAT_TTLBARMENUSDESC">Titelleistenmenüs erlauben das Durchsuchen der gesamten Ordner-&#0013;&#0010;hierarchie durch einen Mausklick auf die Windows-Explorer-Titelleiste während die Strg-Taste gehalten wird.</String>
+		<String id="IDC_O_FEAT_DESKPOS_0TOP">Desktop im Vordergrund</String>
+		<String id="IDC_O_FEAT_DESKPOS_1BOTM">Desktop im Hintergrund</String>
+		<String id="IDC_O_FEAT_CURFLDISFILE">Zeige kein Untermenü für aktuellen Ordner</String>
+		<String id="IDC_O_FEAT_CURFLDAUTOSEL">Aktuellen Ordner hervorheben</String>
+		<!-- Menus and Scrolling tab -->
+		<String id="IDL_O_MNSC_CAT_MENUS">Menus</String>
+		<String id="IDL_O_MNSC_MAXMNUWIDTH">Maximale Menübreite:</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_0PXL">Pixel</String>
+		<String id="IDC_O_MNSC_MNUWIDTH_1PRC">% der Bildschirmbreite</String>
+		<String id="IDL_O_MNSC_CHILDDELAY">Untermenüverzögerung:</String>
+		<String id="IDL_O_MNSC_CAT_SCROLLING">Scrollen</String>
+		<String id="IDL_O_MNSC_WHEELSCROLLS">Mausrad scrollt:</String>
+		<String id="IDL_O_MNSC_WHEELITEMS">Element(e)</String>
+		<String id="IDL_O_MNSC_PAGESCROLLS">[Bild Auf] / [Bild Ab] scrollt:</String>
+		<String id="IDL_O_MNSC_PAGEITEMS">Element(e)</String>
+		<String id="IDL_O_MNSC_SCROLLARROWS">Anzeige der Pfeile beim Scrollen:</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_0TOP">Oben</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_1BOTM">Unten</String>
+		<String id="IDC_O_MNSC_SCROLLPOS_2ENDS">Oben und unten</String>
+		<String id="IDC_O_MNSC_DISPNUMTOSCROLL">Zeige beim Scrollen die Anzahl der verbleibenden Elemente</String>
+		<String id="IDL_O_MNSC_SCROLLDELAY">Verzögerung beim Scrollen:</String>
+		<!-- Contents tab -->
+		<String id="IDL_O_CNTS_CAT_ITEMS">Elemente</String>
+		<String id="IDL_O_CNTS_HDNITMS">Versteckte Elemente anzeigen:</String>
+		<String id="IDC_O_CNTS_HDNITMS_DIMICN">Zeige ausgegraute Icons</String>
+		<String id="IDL_O_CNTS_BROWSEFLD">Nach Ordnern durchsuchen:</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_0NEWWND">In neuem Fenster</String>
+		<String id="IDS_O_CNTS_BROWSEFLD_1SAMEWND">In bestehendem Fenster</String>
+		<String id="IDL_O_CNTS_SSFISWHAT">Behandle Shortcuts zu Ordnern als:</String>
+		<String id="IDC_O_CNTS_SSFIS_0FOLDER">Ordner</String>
+		<String id="IDC_O_CNTS_SSFIS_1FILE">Dateien</String>
+		<String id="IDL_O_CNTS_ZIPISWHAT">Behandle ZIP-Archive wie:</String>
+		<String id="IDC_O_CNTS_ZIPIS_0FOLDER">Ordner</String>
+		<String id="IDC_O_CNTS_ZIPIS_1FILE">Dateien</String>
+		<String id="IDL_O_CNTS_MOUSEITEMCLK">Mausaufruf eines Elements über:</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_0REG">Regulär</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_1SGL">Einfachklick</String>
+		<String id="IDS_O_CNTS_MOUSEITEMCLK_2DBL">Doppelklick</String>
+		<String id="IDL_O_CNTS_CAT_ORDER">Anordnung</String>
+		<String id="IDC_O_CNTS_SORTITEMS">Einträge alphabetisch</String>
+		<String id="IDC_O_CNTS_FLDORD_0TOP">Ordner vor Dateien stellen</String>
+		<String id="IDC_O_CNTS_FLDORD_1BOTM">Dateien vor Ordner stellen</String>
+		<String id="IDC_O_CNTS_FLDORD_2MIX">Nicht gruppieren</String>
+		<String id="IDL_O_CNTS_CAT_ICONS">Icons</String>
+		<String id="IDC_O_CNTS_ICN_0GENERIC">Zeige generische Icons</String>
+		<String id="IDC_O_CNTS_ICN_1REGULAR">Zeige reguläre Icons</String>
+		<String id="IDC_O_CNTS_ICNOVERLAYS">Zeige überlagernde Icons</String>
+		<String id="IDC_O_CNTS_ICNOPTIMIZ">Beschleunige die Rettung der Icons&#0013;&#0010;(benötigt mehr Ressourcen)</String>
+		<!-- Maintenance tab -->
+		<String id="IDL_O_MNTC_CAT_MNTC">Verwaltung</String>
+		<String id="IDL_O_MNTC_UILANG">Sprache:</String>
+		<String id="IDS_O_MNTC_UILANG_MORE">Mehr Sprachen...</String>
+		<String id="IDL_O_MNTC_UPDATE">Updates:</String>
+		<String id="IDC_O_MNTC_UPDATE">Auf Updates prüfen</String>
+		<String id="IDC_O_MNTC_UPDATEAUTO">Automatisch auf Updates  prüfen</String>
+		<String id="IDL_O_MNTC_RESTDEF">Grundeinstellungen:</String>
+		<String id="IDC_O_MNTC_RESTDEF">Standard wiederherstellen</String>
+		<String id="IDL_O_MNTC_AUTORUN">Starte automatisch beim Systemstart:</String>
+		<String id="IDC_O_MNTC_AUTORUN">Aktiviere automatischen start</String>
+		<String id="IDL_O_MNTC_CAT_PLUGINS">Plugins</String>
+		<String id="IDC_O_MNTC_PLGNENBL">Aktivieren</String>
+		<String id="IDC_O_MNTC_PLGNDSBL">Deaktivieren</String>
+		<String id="IDS_O_MNTC_PLGNLST_NAME">Name</String>
+		<String id="IDS_O_MNTC_PLGNLST_STATUS">Status</String>
+		<String id="IDS_O_MNTC_PLGNLST_LOADED">Geladen</String>
+		<String id="IDS_O_MNTC_PLGNLST_NOTLOADED">Nicht geladen</String>
+		<String id="IDS_O_MNTC_PLGNLST_STOPPING">Angehalten</String>
+		<String id="IDS_O_MNTC_PLGNLST_DISABLED">Deaktiviert</String>
+		<String id="IDS_O_MNTC_MSG_UPDYES">Es ist ein Update vorhanden. Möchten Sie dieses herunterladen?</String>
+		<String id="IDS_O_MNTC_MSG_UPDNO">Derzeit ist kein Update verfügbar. Ihre Version ist aktuell.</String>
+		<String id="IDS_O_MNTC_MSG_RESTDEF">KO Approach-Einstellungen auf Anfangswerte zurücksetzen.</String>
+		<!-- Registration tab (registered mode) -->
+		<String id="IDL_O_RGOK_CAT_USER">Registrierter Benutzer</String>
+		<String id="IDL_O_RGOK_REGUSER">Dieses Produkt ist auf folgenden Namen registriert:</String>
+		<String id="IDL_O_RGOK_CAT_KEYBKP">Sicherung des Schlüssels</String>
+		<String id="IDL_O_RGOK_BACKUP">Speichern Sie Ihren Aktivierungsschlüssel an einem sicheren Ort. Klicken Sie 'Sicherung...' um eine Kopie Ihres Schlüssels an einem auswählbaren Ort zu speichern.</String>
+		<String id="IDC_O_RGOK_BACKUP">Sicherung...</String>
+		<!-- Registration tab (unregistered mode) -->
+		<String id="IDL_O_RGNO_INETREQD">Sie müssen mit dem Internet verbunden sein, um mit der Lizensierung und Registrierung fortfahren zu können.</String>
+		<String id="IDL_O_RGNO_CAT_LIC">Lizensierung</String>
+		<String id="IDL_O_RGNO_ACTDESC1">Diese Kopie von KO Approach ist unregistriert und läuft mit beschränktem Funktionsumfang. Um alle Funktionen des Programms nutzen zu können, müssen Sie eine Lizenz erwerben und KO Approach aktivieren.</String>
+		<String id="IDL_O_RGNO_ACTDESC2">Wenn Sie schon einen Lizenz und eine Sicherungskopie Ihres Aktivierungsschlüssels besitzen, so können Sie damit wieder alle Funktionen von KO Approach nutzen.</String>
+		<String id="IDC_O_RGNO_PURCHASE">Kaufen...</String>
+		<String id="IDC_O_RGNO_KEYRESTORE">Wiederherstellen...</String>
+		<String id="IDL_O_RGNO_CAT_ACTIVN">Aktivierung</String>
+		<String id="IDL_O_RGNO_SERNUM">Geben Sie Ihre Seriennummer ein, die Sie in der Registrierungs-E-Mail erhalten haben (im Format X-XXXXX-XXXXX-XXXXX-XXXXX):</String>
+		<String id="IDC_O_RGNO_SERNUMHIDE">Seriennummer Maskieren</String>
+		<String id="IDC_O_RGNO_ACTIVATE">Aktivieren...</String>
+		<!-- About tab -->
+		<String id="IDC_O_ABT_THXCAPTION">Speziellen Dank an:</String>
+		<String id="IDS_O_ABT_VERSION">Version</String>
+		<String id="IDS_O_ABT_THX1">Turlough O'Connor - für die ursprüngliche Idee;</String>
+		<String id="IDS_O_ABT_THX2">Dmitry Osipov - für die KO Approach Dokumentation, wertvolle Vorschläge, Testen der Pre-Releases und umfassende Unterstützung;</String>
+		<String id="IDS_O_ABT_THX3">Andrew Fellows, Denis Gavrilov, Alexander Gusev, Ilya Kirilkin, Ilya Popov, Sergey Samsonov, Jan Schröder, Alexander Simanov, Roman Soshkin und Denis Vlasov - für wertvolle Vorschläge und Testen der Pre-Releases;</String>
+		<String id="IDS_O_ABT_THX4">Alle Leute auf CodeProject für anhaltende Inspiration.</String>
+		<String id="IDC_O_ABT_FEEDBACK">Sende Feedback</String>
+		<String id="IDC_O_ABT_HOMEPAGE">KO Approach Homepage</String>
+		<!-- Backup/Restore dialog box -->
+		<String id="IDS_KEYDLG_FILTER">KO Approach Schlüsseldateien</String>
+		<String id="IDS_KEYDLG_TITLE">Wählen Sie den Ort Ihres Aktivierungsschlüssels</String>
+		<!-- Activation dialog box -->
+		<String id="IDS_ACTN_ST_CONN">Verbinden...</String>
+		<String id="IDS_ACTN_ST_SUCC">Aktivierung war erfolgreich</String>
+		<String id="IDS_ACTN_ST_FAIL">Aktivierungsfehler</String>
+		<String id="IDS_ACTN_ST_RSTR">Wiederherstellung abgeschlossen</String>
+		<String id="IDS_ACTN_DS_CONN">Verbinde mit dem Aktivierungsdienst. Bitte warten...</String>
+		<String id="IDS_ACTN_DS_CONNERR">Es konnte keine Verbindung hergestellt werden. Bitte überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es noch einmal. Wenn Sie eine Firewall benutzen, erlauben Sie eine ausgehende Datenverbindung für KO Approach.</String>
+		<String id="IDS_ACTN_DS_HWIDERR">Es konnte keine Hardware ID für diesen Computer erstellt werden.&#0013;&#0010;Bitte versuchen Sie, KO Approach nochmals zu registrieren. Wenn das Problem weiterhin besteht, benachrichten Sie bitte den Kundenservice von KO Approach unter support@koapproach.com.</String>
+		<String id="IDS_ACTN_DS_SRNMERR">Die Sereinnummer konnte nicht verifiziert werden.&#0013;&#0010;Bitte geben Sie eine gültige Seriennummer ein und versuchen Sie es noch einmal.</String>
+		<String id="IDS_ACTN_DS_GNRCERR">Ein unbekannter Fehler ist aufgetreten. Bite versuchen Sie nochmals KO Approach zu aktivieren. Wenn das Problem weiterhin besteht, benachrichten Sie bitte den Kundenservice von KO Approach unter support@koapproach.com.</String>
+		<String id="IDS_ACTN_DS_LMTEXCD">Sie haben das Limit an Anfragen auf Aktivierungsschlüssel erreicht. Möchten Sie weitere Lizenzen kaufen?</String>
+		<String id="IDS_ACTN_DS_SUCC">Herzlichen Glückwunsch!&#0013;&#0010;Sie haben Ihre Kopie von KO Approach erfolgreich aktiviert.</String>
+		<String id="IDS_ACTN_DS_RSTR">Der Aktivierungsschlüssel wurde im Hauptordner von KO Approach abgelegt. Klicken Sie 'OK' um KO Approach neu zu starten und den Schlüssel zu überprüfen.</String>
+		<String id="IDS_ACTN_DS_KEYACCS">Der Aktivierungsschlüssel wurde erfolgreich geladen, konnte jedoch nicht in das Hauptordner von KO Approach geschrieben werden.&#0013;&#0010;Überprüfen Sie bitte, ob KO Approach ausreichende Zugriffsrechte hat um diese Aktion durchzuführen.</String>
+		<!-- Warning dialog boxes -->
+		<String id="IDS_WARNTXT_FEATURELOCKED">Diese Kopie von KO Approach ist UNREGISTRIERT.&#0013;&#0010;Sie können nicht mehr als zwei Programme gleichzeitig aktivieren.</String>
+		<String id="IDS_WARNTXT_INVALIDKEY">Die Aktivierungschlüssel für diese Kopie von KO Approach scheint ungültig zu sein. KO Approach wird nun mit reduzierter Funktionalität ausgeführt.&#0013;&#0010;Bitte entfernen Sie den ungültigen Äktivierungsschlüssel, damit diese Nachricht nicht bei jedem Programmstart von KO Approach angezeigt wird.</String>
+		<!-- Approach Items Options dialog box -->
+		<String id="IDD_APCHITMS">Approach Elemente</String>
+		<String id="IDL_APCHITMS_CUR">Aktuelle Elemente:</String>
+		<String id="IDL_APCHITMS_ALL">Verfügbare Elemente:</String>
+		<String id="IDC_APCHITMS_ADD">Hinzufügen</String>
+		<String id="IDC_APCHITMS_RMV">Entfernen</String>
+		<String id="IDC_APCHITMS_UP">Nach oben</String>
+		<String id="IDC_APCHITMS_DOWN">Nach unten</String>
+		<String id="IDC_APCHITMS_BRW">Elemente anzeigen...</String>
+		<!-- Help popups -->
+		<String id="IDH_OPTS_OK">Speichert die Änderungen und schließt das Programmfenster.</String>
+		<String id="IDH_OPTS_CANCEL">Verwirft die Änderungen und schließt das Programmfenster.</String>
+		<String id="IDH_OPTS_HELP">Öffnet die KO Approach Dokumentation.</String>
+		<String id="IDH_O_FEAT_FLDMENUSTGL">Aktiviert/Deaktiviert die Funktion Ordnermenüs, welche Menüs anzeigt, die die Struktur des ausgewählten Ordners wiederspiegelt.</String>
+		<String id="IDH_O_FEAT_INITDELAY">Passt an, wie lange die Maustaste gedrückt gehalten werden muss bevor das Obermenü aufklappt.</String>
+		<String id="IDH_O_FEAT_APCHITEMSTGL">Aktiviert/Deaktiviert die Funktion 'Approach Elemente', welches einen schnellen Zugriff auf bestimmte Dateien ermöglicht.</String>
+		<String id="IDH_O_FEAT_APCHITEMSOPT">Öffnet das Optionenfenster der Elemente von KO Approach um diese dort zu administrieren.</String>
+		<String id="IDH_O_FEAT_TTLBARMENUSTGL">Aktiviert/Deaktiviert die Titelleistenmenü-Funktion, welche Ihnen erlaubt, Eltern-Kind-Menüs einer Explorerfenster-Titelleiste zu erstellen.</String>
+		<String id="IDH_O_FEAT_DESKPOS_0TOP">Titelleistenmenü zeigt den Desktop oben und den aktuellen Ordner unten auf der Liste.</String>
+		<String id="IDH_O_FEAT_DESKPOS_1BOTM">Titelleistenmenü zeigt den aktuellen Ordner oben und den Desktop unten auf der Liste.</String>
+		<String id="IDH_O_FEAT_CURFLDISFILE">Titelleistenmenü zeigt keine Untermenüpfeile für den aktuellen Ordner und behandelt diesen wie eine Datei.</String>
+		<String id="IDH_O_FEAT_CURFLDAUTOSEL">Titelleistenmenü hebt das element hervor, das auf den aktuellen Ordner zeigt.</String>
+		<String id="IDH_O_MNSC_MAXMNUWIDTH">Legt die maximale Menübreite fest. Die maximale Breite darf 1/3 der Bildschirmbreite nicht überschreiten.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_0PXL">Setzt die maximale Menübreite auf die angegebene Anzahl Pixel.</String>
+		<String id="IDH_O_MNSC_MNUWIDTH_1PRC">Setzt die maximale Menübreite auf den angegebenen porzentualen Anteil der Bildschirmbreite.</String>
+		<String id="IDH_O_MNSC_CHILDDELAY">Passt die Dauer an, die KO Approach wartet, bevor KO Approach die Untermenüs anzeigt.</String>
+		<String id="IDH_O_MNSC_WHEELSCROLLS">Legt die Anzahl Einträge fest, die beim Scrollen mittels des Mausrads übersprungen werden sollen.</String>
+		<String id="IDH_O_MNSC_PAGESCROLLS">Legt die Anzahl Einträge fest, die beim Scrollen mittels der Tasten Bild Auf/Bild Ab übersprungen werden sollen.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_0TOP">Wenn die beiden Scrollpfeile angezeigt werden, erscheinen diese oben im Menü.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_1BOTM">Wenn die beiden Scrollpfeile angezeigt werden, erscheinen diese unten im Menü.</String>
+		<String id="IDH_O_MNSC_SCROLLPOS_2ENDS">Wenn die BILD AUF und BILD AB Pfeile angezeigt werden, erscheinen diese oben bzw. unten im Menü.</String>
+		<String id="IDH_O_MNSC_DISPNUMTOSCROLL">Shows/hides a counter of menu items currently outside the boundaries of the screen.</String>
+		<String id="IDH_O_MNSC_SCROLLDELAY">Passt die Dauer an, die KO Approach wartet, bevor es die nächsthöheren/-tieferenen Menüeintrage beim Scrollen anzeigt.</String>
+		<String id="IDH_O_CNTS_HDNITMS">Legt fest, ob versteckte Dateien angezeigt werden sollen.</String>
+		<String id="IDH_O_CNTS_HDNITMS_DIMICN">Legt fest, ob versteckte Elemente als halbtransparente Icons angezeigt werden.</String>
+		<String id="IDH_O_CNTS_BROWSEFLD">Legt fest, ob KO Approach ein Explorer-Fenster beim Klick auf einen Ordner wiederverwenden soll.</String>
+		<String id="IDH_O_CNTS_SSFIS_0FOLDER">Legt fest, ob Ordnershortcuts Inhalte ihrer Ziele anzeigen sollen.</String>
+		<String id="IDH_O_CNTS_SSFIS_1FILE">Legt fest ob Ordnershortcuts keine Inhalte ihrer Ziele anzeigen sollen.</String>
+		<String id="IDH_O_CNTS_ZIPIS_0FOLDER">Legt fest, ob ZIP-Archive beinhaltende Elemente anzeigen sollen.</String>
+		<String id="IDH_O_CNTS_ZIPIS_1FILE">Legt fest, ob ZIP-Archive beinhaltende Elemente nicht anzeigen sollen.</String>
+		<String id="IDH_O_CNTS_MOUSEITEMCLK">Legt fest, ob Menüelemente mit einem einfachen oder einem Doppelklick aktiviert werden sollen.</String>
+		<String id="IDH_O_CNTS_SORTITEMS">Legt fest, ob Einträge in einem Menü in alphabetischer Reihenfolge aufgelistet werden.</String>
+		<String id="IDH_O_CNTS_FLDORD_0TOP">Legt fest, ob in einem Menü die Ordner gefolgt von den Dateien aufgelistet werden.</String>
+		<String id="IDH_O_CNTS_FLDORD_1BOTM">Legt fest, ob in einem Menü die Dateien gefolgt von den Ordnern aufgelistet werden.</String>
+		<String id="IDH_O_CNTS_FLDORD_2MIX">Macht keine Unterscheidung zwischen Dateien und Ordner und zeige alle Elemente als durchgängige Liste an.</String>
+		<String id="IDH_O_CNTS_ICN_0GENERIC">Legt fest, ob die originalen Icons mit generischen Icons ersetzt werden sollen (Ordner, Anwendung oder Datei) um eine schnelle Menüanzeige zu erreichen.</String>
+		<String id="IDH_O_CNTS_ICN_1REGULAR">Legt fest, ob Elemente nur Icons gleich denen des Windows Explorers anzeigen sollen.</String>
+		<String id="IDH_O_CNTS_ICNOVERLAYS">Legt fest, ob Elemente nur überlagernde Icons darstellen sollen (z.B. Pfeile für Shortcuts).</String>
+		<String id="IDH_O_CNTS_ICNOPTIMIZ">Weist KO Approach an, Icons von Elementen automatisch aufzurufen um den Icon-Renderingprozess zu beschleunigen.</String>
+		<String id="IDH_O_MNTC_UILANG">Legt die Lokalisierung KO Approach fest.</String>
+		<String id="IDH_O_MNTC_LOCALEINFO">Zeigt eine Kurzinformation zur aktuell gewählten Lokalisierung an.</String>
+		<String id="IDH_O_MNTC_UPDATE">Überprüft, ob auf der KO Approach Webseite ein Update zu Verfügung steht uand bietet dir Download und Installation an.</String>
+		<String id="IDH_O_MNTC_UPDATEAUTO">Legt fest, ob KO Approach in periodischem Abstand nach Updates suchen und einen Hinweis anzeigen soll, wenn ein Update vorhanden ist.</String>
+		<String id="IDH_O_MNTC_RESTDEF">Setzt die Einstellungen von KO Approach für den aktuellen Benutzer auf die beim ersten Programmstart festgelegten Werte zurück.</String>
+		<String id="IDH_O_MNTC_AUTORUN">Erzeugt/Entfernt das automatische Starten von KO Approach beim Laden des Betriebsystems.</String>
+		<String id="IDH_O_MNTC_PLGNLST">Zeigt eine Liste der installierten Plugins an.</String>
+		<String id="IDH_O_MNTC_PLGNENBL">Aktiviert ein ausgewähltes Plugin, wenn Sie auf 'OK' klicken und KO Approach neu starten.</String>
+		<String id="IDH_O_MNTC_PLGNDSBL">Deaktiviert ein ausgewähltes Plugin, wenn Sie auf 'OK' klicken und KO Approach neu starten.</String>
+		<String id="IDH_O_RGOK_REGUSER">Zeigt den Namen des registrierten Benutzers an.</String>
+		<String id="IDH_O_RGOK_BACKUP">Sichert Ihren Aktivierungsschlüssel von einer von Ihnen bestimmten Quelle.</String>
+		<String id="IDH_O_RGNO_KEYRESTORE">Stellt Ihren Aktivierungsschlüssel von einer von Ihnen bestimmten Quelle wieder her.</String>
+		<String id="IDH_O_RGNO_PURCHASE">Öffnet die Bestellseite von KO Approach in Ihrem Standardbrowser.</String>
+		<String id="IDH_O_RGNO_ACTIVATE">Versucht den Aktivierungsschlüssel vom Online Aktivierungsdienst KO Approach zu beziehen.</String>
+		<String id="IDH_O_RGNO_SERNUMHIDE">Zeit Ihre Seriennummer zu Ihrer Sicherheit als Sternchen (*) an.</String>
+		<String id="IDH_O_RGNO_SERNUM">Erlaubt Ihnen, Ihre Seriennummer beim KO Approach Aktivierungsdienst anzugeben.</String>
+		<String id="IDH_O_ABT_FEEDBACK">Erstellt eine neue Email-Nachricht, damit Sie uns Ihre Kommentare und Vorschläge senden können.</String>
+		<String id="IDH_O_ABT_HOMEPAGE">Öffnet die KO Approach Webseite in deinem Standardbrowser.</String>
+	</Strings>
+	<Metrics>
+		<!-- Global -->
+		<Metric id="IDM_GLBL_LANGRTL" factor="1">0</Metric>
+		<Metric id="IDM_GLBL_MILLISECFMT" factor="1">0</Metric>
+		<!-- Main dialog box -->
+		<Metric id="IDM_OPTS_CONTROLMARGIN" factor="1">7</Metric>
+		<Metric id="IDM_OPTS_CATEGORIESWIDTH" factor="1">80</Metric>
+		<Metric id="IDM_OPTS_BUTTONSIZE" factor="2">52,14</Metric>
+		<!-- Features tab -->
+		<Metric id="IDD_O_FEAT" factor="2">320,290</Metric>
+		<Metric id="IDL_O_FEAT_CAT_FLDMENUS" factor="4">20,5,293,12</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSVIS" factor="4">27,25,38,35</Metric>
+		<Metric id="IDL_O_FEAT_FLDMENUSDESC" factor="4">74,25,230,17</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAY" factor="4">74,52,77,9</Metric>
+		<Metric id="IDC_O_FEAT_INITDELAY" factor="4">153,52,73,20</Metric>
+		<Metric id="IDL_O_FEAT_INITDELAYVAL" factor="4">239,52,57,10</Metric>
+		<Metric id="IDL_O_FEAT_CAT_APCHITEMS" factor="4">20,80,293,12</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSVIS" factor="4">27,100,38,35</Metric>
+		<Metric id="IDL_O_FEAT_APCHITEMSDESC" factor="4">74,100,230,17</Metric>
+		<Metric id="IDC_O_FEAT_APCHITEMSOPT" factor="4">74,124,55,13</Metric>
+		<Metric id="IDL_O_FEAT_CAT_TTLBARMENUS" factor="4">20,156,293,12</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSVIS" factor="4">27,176,38,35</Metric>
+		<Metric id="IDL_O_FEAT_TTLBARMENUSDESC" factor="4">74,176,230,24</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_0TOP" factor="4">74,208,230,9</Metric>
+		<Metric id="IDC_O_FEAT_DESKPOS_1BOTM" factor="4">74,218,230,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDISFILE" factor="4">74,231,230,9</Metric>
+		<Metric id="IDC_O_FEAT_CURFLDAUTOSEL" factor="4">84,242,220,9</Metric>
+		<!-- Menus and Scrolling tab -->
+		<Metric id="IDD_O_MNSC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNSC_CAT_MENUS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNSC_MAXMNUWIDTH" factor="4">27,25,124,9</Metric>
+		<Metric id="IDC_O_MNSC_MAXMNUWIDTH" factor="4">158,23,33,12</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_0PXL" factor="4">195,20,101,9</Metric>
+		<Metric id="IDC_O_MNSC_MNUWIDTH_1PRC" factor="4">195,29,101,9</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAY" factor="4">27,47,124,10</Metric>
+		<Metric id="IDC_O_MNSC_CHILDDELAY" factor="4">153,46,91,20</Metric>
+		<Metric id="IDL_O_MNSC_CHILDDELAYVAL" factor="4">247,48,49,10</Metric>
+		<Metric id="IDL_O_MNSC_CAT_SCROLLING" factor="4">6,75,307,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELSCROLLS" factor="4">27,95,124,9</Metric>
+		<Metric id="IDC_O_MNSC_WHEELSCROLLS" factor="4">158,93,33,12</Metric>
+		<Metric id="IDL_O_MNSC_WHEELITEMS" factor="4">195,95,101,9</Metric>
+		<Metric id="IDL_O_MNSC_PAGESCROLLS" factor="4">27,115,124,9</Metric>
+		<Metric id="IDC_O_MNSC_PAGESCROLLS" factor="4">158,113,33,12</Metric>
+		<Metric id="IDL_O_MNSC_PAGEITEMS" factor="4">195,115,101,9</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLARROWS" factor="4">27,132,124,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_0TOP" factor="4">158,132,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_1BOTM" factor="4">158,143,138,9</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLPOS_2ENDS" factor="4">158,154,138,9</Metric>
+		<Metric id="IDC_O_MNSC_DISPNUMTOSCROLL" factor="4">158,170,155,17</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAY" factor="4">27,196,124,10</Metric>
+		<Metric id="IDC_O_MNSC_SCROLLDELAY" factor="4">153,195,91,20</Metric>
+		<Metric id="IDL_O_MNSC_SCROLLDELAYVAL" factor="4">247,196,49,10</Metric>
+		<!-- Contents tab -->
+		<Metric id="IDD_O_CNTS" factor="2">320,290</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ITEMS" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_CNTS_HDNITMS" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS" factor="4">158,22,138,33</Metric>
+		<Metric id="IDC_O_CNTS_HDNITMS_DIMICN" factor="4">158,38,138,9</Metric>
+		<Metric id="IDL_O_CNTS_BROWSEFLD" factor="4">27,57,124,8</Metric>
+		<Metric id="IDC_O_CNTS_BROWSEFLD" factor="4">158,54,138,33</Metric>
+		<Metric id="IDL_O_CNTS_SSFISWHAT" factor="4">27,75,124,8</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_0FOLDER" factor="4">158,74,52,9</Metric>
+		<Metric id="IDC_O_CNTS_SSFIS_1FILE" factor="4">218,74,52,9</Metric>
+		<Metric id="IDL_O_CNTS_ZIPISWHAT" factor="4">27,93,124,8</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_0FOLDER" factor="4">158,92,52,9</Metric>
+		<Metric id="IDC_O_CNTS_ZIPIS_1FILE" factor="4">218,92,52,9</Metric>
+		<Metric id="IDL_O_CNTS_MOUSEITEMCLK" factor="4">27,111,124,8</Metric>
+		<Metric id="IDC_O_CNTS_MOUSEITEMCLK" factor="4">158,108,138,33</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ORDER" factor="4">6,139,307,12</Metric>
+		<Metric id="IDC_O_CNTS_SORTITEMS" factor="4">27,159,124,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_0TOP" factor="4">158,159,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_1BOTM" factor="4">158,171,138,9</Metric>
+		<Metric id="IDC_O_CNTS_FLDORD_2MIX" factor="4">158,183,138,9</Metric>
+		<Metric id="IDL_O_CNTS_CAT_ICONS" factor="4">6,206,307,12</Metric>
+		<Metric id="IDC_O_CNTS_ICN_0GENERIC" factor="4">27,225,124,9</Metric>
+		<Metric id="IDC_O_CNTS_ICN_1REGULAR" factor="4">158,225,138,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOVERLAYS" factor="4">168,237,128,9</Metric>
+		<Metric id="IDC_O_CNTS_ICNOPTIMIZ" factor="4">168,249,128,19</Metric>
+		<!-- Maintenance and Plug-ins tab -->
+		<Metric id="IDD_O_MNTC" factor="2">320,290</Metric>
+		<Metric id="IDL_O_MNTC_CAT_MNTC" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_MNTC_UILANG" factor="4">27,25,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UILANG" factor="4">158,22,138,30</Metric>
+		<Metric id="IDC_O_MNTC_LOCALEINFO" factor="4">158,39,138,20</Metric>
+		<Metric id="IDL_O_MNTC_UPDATE" factor="4">27,71,124,8</Metric>
+		<Metric id="IDC_O_MNTC_UPDATE" factor="4">158,67,138,14</Metric>
+		<Metric id="IDC_O_MNTC_UPDATEAUTO" factor="4">158,84,138,10</Metric>
+		<Metric id="IDL_O_MNTC_RESTDEF" factor="4">27,106,124,8</Metric>
+		<Metric id="IDC_O_MNTC_RESTDEF" factor="4">158,102,138,14</Metric>
+		<Metric id="IDL_O_MNTC_AUTORUN" factor="4">27,127,124,8</Metric>
+		<Metric id="IDC_O_MNTC_AUTORUN" factor="4">158,126,138,9</Metric>
+		<Metric id="IDL_O_MNTC_CAT_PLUGINS" factor="4">6,146,307,12</Metric>
+		<Metric id="IDC_O_MNTC_PLGNLST" factor="4">27,164,269,91</Metric>
+		<Metric id="IDC_O_MNTC_PLGNDSBL" factor="4">229,260,67,14</Metric>
+		<Metric id="IDC_O_MNTC_PLGNENBL" factor="4">158,260,67,14</Metric>
+		<!-- Registration tab (unregistered mode) -->
+		<Metric id="IDD_O_RGNO" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGNO_INETICN" factor="4">27,9,0,0</Metric>
+		<Metric id="IDL_O_RGNO_INETREQD" factor="4">62,11,234,17</Metric>
+		<Metric id="IDL_O_RGNO_CAT_LIC" factor="4">6,38,307,12</Metric>
+		<Metric id="IDL_O_RGNO_UNREGICN" factor="4">27,58,0,0</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC1" factor="4">62,56,234,26</Metric>
+		<Metric id="IDL_O_RGNO_ACTDESC2" factor="4">62,88,234,23</Metric>
+		<Metric id="IDC_O_RGNO_PURCHASE" factor="4">147,116,72,14</Metric>
+		<Metric id="IDC_O_RGNO_KEYRESTORE" factor="4">224,116,72,14</Metric>
+		<Metric id="IDL_O_RGNO_CAT_ACTIVN" factor="4">6,140,307,12</Metric>
+		<Metric id="IDL_O_RGNO_SERNUM" factor="4">27,158,269,17</Metric>
+		<Metric id="IDC_O_RGNO_SERNUM" factor="4">27,179,192,12</Metric>
+		<Metric id="IDC_O_RGNO_SERNUMHIDE" factor="4">27,193,98,9</Metric>
+		<Metric id="IDC_O_RGNO_ACTIVATE" factor="4">224,178,72,14</Metric>
+		<!-- Registration tab (registered mode) -->
+		<Metric id="IDD_O_RGOK" factor="2">320,290</Metric>
+		<Metric id="IDL_O_RGOK_CAT_USER" factor="4">6,5,307,12</Metric>
+		<Metric id="IDL_O_RGOK_REGUSER" factor="4">27,25,286,8</Metric>
+		<Metric id="IDC_O_RGOK_REGUSER" factor="4">27,38,286,8</Metric>
+		<Metric id="IDL_O_RGOK_CAT_KEYBKP" factor="4">6,59,307,12</Metric>
+		<Metric id="IDL_O_RGOK_BACKUP" factor="4">27,79,269,24</Metric>
+		<Metric id="IDC_O_RGOK_BACKUP" factor="4">228,106,68,14</Metric>
+		<!-- About tab -->
+		<Metric id="IDD_O_ABT" factor="2">320,290</Metric>
+		<Metric id="IDC_O_ABT_APPICON" factor="4">27,18,0,0</Metric>
+		<Metric id="IDC_O_ABT_APPNAME" factor="4">70,9,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPVER" factor="4">70,25,180,9</Metric>
+		<Metric id="IDC_O_ABT_APPCOPY" factor="4">70,41,180,9</Metric>
+		<Metric id="IDC_O_ABT_HORRULE" factor="4">7,57,306,1</Metric>
+		<Metric id="IDC_O_ABT_THXCAPTION" factor="4">8,65,305,8</Metric>
+		<Metric id="IDC_O_ABT_THXLIST" factor="4">27,83,286,111</Metric>
+		<Metric id="IDC_O_ABT_FEEDBACK" factor="4">6,275,55,8</Metric>
+		<Metric id="IDC_O_ABT_HOMEPAGE" factor="4">234,275,79,8</Metric>
+		<Metric id="IDM_O_ABT_NUMTHANKSLINES" factor="1">4</Metric>
+		<!-- Activation dialog box -->
+		<Metric id="IDD_ACTN" factor="2">273,68</Metric>
+		<Metric id="IDL_ACTN_ICON" factor="4">7,8,0,0</Metric>
+		<Metric id="IDL_ACTN_STATUS" factor="4">36,8,230,36</Metric>
+		<Metric id="IDM_ACTN_BTNSIZE" factor="2">52,14</Metric>
+		<Metric id="IDM_ACTN_BTNVERTPOS" factor="1">45</Metric>
+		<Metric id="IDM_ACTN_BTNSPACING" factor="1">12</Metric>
+		<!-- Approach Items Options dialog box -->
+		<Metric id="IDD_APCHITMS" factor="2">307,175</Metric>
+		<Metric id="IDL_APCHITMS_CUR" factor="4">7,7,114,8</Metric>
+		<Metric id="IDL_APCHITMS_ALL" factor="4">186,7,114,8</Metric>
+		<Metric id="IDC_APCHITMS_CUR" factor="4">7,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ALL" factor="4">186,18,114,129</Metric>
+		<Metric id="IDC_APCHITMS_ADD" factor="4">128,34,50,14</Metric>
+		<Metric id="IDC_APCHITMS_RMV" factor="4">128,50,50,14</Metric>
+		<Metric id="IDC_APCHITMS_UP" factor="4">128,74,50,14</Metric>
+		<Metric id="IDC_APCHITMS_DOWN" factor="4">128,90,50,14</Metric>
+		<Metric id="IDC_APCHITMS_BRW" factor="4">7,154,114,14</Metric>
+		<Metric id="IDM_APCHITMS_OK" factor="4">196,154,50,14</Metric>
+		<Metric id="IDM_APCHITMS_CANCEL" factor="4">250,154,50,14</Metric>
+	</Metrics>
+</Approach_Localization>

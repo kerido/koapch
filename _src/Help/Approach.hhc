@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="WindowName" value="main">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Overview">
+		<param name="Local" value="content\overview.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Installation">
+		<param name="Local" value="content\installation.html">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="System Requirements">
+				<param name="Local" value="content\system_requirements.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Running the Installer">
+				<param name="Local" value="content\running_installer.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Files Installed on Your Disk">
+				<param name="Local" value="content\files_installed.html">
+				</OBJECT>
+		</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="User Interface">
+		<param name="Local" value="content\user_interface.html">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Features Tab">
+				<param name="Local" value="content\tab_features.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Menus &amp; Scrolling Tab">
+				<param name="Local" value="content\tab_menusscrolling.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Contents Tab">
+				<param name="Local" value="content\tab_contents.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Maintenance Tab">
+				<param name="Local" value="content\tab_maintenance.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Registration Tab">
+				<param name="Local" value="content\tab_registration.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="About Tab">
+				<param name="Local" value="content\tab_about.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Tray Menu">
+				<param name="Local" value="content\tray_menu.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Approach Items Options Window">
+				<param name="Local" value="content\approach_items_options.html">
+				</OBJECT>
+		</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Using KO Approach">
+		<param name="Local" value="content\using_approach.html">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Folder Menus">
+				<param name="Local" value="content\folder_menus.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Approach Items">
+				<param name="Local" value="content\approach_items.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Titlebar Menus">
+				<param name="Local" value="content\titlebar_menus.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Navigating with the Keyboard">
+				<param name="Local" value="content\keyboard_navigation.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Scope Plug-In">
+				<param name="Local" value="content\scope_plugin.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="InstantWave Plug-In">
+				<param name="Local" value="content\instantwave_plugin.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="InstantTxt Plug-In">
+				<param name="Local" value="content\instanttxt_plugin.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ClipboardAssistant Plug-In">
+				<param name="Local" value="content\clipboardassistant_plugin.html">
+				</OBJECT>
+		</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Uninstalling KO Approach">
+		<param name="Local" value="content\uninstall.html">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Running the Uninstaller">
+				<param name="Local" value="content\running_uninstaller.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Manual Removal">
+				<param name="Local" value="content\manual_removal.html">
+				</OBJECT>
+		</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Support">
+		<param name="Local" value="content\technical_support.html">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Known Issues">
+				<param name="Local" value="content\issues.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="FAQ">
+				<param name="Local" value="content\faq.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Version History">
+				<param name="Local" value="content\version_history.html">
+				</OBJECT>
+		</UL>
+</UL>
+</BODY></HTML>

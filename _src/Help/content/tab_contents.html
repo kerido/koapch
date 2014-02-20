@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<title>Contents Tab</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="Content">
+			<p>
+				<img class="TabImage" src="../images/tab_contents.png" alt="Contents tab" />
+			</p>
+
+			<ol>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Show hidden items</span> drop-down list</p>
+					<p>Sets the way KO&nbsp;Approach treats hidden files and folders. Possible values are:</p>
+
+					<ul>
+						<li><span class="UiControlValue">Always</span> &ndash; overrides the value set in <span class="EntityName">Folder Options</span> by always displaying hidden files.</li>
+						<li><span class="UiControlValue">Never</span> &ndash; overrides the value set in <span class="EntityName">Folder Options</span> by never displaying hidden files.</li>
+						<li><span class="UiControlValue">Use system setting</span> &ndash; uses the value set in <span class="EntityName">Folder Options</span> control panel.</li>
+					</ul>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Display dimmed icon</span> checkbox</p>
+					<p>Specifies that hidden items will be displayed with a semi-transparent icon, as in Windows Explorer.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Browse folders</span> drop-down list</p>
+					<p>
+						Designates whether KO&nbsp;Approach should reuse an Explorer window when you click on a folder.
+						Possible values are:
+					</p>
+
+					<ul>
+						<li><span class="UiControlValue">In a new window</span> &ndash; when selected, KO&nbsp;Approach
+							will always open a folder in a new window.</li>
+
+						<li><span class="UiControlValue">In the existing window</span> &ndash; when selected, KO&nbsp;Approach
+							will always open a folder in the same window that caused a menu to appear.</li>
+
+						<li><span class="UiControlValue">Use system setting</span> &ndash; when selected, KO&nbsp;Approach will
+							use the value set in the <span class="EntityName">Folder Options</span> control panel.</li>
+
+					</ul>
+
+					<p class="Note">
+						Note: KO&nbsp;Approach will only reuse an Explorer window when browsing folders from either
+						<a href="folder_menus.html" class="EntityName">Folder Menus</a> or
+						<a href="titlebar_menus.html" class="EntityName">Titlebar Menus</a>. When opening a folder
+						from <a href="approach_items.html" class="EntityName">Approach Items</a>, a new
+						window will always be created.
+					</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Treat shortcuts to folders as</span> group</p>
+					<p>Specifies the way folder shortcuts are handled in KO&nbsp;Approach menus. Possible values are:</p>
+
+					<ul>
+						<li><span class="UiControlValue">Folders</span> &ndash; specifies that KO&nbsp;Approach
+							should handle folder shortcuts as folders rather than files. When this option is
+							selected, a submenu arrow will appear next to a folder shortcut, similar to those
+							displayed next to folders. This enables you to navigate the content the target folder
+							at which the shortcut is pointing, as well as open files stored inside.</li>
+
+						<li><span class="UiControlValue">Files</span> &ndash; no submenu appears next to a ZIP archive
+							making its behavior similar to that of other files.</li>
+					</ul>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle">
+						<span class="EntityName"><a name="ZipArchives"></a>Treat ZIP archives as</span> group
+					</p>
+
+					<p>Specifies the way ZIP archives are handled in KO&nbsp;Approach menus. Possible values are:</p>
+
+					<ul>
+						<li><span class="UiControlValue">Folders</span> &ndash; specifies that KO&nbsp;Approach
+							should handle ZIP archives as folders rather than files. When this option is
+							selected, a submenu arrow will appear next to a ZIP archive, similar to those
+							displayed next to folders. This enables you to navigate their content, as well
+							as open files stored inside such archives.</li>
+
+						<li><span class="UiControlValue">Files</span> &ndash; no submenu arrows appears next to a ZIP archive
+							making its behavior similar to that of other files.</li>
+					</ul>
+
+					<p class="Note">Note: On Windows 2000 ZIP archives are always treated as files regardless of the selected setting.</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Item mouse invocation</span> drop-down list</p>
+
+					<p>Specifies the way menu items are activated with a mouse. Possible values are:</p>
+					<ul>
+						<li><span class="UiControlValue">Regular</span> &ndash; files are activated by single click, folders by double click.
+							This is the default behavior and is similar to that of the Start menu. With this option set you can single-click
+							a folder to display its child menu immediately (ignoring <span class="EntityName">Child menu delay</span>).</li>
+
+						<li><span class="UiControlValue">Single-click</span> &ndash; files and folders are activated by a single click.</li>
+
+						<li><span class="UiControlValue">Double click</span> &ndash; files and folders are activated by a double click.</li>
+					</ul>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Sort items alphabetically</span> checkbox</p>
+					<p>
+						Specifies whether items on a menu should be listed in alphabetical order.
+						If unchecked, the sorting is governed by the system and the correct alphabetical order is not guaranteed.
+					</p>
+
+					<p class="Note">
+						Note: Since KO&nbsp;Approach fully complies with the Unicode standard, the sorting order is regulated by the
+						Unicode character positioning. For example, Roman characters will always precede Cyrillic characters,
+						and Cyrillic will precede Hebrew.
+					</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">File and folder placement</span> group</p>
+					<p>Sets the way files and folders are positioned on a menu. Possible values are:</p>
+					
+					<ul>
+						<li>
+							<span class="UiControlValue">Folders precede files</span> &ndash; folders on a menu
+							should be listed first, followed by files. This behavior is similar to how items are displayed in Windows Explorer.
+							When used in combination with the previous checkbox, items in each group are sorted alphabetically.
+						</li>
+						<li>
+							<span class="UiControlValue">Files precede folders</span> &ndash; files on a menu
+							should be listed first, followed by folders. This results in folders appearing at the bottom of the list.
+							When used in combination with the previous checkbox, items in each group are sorted alphabetically.
+						</li>
+						<li>
+							<span class="UiControlValue">Do not group</span> &ndash; folders are intermingled with files and their
+							relative order is undetermined.
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Icon mode</span> group</p>
+					<p>Specifies the way KO&nbsp;Approach displays item icons. Possible values are:</p>
+
+					<ul>
+						<li>
+							<span class="UiControlValue">Display generic icons</span> &ndash; instructs KO&nbsp;Approach
+							to display simplified icons to help identify item type: folder, file, or application. Choosing
+							this option speeds up item display and consumes less system resources.
+						</li>
+
+						<li>
+							<span class="UiControlValue">Display regular icons</span> &ndash; instructs KO&nbsp;Approach
+							to display icons similar to those in Windows Explorer.
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Display icon overlays</span> checkbox</p>
+					<p>
+						Instructs KO&nbsp;Approach to display icon overlays together with item icons. An example
+						of an icon overlay is a shortcut arrow.
+					</p>
+				</li>
+
+				<li>
+					<p class="ParagraphTitle"><span class="EntityName">Speed up icon retrieval</span> checkbox</p>
+					<p>
+						Instructs KO&nbsp;Approach to retrieve several icons simultaneously. Selecting this option
+						results in faster icon display (not as fast as when
+						<span class="UiControlValue">Display generic icons</span> is
+						selected), but slightly greater resource consumption.
+					</p>
+				</li>
+			</ol>
+		</div>
+		<script type="text/javascript" src="functions.js"></script>
+	</body>
+</html>

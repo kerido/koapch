@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UDebug|Win32">
+      <Configuration>UDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UDebug|x64">
+      <Configuration>UDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="URelease|Win32">
+      <Configuration>URelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="URelease|x64">
+      <Configuration>URelease</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5156D8B-CDCF-49D5-9B6C-0C24B527EC51}</ProjectGuid>
+    <RootNamespace>Approach</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='URelease|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='URelease|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">..\..\_bin90\x86\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">..\..\_obj90\x86\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">..\..\_bin90\x64\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">..\..\_obj90\x64\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">..\..\_bin90\x86\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">..\..\_obj90\x86\$(ProjectName)\$(Configuration)\</IntDir>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">..\..\_bin90\x64\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">..\..\_obj90\x64\$(ProjectName)\$(Configuration)\</IntDir>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">false</EmbedManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='URelease|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='URelease|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">
+    <PreBuildEvent>
+      <Message>Compacting RC files...</Message>
+      <Command>"$(TargetDir)..\..\x86\$(Configuration)\RcShallow.exe" -i "$(ProjectDir)ApproachWithStrings.rc" -o "$(ProjectDir)Approach.rc" -x IDC_O_ABT_APPNAME,IDC_O_ABT_APPCOPY -p "$(SolutionDir)..\_src\Approach\resource.h" -c "$(SolutionDir)..\_src\Approach\auto_LocResource.h"</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\_src\ApproachSDK;..\..\_src\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN32;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\_src\Approach;..\..\_src\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>htmlhelp.lib;version.lib;wininet.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Approach.exe</OutputFile>
+      <AdditionalManifestDependencies>%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">
+    <PreBuildEvent>
+      <Message>Compacting RC files...</Message>
+      <Command>"$(TargetDir)..\..\x86\$(Configuration)\RcShallow.exe" -i "$(ProjectDir)ApproachWithStrings.rc" -o "$(ProjectDir)Approach.rc" -x IDC_O_ABT_APPNAME,IDC_O_ABT_APPCOPY -p "$(SolutionDir)..\_src\Approach\resource.h" -c "$(SolutionDir)..\_src\Approach\auto_LocResource.h"</Command>
+    </PreBuildEvent>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\_src\ApproachSDK;..\..\_src\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN32;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_VC80_UPGRADE=0x0710;_M_X64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\_src\Approach;..\..\_src\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>htmlhelp.lib;version.lib;wininet.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Approach.exe</OutputFile>
+      <AdditionalManifestDependencies>%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">
+    <PreBuildEvent>
+      <Message>Compacting RC files...</Message>
+      <Command>"$(TargetDir)..\..\x86\$(Configuration)\RcShallow.exe" -i "$(ProjectDir)ApproachWithStrings.rc" -o "$(ProjectDir)Approach.rc" -x IDC_O_ABT_APPNAME,IDC_O_ABT_APPCOPY -p "$(SolutionDir)..\_src\Approach\resource.h" -c "$(SolutionDir)..\_src\Approach\auto_LocResource.h"</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\_src\ApproachSDK;..\..\_src\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN32;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\_src\Approach;..\..\_src\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>htmlhelp.lib;version.lib;wininet.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Approach.exe</OutputFile>
+      <AdditionalManifestDependencies>%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <SetChecksum>true</SetChecksum>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Message>Copying target...</Message>
+      <Command>copy /Y "$(TargetPath)" "$(SolutionDir)..\Setup\Common32"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">
+    <PreBuildEvent>
+      <Message>Compacting RC files...</Message>
+      <Command>"$(TargetDir)..\..\x86\$(Configuration)\RcShallow.exe" -i "$(ProjectDir)ApproachWithStrings.rc" -o "$(ProjectDir)Approach.rc" -x IDC_O_ABT_APPNAME,IDC_O_ABT_APPCOPY -p "$(SolutionDir)..\_src\Approach\resource.h" -c "$(SolutionDir)..\_src\Approach\auto_LocResource.h"</Command>
+    </PreBuildEvent>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\_src\ApproachSDK;..\..\_src\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN32;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_VC80_UPGRADE=0x0710;_M_X64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\_src\Approach;..\..\_src\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>htmlhelp.lib;version.lib;wininet.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Approach.exe</OutputFile>
+      <AdditionalManifestDependencies>%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <SetChecksum>true</SetChecksum>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Message>Copying target...</Message>
+      <Command>copy /Y "$(TargetPath)" "$(SolutionDir)..\Setup\Common64"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\_src\Approach\Application.h" />
+    <ClInclude Include="..\..\_src\Approach\AppModule.h" />
+    <ClInclude Include="..\..\_src\Approach\BindableEnum.h" />
+    <ClInclude Include="..\..\_src\Common\BuildNumber.h" />
+    <ClInclude Include="..\..\_src\Common\Common.h" />
+    <ClInclude Include="..\..\_src\Approach\DisplayItem.h" />
+    <ClInclude Include="..\..\_src\Approach\DisplayItem_Separator.h" />
+    <ClInclude Include="..\..\_src\Approach\DisplayItem_SystemTime.h" />
+    <ClInclude Include="..\..\_src\Approach\DisplayItemEventHandler.h" />
+    <ClInclude Include="..\..\_src\Approach\DisplayItemView.h" />
+    <ClInclude Include="..\..\_src\Approach\DlgOptions.h" />
+    <ClInclude Include="..\..\_src\Approach\DlgOptionsApproachItems.h" />
+    <ClInclude Include="..\..\_src\Approach\DlgOptionsPropPages.h" />
+    <ClInclude Include="..\..\_src\Approach\DynamicDisplayItem.h" />
+    <ClInclude Include="..\..\_src\Approach\ExceptItem.h" />
+    <ClInclude Include="..\..\_src\Approach\FilePathProvider.h" />
+    <ClInclude Include="..\..\_src\Approach\Framework.h" />
+    <ClInclude Include="..\..\_src\Approach\HotspotImpl_FolderIcon.h" />
+    <ClInclude Include="..\..\_src\Approach\HotspotImpl_NotifyIcon.h" />
+    <ClInclude Include="..\..\_src\Approach\HotspotImpl_TitlebarMenus.h" />
+    <ClInclude Include="..\..\_src\Approach\HotspotNew.h" />
+    <ClInclude Include="..\..\_src\Approach\HtmlHelpProvider.h" />
+    <ClInclude Include="..\..\_src\Approach\HttpRequest.h" />
+    <ClInclude Include="..\..\_src\Approach\IconManager.h" />
+    <ClInclude Include="..\..\_src\Common\InterProcessContextMenuInfo.h" />
+    <ClInclude Include="..\..\_src\Common\IpcGuids.h" />
+    <ClInclude Include="..\..\_src\Approach\IpcModule.h" />
+    <ClInclude Include="..\..\_src\Common\IpcRootWindow.h" />
+    <ClInclude Include="..\..\_src\Approach\ItemContextMenuHandlerDefault.h" />
+    <ClInclude Include="..\..\_src\Approach\ItemDesignerBase.h" />
+    <ClInclude Include="..\..\_src\Approach\LocalizationImpl.h" />
+    <ClInclude Include="..\..\_src\Approach\LocalizationManager.h" />
+    <ClInclude Include="..\..\_src\Approach\Logging.h" />
+    <ClInclude Include="..\..\_src\Approach\MenuBuilder_Shell.h" />
+    <ClInclude Include="..\..\_src\Approach\MenuManager.h" />
+    <ClInclude Include="..\..\_src\Approach\MenuSet.h" />
+    <ClInclude Include="..\..\_src\Approach\MenusetImpl_Run.h" />
+    <ClInclude Include="..\..\_src\Approach\MenuSetImpl_RunningProcesses.h" />
+    <ClInclude Include="..\..\_src\Approach\MenuSetSerialization.h" />
+    <ClInclude Include="..\..\_src\Approach\MenuWindow_Shell.h" />
+    <ClInclude Include="..\..\_src\Approach\PluginManager.h" />
+    <ClInclude Include="..\..\_src\Approach\Preferences.h" />
+    <ClInclude Include="..\..\_src\Approach\PreferencesPersistence.h" />
+    <ClInclude Include="..\..\_src\Common\Prefs.h" />
+    <ClInclude Include="..\..\_src\Approach\RootWindow.h" />
+    <ClInclude Include="..\..\_src\Approach\ScrollItem.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellFolder.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellFolderLink.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellIconBackgroundExtraction.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellIconCache.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellItem.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellItemContextMenuExtension.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellItemEnumerator.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellItemFactory.h" />
+    <ClInclude Include="..\..\_src\Approach\ShellItemGenericIconManager.h" />
+    <ClInclude Include="..\..\_src\Approach\StandardPropertyPages.h" />
+    <ClInclude Include="..\..\_src\Approach\StaticControl.h" />
+    <ClInclude Include="..\..\_src\Approach\stdafx.h" />
+    <ClInclude Include="..\..\_src\Approach\ThemeDefault.h" />
+    <ClInclude Include="..\..\_src\Common\Trace.h" />
+    <ClInclude Include="..\..\_src\Common\typedefs.h" />
+    <ClInclude Include="..\..\_src\Approach\UpdateCheck.h" />
+    <ClInclude Include="..\..\_src\Approach\util_KeyFile.h" />
+    <ClInclude Include="..\..\_src\Approach\util_Localization.h" />
+    <ClInclude Include="..\..\_src\Approach\util_Preferences.h" />
+    <ClInclude Include="..\..\_src\Approach\util_Warning.h" />
+    <ClInclude Include="..\..\_src\Approach\util_Window.h" />
+    <ClInclude Include="..\..\_src\Approach\UtilGraphics.h" />
+    <ClInclude Include="..\..\_src\Approach\Utility.h" />
+    <ClInclude Include="..\..\_src\Common\UtilPidlFunc.h" />
+    <ClInclude Include="..\..\_src\Approach\UtilShellFunc.h" />
+    <ClInclude Include="..\..\_src\Approach\UtilShellNotify.h" />
+    <ClInclude Include="..\..\_src\Approach\UxManager.h" />
+    <ClInclude Include="..\..\_src\Common\WindowsConstants.h" />
+    <CustomBuildStep Include="..\..\_src\Approach\auto_LocResource.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <ClInclude Include="..\..\_src\Approach\resource.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\LogicCommon.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_BinaryStream.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_ChangeableEntity.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_CharConversion.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_ComObject.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_ContextMenuExtension.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_CriticalSection.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_DisplayItem.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_GuidComparer.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_IconExtractor.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Item.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_ItemDesigner.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_ItemFactory.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_ItemProvider.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Launchable.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Localization.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_MemoryWriter.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_MenuBuilder.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_MenuWindow.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Plugin.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_PropPages.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_RuntimeObject.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Scrollable.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Selectable.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Theme.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Thread.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Timer.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_Version.h" />
+    <ClInclude Include="..\..\_src\ApproachSDK\sdk_WindowNavigator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Approach.rc" />
+    <ResourceCompile Include="ApproachWithStrings.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">true</ExcludedFromBuild>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Approach.rc2" />
+    <None Include="..\..\_res\Approach\Activation.ico" />
+    <None Include="..\..\_res\Approach\Approach.ico" />
+    <None Include="..\..\_res\Approach\darrow_n.bmp" />
+    <None Include="..\..\_res\Approach\darrow_s.bmp" />
+    <None Include="..\..\_res\Approach\ft_apchitems.bmp" />
+    <None Include="..\..\_res\Approach\ft_fldmnus.bmp" />
+    <None Include="..\..\_res\Approach\ft_tbarmnus.bmp" />
+    <None Include="..\..\_res\Approach\rarrow_n.bmp" />
+    <None Include="..\..\_res\Approach\rarrow_s.bmp" />
+    <None Include="..\..\_res\Approach\RunRecent.ico" />
+    <None Include="..\..\_res\Approach\uarrow_n.bmp" />
+    <None Include="..\..\_res\Approach\uarrow_s.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\_src\Approach\Application.cpp" />
+    <ClCompile Include="..\..\_src\Approach\Approach.cpp" />
+    <ClCompile Include="..\..\_src\Approach\Assert.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\_src\Approach\DlgOptions.cpp" />
+    <ClCompile Include="..\..\_src\Approach\DlgOptionsPropPages.cpp" />
+    <ClCompile Include="..\..\_src\Approach\DynamicDisplayItem.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ExceptItem.cpp" />
+    <ClCompile Include="..\..\_src\Approach\Framework.cpp" />
+    <ClCompile Include="..\..\_src\Approach\HotspotImpl_FolderIcon.cpp" />
+    <ClCompile Include="..\..\_src\Approach\HotspotImpl_NotifyIcon.cpp" />
+    <ClCompile Include="..\..\_src\Approach\HotspotImpl_TitlebarMenus.cpp" />
+    <ClCompile Include="..\..\_src\Approach\HotspotManager.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ItemContextMenuHandlerDefault.cpp" />
+    <ClCompile Include="..\..\_src\Approach\LocalizationImpl.cpp" />
+    <ClCompile Include="..\..\_src\Approach\LocalizationManager.cpp" />
+    <ClCompile Include="..\..\_src\Approach\Logging.cpp" />
+    <ClCompile Include="..\..\_src\Approach\MenuBuilder_Shell.cpp" />
+    <ClCompile Include="..\..\_src\Approach\MenuManager.cpp" />
+    <ClCompile Include="..\..\_src\Approach\MenusetImpl_Run.cpp" />
+    <ClCompile Include="..\..\_src\Approach\MenuSetImpl_RunningProcesses.cpp" />
+    <ClCompile Include="..\..\_src\Approach\MenuWindow_Shell.cpp" />
+    <ClCompile Include="..\..\_src\Approach\Preferences.cpp" />
+    <ClCompile Include="..\..\_src\Approach\RootWindow.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ScrollItem.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ShellFolder.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ShellFolderLink.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ShellIconBackgroundExtraction.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ShellIconCache.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ShellItem.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ShellItemContextMenuExtension.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ShellItemEnumerator.cpp" />
+    <ClCompile Include="..\..\_src\Approach\ShellItemFactory.cpp" />
+    <ClCompile Include="..\..\_src\Approach\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\_src\Approach\ThemeDefault.cpp" />
+    <ClCompile Include="..\..\_src\Approach\UpdateCheck.cpp" />
+    <ClCompile Include="..\..\_src\Approach\util_Localization.cpp" />
+    <ClCompile Include="..\..\_src\Approach\UtilPidlFunc.cpp" />
+    <ClCompile Include="..\..\_src\Approach\UtilShellFunc.cpp" />
+    <ClCompile Include="..\..\_src\Approach\UtilShellNotify.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="..\..\_res\Approach\Approach.exe.manifest">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\_res\Approach\Approach64.exe.manifest">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UDebug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='URelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='URelease|x64'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApproachIpc\ApproachIpc.vcxproj">
+      <Project>{5a17fc7a-d757-48a0-99bd-a6356aae3b67}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\RcShallow\RcShallow.csproj">
+      <Project>{032a89d0-f660-4ed7-93c5-7c7a94b5ac65}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Approach.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

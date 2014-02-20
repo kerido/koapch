@@ -1,0 +1,8 @@
+1. Windows XP theme -- blue
+2. No clear type font rendering
+3. Only Sound and Approach icons in the tray
+4. Default (blue) desktop wallpaper
+
+
+Save for web:
+64 colors, no dithering

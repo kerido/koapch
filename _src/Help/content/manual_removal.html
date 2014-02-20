@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Manual Removal</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="Content">
+			<p>
+				In rare instances, the Uninstaller may fail to remove some or all components of KO&nbsp;Approach
+				from your hard drive, so the program will need be uninstalled manually.
+			</p>
+
+			<h2>Deleting the Files</h2>
+			<ol>
+				<li>
+					<p>Exit KO&nbsp;Approach by clicking the Tray icon and selecting
+						<span class="EntityName">Exit</span> from the menu.
+					</p>
+				</li>
+
+				<li>
+					<p>
+						Delete the entire directory in which KO&nbsp;Approach was
+						installed, typically, <span class="EntityName">C:\Program Files\KO Approach</span>.
+					</p>
+				</li>
+
+				<li>
+					<p>
+						Delete all other files and folders that were placed on your hard drive during the
+						installation of KO&nbsp;Approach. For the complete list of files, please refer to the
+						<a href="files_installed.html">Files Installed on Your Hard Disk</a> section.
+					</p>
+				</li>
+			</ol>
+
+			<h2>Deleting the Registry Key</h2>
+			<ol>
+				<li>
+					<p>Click <span class="EntityName">Start</span> &gt; <span class="EntityName">Run</span>.</p>
+				</li>
+
+				<li>
+					<p>
+						Type <span class="EntityName">regedit</span> and click
+						<span class="EntityName">OK</span>.
+					</p>
+				</li>
+
+				<li>
+					<p>Locate the key
+						<span class="EntityName">HKEY_LOCAL_MACHINE\Software\KO Software\Approach</span>
+						and delete it.
+					</p>
+				</li>
+
+				<li>
+					<p>Locate the key
+						<span class="EntityName">HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\KO&nbsp;Approach</span>
+						and delete it.
+					</p>
+				</li>
+			</ol>
+
+			<p class="Warning">
+				<strong>ATTENTION!</strong> This procedure involves modifying the Windows registry
+				and should be performed by experienced users only. Modifications to the Windows
+				registry, if not done correctly, can cause serious problems to a Windows system.
+			</p>
+
+
+			<h2>Deleting User-Specific Folders (optional)</h2>
+			<ol>
+				<li><p>Run a search for <span class="EntityName">KO Approach Items</span> on your computer;</p></li>
+				<li>
+					<p>
+						The system typically finds entries similar to
+						<span class="EntityName">C:\Documents and Settings\[User Name]\KO Approach Items</span> on Windows XP and older and
+						<span class="EntityName">C:\Users\[User Name]\Data\AppRoaming\KO Approach Items</span> on Windows Vista and newer
+						operating systems;
+					</p>
+				</li>
+				<li><p>Delete each of the found entries.</p></li>
+			</ol>
+		</div>
+		<script type="text/javascript" src="functions.js"></script>
+	</body>
+</html>
